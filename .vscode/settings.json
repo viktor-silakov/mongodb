@@ -1,0 +1,43 @@
+{
+    "cucumberautocomplete.steps": [
+        "support/step_definitions/**/*.ts"
+    ],
+    // "cucumberautocomplete.strictGherkinCompletion": true,
+    "cucumberautocomplete.syncfeatures": "features/**/*.feature",
+    "cucumberautocomplete.skipDocStringsFormat": true,
+    "cucumberautocomplete.smartSnippets": true,
+    "cucumberautocomplete.stepsInvariants": true,
+    "cucumberautocomplete.customParameters": [
+        {
+            "parameter": "{role}",
+            "value": "(button|input|element|link|heading|checkbox|listitem)"
+        },
+        {
+            "parameter": "{verbs}",
+            "value": "(create|update|delete|path)"
+        },
+        {
+            "parameter": "{action}",
+            "value": "(focus|press|hover|fill|type|type|click|check|select|check|uncheck|scroll)"
+        },
+        {
+            "parameter": "{attribute}",
+            "value": "(name|test-id|label|role|text|placeholder|alt-text|title|tag|id|selector)"
+        },
+        {
+            "parameter": "{assert}",
+            "value": "(be checked|not be checked|have text|not have text|contain text|not contain text|have value|not have value|be present|not be present|be visible|not be visible|be in viewport|not be in viewport|be focused|not be focused|be enabled|not be enabled|be editable|not be editable)"
+        },
+        {
+            "parameter":"{string}",
+            "value":"\".*\""
+        }
+    ],
+    // "editor.tabSize": 4,
+    "[cucumber]": {
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true,
+        "editor.formatOnSave": true
+    },
+    "workbench.colorTheme": "Default Dark+",
+}
