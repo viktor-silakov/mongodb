@@ -3,6 +3,7 @@ import 'dotenv/config'
 
 const environments = {
     qa: {
+        baseUrl: 'https://mycelium-qa12.website.staging.corp.mongodb.com/',
         username: process.env.DEV_TAF_USERNAME,
         password: process.env.DEV_TAF_PASSWORD,
     },

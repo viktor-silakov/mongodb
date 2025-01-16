@@ -17,7 +17,7 @@
     "globals": "^15.8.0",
     "husky": "^9.0.11",
     "json-schema-to-zod": "^2.4.0",
-    "playwright-bdd": "8.0.0",
+    "playwright-bdd": "8.0.1",
     "typescript": "^5.5.3",
     "typescript-eslint": "^7.16.1",
     "yaml": "^2.5.0",

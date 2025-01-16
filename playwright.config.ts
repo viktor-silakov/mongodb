@@ -1,5 +1,5 @@
 import { FixtureApiOptions } from '@fixtures/api.fixture';
-import { defineConfig } from '@playwright/test';
+import { defineConfig, devices } from '@playwright/test';
 import { defineBddConfig } from 'playwright-bdd';
 import { config } from './config';
 
@@ -31,7 +31,7 @@ const testDir = defineBddConfig({
 });
 
 export default defineConfig<FixtureApiOptions>({
-    testDir,
+    
     reporter: [
         ['html', { open: "on-failure" }],
         ['list', { printSteps: true }]
@@ -39,9 +39,26 @@ export default defineConfig<FixtureApiOptions>({
     globalSetup: "./support/fixtures/base/global-setup",
     timeout: 60000,
     use: {
-        // baseURL: '',
+        baseURL: config.baseUrl,
         trace: "on",
         apiURL: backendBaseURL,
     },
     // webServer,
+    projects: [
+        {
+            name: 'setup',
+            testDir: './tests',
+            testMatch: 'setup.test.ts',
+            
+        },
+        {
+            name: 'chromium',
+            use: {
+              ...devices['Desktop Chrome'],
+              storageState: 'playwright/.auth/user.json',
+            },
+            dependencies: ['setup'],
+            testDir
+          },
+    ]
 });
