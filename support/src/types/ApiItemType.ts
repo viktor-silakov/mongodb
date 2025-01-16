@@ -1,0 +1,1 @@
+export type  ApiItemType  =  "User" | "Pet";

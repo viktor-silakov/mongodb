@@ -1,0 +1,14 @@
+/.features-gen/
+/runner/
+/node_modules/
+/playwright-report/
+.idea
+/test-results/
+features/old_demo
+.DS_Store
+*.bak
+support/test-app/node_modules/
+*.log
+chromatic-diagnostics.json
+.snapshots-images
+chrome
