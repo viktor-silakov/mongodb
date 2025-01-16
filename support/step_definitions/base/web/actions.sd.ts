@@ -48,7 +48,7 @@ function getAction(action: StepActions): ActionCallback {
 
 
 // Navigation 
-When(/I open (url|site) "(.*)"/, async ({ page }, url) => {
+When(/I open (?:url|site) "(.*)"/, async ({ page }, url) => {
     await page.goto(url);
 
 });
