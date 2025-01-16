@@ -12,3 +12,4 @@ support/test-app/node_modules/
 chromatic-diagnostics.json
 .snapshots-images
 chrome
+playwright/.auth
