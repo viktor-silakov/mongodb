@@ -50,4 +50,16 @@ npm run report
 
 To enhance your experience while developing tests, you can install the VS Code extension from [extension](./extension) folder
 
+## Login State Sharing
+
+The framework implements a login state sharing mechanism between tests to optimize performance. Key features:
+
+- Authentication state is stored in `tests/playwright/.auth/user.json`
+- The authentication file age is checked when running tests:
+  - If the file exists and is less than 8 hours old, stored credentials are used
+  - If the file is missing or expired, new authentication is performed
+- Implementation can be found in `tests/setup/share-login-info.test.ts`
+- Saves browser cookies and storage state
+ы
+
 

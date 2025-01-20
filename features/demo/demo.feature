@@ -30,17 +30,17 @@ Feature: Demo
 
       """
 
-    And the "<Demo Form>" visual snapshot to match "MongoDB Demo Form"
-    Then the "<Demo Button>" visual snapshot to match "MongoDB Demo Button - before hook"
+    Then the "<Demo Form>" visual snapshot matches "MongoDB Demo Form"
+    Then the "<Demo Button>" visual snapshot matches "MongoDB Demo Button - before hook"
 
     When I hover on the element with selector "<Demo Button>"
     And I wait for 1 seconds
-    Then the "<Demo Button>" visual snapshot to match "MongoDB Demo Button - after hook"
+    Then the "<Demo Button>" visual snapshot matches "MongoDB Demo Button - after hook"
 
     And I click on the element with selector "<Demo Button>"
     And I wait 15 seconds for the element with selector "<Explore MongoDB Atlas Header>" to be visible
 
-    And the "<Explore MongoDB Atlas Header>" visual snapshot to match "MongoDB Explore MongoDB Atlas Header"
+    And the "<Explore MongoDB Atlas Header>" visual snapshot matches "MongoDB Explore MongoDB Atlas Header"
 
     When I pause the test execution
 

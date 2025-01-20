@@ -1,10 +1,11 @@
 import { expect } from '@fixtures';
 import { Then } from '@fixtures';
 
+// /^the "([^"]*)" visual snapshot matches "([^"]*)"$/,
 Then(
-    /^the "([^"]*)" visual snapshot (to match|matches) "([^"]*)"$/,
+    'the {spec-string} visual snapshot matches {string}',
     // eslint-disable-next-line @typescript-eslint/no-unused-vars
-    async ({ page, syngrisi, testData }, locator, _, name) => {
+    async ({ page, syngrisi, testData }, locator, name) => {
         if (locator === 'page') {
             await expect.soft(page).toMatchBaseline(name);
             return;

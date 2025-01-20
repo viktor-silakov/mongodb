@@ -115,3 +115,19 @@ defineParameterType({
   useForSnippets: false,
   preferForRegexpMatch: true,
 });
+
+/**
+ * Defines a parameter type that transforms strings starting with ## into automation test IDs
+ * Example: "##some-value" -> '[automation-testid="some-value"]'
+ */
+defineParameterType({
+  name: 'spec-string',
+  regexp: /"([^"]*)"/,
+  transformer: (s: string) => {
+    if (s.startsWith('##')) {
+      return `[automation-testid="${s.substring(2)}"]`;
+    }
+    return s;
+  },
+  useForSnippets: false,
+});

@@ -27,10 +27,10 @@ Feature: Demo - MongoDB
     And I hide the element with selector "<Global Header Mobile>"
 
     And I scroll on the element with selector "<Develop in your language Section>"
-    Then the "<Develop in your language Section>" visual snapshot to match "Language Section"
+    Then the "<Develop in your language Section>" visual snapshot matches "Language Section"
 
     When I hover on the element with selector "<Section card>"
-    Then the "<Develop in your language Section>" visual snapshot to match "Language Section on Card hover"
+    Then the "<Develop in your language Section>" visual snapshot matches "Language Section on Card hover"
 
     Examples:
       | Breakpoint | width |

@@ -13,3 +13,4 @@ chromatic-diagnostics.json
 .snapshots-images
 chrome
 playwright/.auth
+tests/playwright/.auth

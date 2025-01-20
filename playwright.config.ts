@@ -46,9 +46,9 @@ export default defineConfig<FixtureApiOptions>({
     // webServer,
     projects: [
         {
-            name: 'setup',
-            testDir: './tests',
-            testMatch: 'setup.test.ts',
+            name: 'share-login-info',
+            testDir: './tests/setup',
+            testMatch: 'share-login-info.test.ts',
             
         },
         {
@@ -56,8 +56,9 @@ export default defineConfig<FixtureApiOptions>({
             use: {
               ...devices['Desktop Chrome'],
               storageState: 'playwright/.auth/user.json',
+              viewport: { width: 1440, height: 900 },
             },
-            dependencies: ['setup'],
+            dependencies: ['share-login-info'],
             testDir
           },
     ]

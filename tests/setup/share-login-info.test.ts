@@ -1,10 +1,26 @@
-import { test as setup, expect } from '../support/fixtures/base';
+import { test as setup, expect } from '../../support/fixtures/base';
 import path from 'path';
-import { config } from '../config';
+import { config } from '../../config';
+import fs from 'fs';
 
 const authFile = path.join(__dirname, '../playwright/.auth/user.json');
 
 setup('Shared authentication', async ({ page }) => {
+  // Check for file existence and its age
+  try {
+    const stats = fs.statSync(authFile);
+    const fileAge = Date.now() - stats.mtimeMs;
+    const eightHoursInMs = 8 * 60 * 60 * 1000;
+    
+    if (fileAge < eightHoursInMs) {
+      console.log('Using existing authentication file');
+      return;
+    }
+  } catch (error) {
+    // File does not exist or another error - continue with the login process
+    console.log('New authentication required');
+  }
+
   await page.goto('/');
   await page.getByLabel('Select Password.').click();
 
@@ -13,7 +29,6 @@ setup('Shared authentication', async ({ page }) => {
   await page.getByRole('button', { name: 'Verify' }).click();
 
   await page.locator('[alt="MongoDB logo"]').first().waitFor({ state: 'attached' });
-  // await page.getByText('Signing in...').waitFor({ state: 'detached', timeout: 15000 });
 
   const domain = await page.evaluate(() => document.domain);
 
