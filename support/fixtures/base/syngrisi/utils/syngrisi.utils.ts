@@ -66,7 +66,7 @@ export async function waitForBaselineWithRightSnapshotExists(
             log.info(`#${attempt} hashes aren't equal`);
             return false
         }
-    }, { attempts: 5    , timeout: 2000, interval: 10 })
+    }, { attempts: 0, timeout: 2000, interval: 10 })
 
     return resultBuffer || await getScreenshot(pwObj, options)
 }

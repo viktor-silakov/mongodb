@@ -293,9 +293,9 @@ When('I pause the test execution', async ({ page }) => {
 });
 
 // 👉 Iframe interactions
-When('I switch to the iframe with selector {string}', async ({ page }, selector: string) => {
+When('I switch to the iframe with selector {string}', async ({ page, testData }, templateStr: string) => {
+    const selector = testData.renderTemplate(templateStr);
     await page.switchToFrame(selector);
-    // console.log(page);
 });
 
 When('I switch back to the main content', async ({ page }) => {

@@ -3,7 +3,7 @@ import path from 'path';
 import { config } from '../../config';
 import fs from 'fs';
 
-const authFile = path.join(__dirname, '../playwright/.auth/user.json');
+const authFile = path.join(__dirname, '../../playwright/.auth/user.json');
 
 setup('Shared authentication', async ({ page }) => {
   // Check for file existence and its age
@@ -47,5 +47,7 @@ setup('Shared authentication', async ({ page }) => {
     },
   ]);
 
+  await page.waitForTimeout(3000)
   await page.context().storageState({ path: authFile });
+  
 });

@@ -1,4 +1,5 @@
 import { Then, When } from '@fixtures';
+import { transformSpecString } from '@parameter-types';
 import YAML from 'yaml';
 
 When(
@@ -21,6 +22,6 @@ When('I map page locators', ({testData}, yamlStr) => {
     const renderedString = YAML.parse(yamlStr);
     for (const [key, value] of Object.entries(renderedString)) {
         // console.log('🔥', key, value);
-        testData.set(key, value);
+        testData.set(key, transformSpecString(value as string));
     }
 });
