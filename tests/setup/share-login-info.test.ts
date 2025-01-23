@@ -22,9 +22,10 @@ setup('Shared authentication', async ({ page }) => {
   }
 
   await page.goto('/');
+  
   await page.getByLabel('Select Password.').click();
 
-  await page.locator('#input72').fill(config.password!);
+  await page.getByLabel('Password').fill(config.password!);
 
   await page.getByRole('button', { name: 'Verify' }).click();
 
