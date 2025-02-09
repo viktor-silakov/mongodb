@@ -31,6 +31,10 @@
         {
             "parameter":"{string}",
             "value":"\".*\""
+        },
+        {
+            "parameter": "{ordinal}",
+            "value": ".*"
         }
     ],
     // "editor.tabSize": 4,

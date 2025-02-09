@@ -135,3 +135,10 @@ defineParameterType({
   },
   useForSnippets: false,
 });
+
+export type Ordinal = "st" | "nd" | "rd" | "th";
+defineParameterType({
+  name: 'ordinal',
+  regexp: /(st|nd|rd|th)/,
+  transformer: (s) => s,
+});

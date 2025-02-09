@@ -20,3 +20,13 @@ Then(
         // await page.waitForTimeout(1000);
     }
 );
+
+Then(
+    'the {int}{ordinal} {spec-string} visual snapshot matches {string}',
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
+    async ({ page, syngrisi, testData }, number, ordinal, locator, name) => {
+        await page.waitForTimeout(3000);
+        await expect.soft(page.locator(testData.renderTemplate(locator)).nth(number - 1)).toMatchBaseline(name);
+    }
+);
+

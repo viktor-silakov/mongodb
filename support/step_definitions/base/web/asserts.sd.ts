@@ -14,20 +14,22 @@ Then('the {string} {role} should have text {string}', async ({ page }, name, rol
  * Asserts element state
  * @example 
  * - Then the element with test-id "viewport-element" should be in viewport
- * - Then the button with name "Submit" should be visible
+ * - Then the button with name "Submit" should be visible 
+ * @see {@link ./support/fixtures/base/parameter-types.ts} for more information
  */
 Then(
     'the {role} with {attribute} {string} should {assert}',
     async (
-        { page }: { page: Page },
+        { page },
         role: ElementRole,
-        attribute: string,
+        attribute: ElementAttribute,
         value: string,
         assert: Assertion
     ) => {
         const element = getLocator({ page, role, attribute, value });
         await executeAssertion({ assert, element, options: { timeout: 5000 } });
-    });
+    }
+);
 
 /**
  * Asserts element values
@@ -65,7 +67,7 @@ function getConditionCallback(condition: Conditions) {
     return conditionsCallbacks[condition as keyof typeof conditionsCallbacks];
 }
 
-// // Функция для фильтрации элементов в соответствии с условием
+// // Function to filter elements according to the condition
 // async function filterElements({ page: Page, role: ElementRole, attribute: ElementAttribute, value: string, condition: Conditions }) {
 //     const conditionCallback = getConditionCallback(condition);
 
@@ -124,7 +126,7 @@ Then(
     async (
         { page }: { page: Page },
         role: ElementRole,
-        attribute: string,
+        attribute: ElementAttribute,
         value: string,
         expectedAttribute: string,
     ) => {
@@ -137,7 +139,7 @@ Then(
     async (
         { page }: { page: Page },
         role: ElementRole,
-        attribute: string,
+        attribute: ElementAttribute,
         value: string,
         expectedAttribute: string,
         expectedValue: string
