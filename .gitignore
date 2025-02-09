@@ -14,3 +14,4 @@ chromatic-diagnostics.json
 chrome
 playwright/.auth
 tests/playwright/.auth
+features/debug.feature
