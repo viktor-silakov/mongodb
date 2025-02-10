@@ -1,14 +1,9 @@
 import { expect, Page, ElementHandle } from '@playwright/test';
 import { Then, When } from '@fixtures';
-import { ElementRole, Assertion, ElementAttribute, Conditions } from '@parameter-types';
+import { ElementRole, Assertion, ElementAttribute, Conditions, Ordinal } from '@parameter-types';
 import { getLocator, executeAssertion } from '@utils';
-import { сonditionsRegexp } from "@parameter-types";
+import { conditionsRegexp } from "@parameter-types";
 import { TestStore } from '@fixtures/test-data/testData.fixture';
-
-Then('the {string} {role} should have text {string}', async ({ page }, name, role, expectedText) => {
-    const element = page.getByRole(role, { name });
-    await expect(element).toHaveText(expectedText);
-});
 
 /**
  * Asserts element state
@@ -18,7 +13,7 @@ Then('the {string} {role} should have text {string}', async ({ page }, name, rol
  * @see {@link ./support/fixtures/base/parameter-types.ts} for more information
  */
 Then(
-    'the {role} with {attribute} {string} should {assert}',
+    'the {role} with {attribute} {spec-str} should {assert}',
     async (
         { page },
         role: ElementRole,
@@ -32,13 +27,36 @@ Then(
 );
 
 /**
+ * Asserts the state of an element
+ * @example
+ * - Then the 2nd button with name "Submit" should be visible
+ * - Then the 3rd element with test-id "input-field" should be in viewport
+ */
+
+Then(
+    'the {int}{ordinal} {role} with {attribute} {spec-str} should {assert}',
+    async (
+        { page },
+        number: number,
+        ordinal: Ordinal,
+        role: ElementRole,
+        attribute: ElementAttribute,
+        value: string,
+        assert: Assertion
+    ) => {
+        const element = getLocator({ page, role, attribute, value }).nth(number - 1);
+        await executeAssertion({ assert, element, options: { timeout: 5000 } });
+    }
+);
+
+/**
  * Asserts element values
  * @example:
  * - Then the element with test-id "input-field" should have value "expectedValue"
  * - Then the button with name "Submit" should not have text "Submit"
  */
 Then(
-    'the {role} with {attribute} {string} should {assert} {string}',
+    'the {role} with {attribute} {spec-str} should {assert} {string}',
     async (
         { page }: { page: Page },
         role: ElementRole,
@@ -53,8 +71,32 @@ Then(
     });
 
 
+/**
+ * Asserts the state of an element
+ * @example
+ * - Then the 2nd button with name "Submit" should have text "Submit"
+ * - Then the 3rd element with test-id "input-field" should have value "Enter your email"
+ */
+Then(
+    'the {int}{ordinal} {role} with {attribute} {spec-str} should {assert} {string}',
+    async (
+        { page }: { page: Page },
+        number: number,
+        ordinal: Ordinal,
+        role: ElementRole,
+        attribute: string,
+        value: string,
+        assert: Assertion,
+        expectedValue: string
+    ) => {
+        const element = getLocator({ page, role, attribute, value }).nth(number - 1);
+        const options = { timeout: 5000 };
+        await executeAssertion({ assert, element, expectedValue, options });
+    });
+
+
 function getConditionCallback(condition: Conditions) {
-    if (!сonditionsRegexp.test(condition)) {
+    if (!conditionsRegexp.test(condition)) {
         throw new Error(`Invalid condition: ${condition}`);
     }
 
@@ -91,7 +133,7 @@ function getConditionCallback(condition: Conditions) {
 * - Then there should be 2 elements with test-id "input-field" that are in viewport
 */
 Then(
-    'there should be {int} {role} with {attribute} {string} that {condition}',
+    'there should be {int} {role} with {attribute} {spec-str} that {condition}',
     async (
         { page }: { page: Page },
         count: number,
@@ -121,8 +163,14 @@ Then(
     }
 );
 
+/**
+ * Asserts the attribute of an element
+ * @example
+ * - Then the button with name "Submit" should have attribute "type"
+ * - Then the input field with name "Email" should have attribute "placeholder"
+ */
 Then(
-    'the {role} with {attribute} {string} should have attribute {string}',
+    'the {role} with {attribute} {spec-str} should have attribute {string}',
     async (
         { page }: { page: Page },
         role: ElementRole,
@@ -134,8 +182,14 @@ Then(
         await expect(element).toHaveAttribute(expectedAttribute, { timeout: 5000 });
     });
 
+/**
+ * Asserts the attribute of an element
+ * @example
+ * - Then the button with name "Submit" should have attribute "type" to equal "submit"
+ * - Then the input field with name "Email" should have attribute "placeholder" to equal "Enter your email"
+ */
 Then(
-    'the {role} with {attribute} {string} should have attribute {string} to equal {string}',
+    'the {role} with {attribute} {spec-str} should have attribute {string} to equal {string}',
     async (
         { page }: { page: Page },
         role: ElementRole,
@@ -150,8 +204,14 @@ Then(
     });
 
 
+/**
+ * Asserts the CSS property of an element
+ * @example
+ * - Then the button with name "Submit" should have CSS "color" to equal "red"
+ * - Then the input field with name "Email" should have CSS "background-color" to equal "blue"
+ */
 Then(
-    'the {role} with {attribute} {string} should have CSS {string} to equal {string}',
+    'the {role} with {attribute} {spec-str} should have CSS {string} to equal {string}',
     async (
         { page }: { page: Page },
         role: ElementRole,
@@ -176,6 +236,14 @@ Then(
 
 
 // Navigation
+/**
+ * Asserts the title of the page
+ * @example
+ * - Then the page title should be 'Home'
+ * - Then the page title should not be 'Invalid Title'
+ * - Then the page title should be '/Welcome to My pa/i'
+ * - Then the page title should be '/^My Website - .+m$/'
+ */
 Then('the page title should{negate} be {pattern}', async ({ page }, negate, expectedTitle) => {
     if (negate === 'not') {
         await expect(page).not.toHaveTitle(expectedTitle)
@@ -186,8 +254,13 @@ Then('the page title should{negate} be {pattern}', async ({ page }, negate, expe
 
 
 // Waiters
-When(
-    'I wait {int} seconds for the {role} with {attribute} {string} to {assert}',
+/**
+ * Waits for an element to be in a certain state
+ * @example
+ * - I wait 5 seconds for the button with name "Submit" to be visible
+ * - I wait 10 seconds for the input field with name "Email" to be in viewport
+ */
+When('I wait {int} seconds for the {role} with {attribute} {string} to {assert}',
     async (
         { page, testData }: { page: Page, testData: TestStore },
         timeoutInSeconds: number,
@@ -201,7 +274,13 @@ When(
     }
 );
 
-Then('I wait {int} seconds for the {role} with {attribute} {string} to {assert} {string}', async (
+/**
+ * Waits for an element to be in a certain state
+ * @example
+ * - I wait 5 seconds for the button with name "Submit" to have text "Submit"
+ * - I wait 10 seconds for the input field with name "Email" to have value "Enter your email"
+ */
+Then('I wait {int} seconds for the {role} with {attribute} {spec-str} to {assert} {string}', async (
     { page }: { page: Page },
     timeoutInSeconds: number,
     role: ElementRole,
@@ -215,6 +294,14 @@ Then('I wait {int} seconds for the {role} with {attribute} {string} to {assert} 
 }
 );
 
+/**
+ * Asserts the URL of the page
+ * @example
+ * - Then the url should be 'https://example.com'
+ * - Then the url should not be 'https://invalid.com'
+ * - Then the url should be '/dashboard/'
+ * - Then the url should be '/^https://example.com/$'
+ */
 Then('the url should be {pattern}',
     async ({ page }, url) => {
         await expect(page).toHaveURL(url)

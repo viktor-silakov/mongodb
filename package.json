@@ -52,7 +52,10 @@
     "report-browserstack": "npx browserstack-node-sdk playwright show-report",
     "show:trace-browserstack": "npx browserstack-node-sdk playwright show-trace",
     "export:steps-browserstack": "browserstack-node-sdk npx bddgen export",
-    "sy": "cross-env SYNGRISI_AUTH=false npx sy"
+    "test:native": "npx playwright test playwright-native.config.ts",
+    "clear:auth": "rm -rf playwright/.auth/*",
+    "sy": "cross-env SYNGRISI_AUTH=false npx sy",
+    "smoke": "npx bddgen && npx playwright test smoke.feature"
   },
   "keywords": [],
   "author": "",

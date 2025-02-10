@@ -2,7 +2,7 @@ import { expect } from '@fixtures';
 import { Then } from '@fixtures';
 
 Then(
-    'the {spec-string} visual snapshot matches {string}',
+    'the {spec-str} visual snapshot matches {string}',
     // eslint-disable-next-line @typescript-eslint/no-unused-vars
     async ({ page, syngrisi, testData }, locator, name) => {
         await page.waitForTimeout(3000);
@@ -22,7 +22,7 @@ Then(
 );
 
 Then(
-    'the {int}{ordinal} {spec-string} visual snapshot matches {string}',
+    'the {int}{ordinal} {spec-str} visual snapshot matches {string}',
     // eslint-disable-next-line @typescript-eslint/no-unused-vars
     async ({ page, syngrisi, testData }, number, ordinal, locator, name) => {
         await page.waitForTimeout(3000);

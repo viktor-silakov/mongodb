@@ -193,7 +193,7 @@ When('I refresh the page', async ({ page }) => {
  * - find element by role: When I click on the heading with name "Heading role"
  * - find element by attribute: And the element with role "alertdialog" should not be visible 
  */
-When('I {action} on the {role} with {attribute} {spec-string}', async ({ page, testData }, action, role, attribute, value) => {
+When('I {action} on the {role} with {attribute} {spec-str}', async ({ page, testData }, action, role, attribute, value) => {
     const element = getLocator({ page, role, attribute, value: testData.renderTemplate(value) });
     const performAction = getAction(action);
     await performAction({ element, options: { timeout: 5000 } });
@@ -205,7 +205,7 @@ When('I {action} on the {role} with {attribute} {spec-string}', async ({ page, t
  * - find element by role: When I click on the 2nd heading with name "Heading role"
  * - find element by attribute: And the 3rd element with role "alertdialog" should not be visible 
  */
-When('I {action} on the {int}{ordinal} {role} with {attribute} {spec-string}', async ({ page, testData }, action, number, ordinal, role, attribute, value) => {
+When('I {action} on the {int}{ordinal} {role} with {attribute} {spec-str}', async ({ page, testData }, action, number, ordinal, role, attribute, value) => {
     const element = getLocator({ page, role, attribute, value: testData.renderTemplate(value) }).nth(number - 1);
     const performAction = getAction(action);
     await performAction({ element, options: { timeout: 5000 } });

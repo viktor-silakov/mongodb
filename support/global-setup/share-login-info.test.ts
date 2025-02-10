@@ -1,5 +1,5 @@
 import { chromium } from '@playwright/test';
-import { test as setup, expect } from '../../support/fixtures/base';
+import { test as setup, expect } from '../fixtures/base';
 import path from 'path';
 import { config } from '../../config';
 import fs from 'fs';

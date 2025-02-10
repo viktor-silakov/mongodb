@@ -47,11 +47,11 @@ defineParameterType({
 
 export type Conditions = "are visible" | "are visible" | "are present";
 
-export const сonditionsRegexp = /are visible|are visible|are present/;
+export const conditionsRegexp = /are visible|are visible|are present/;
 
 defineParameterType({
   name: 'condition',
-  regexp: сonditionsRegexp,
+  regexp: conditionsRegexp,
   transformer: (s) => s.toLowerCase() as Conditions,
 });
 
@@ -89,16 +89,18 @@ defineParameterType({
  * for exact matching.
  *
  * @example
- * // In a Gherkin step:
- * // Given I have a text 'Hello World'
- * // When I test the text 'Hello World'
- * // Then the result should be 'true'
- *
- * @example
- * // In a Gherkin step:
- * // Given I have a text '/Hello/i'
- * // When I test the text 'hello there'
- * // Then the result should be 'true'
+ * // In Gherkin steps:
+ * // Exact match:
+ * Then the page title should be 'My Website'
+ * Then the page title should not be 'Invalid Title'
+ * 
+ * // Using regex patterns:
+ * Then the page title should be '/Welcome to.+/i'
+ * Then the page title should be '/^Home Page - .*$/'
+ * 
+ * // In other steps:
+ * Then the url should be '/dashboard/'
+ * Then the url should be 'https://example.com'
  */
 defineParameterType({
   name: 'pattern',
@@ -128,7 +130,7 @@ export const transformSpecString = (s: string) => {
 }
 
 defineParameterType({
-  name: 'spec-string',
+  name: 'spec-str',
   regexp: /"([^"]*)"/,
   transformer: (s: string) => {
     return transformSpecString(s);

@@ -60,6 +60,15 @@ The framework implements a login state sharing mechanism between tests to optimi
   - If the file is missing or expired, new authentication is performed
 - Implementation can be found in `tests/setup/share-login-info.test.ts`
 - Saves browser cookies and storage state
-ы
+
+## Additional Commands
+
+### Testing and Authentication
+
+- `npm run test:native` - Runs Playwright tests using the native configuration file (`playwright-native.config.ts`). This is useful when you need to execute tests with specific native settings.
+
+- `npm run clear:auth` - Removes the authentication state stored in the `playwright/.auth` directory. Use this command when you need to reset or clear saved authentication data.
+
+- `npm run sy` - Launches Syngrisi visual testing tool without authentication requirement. The `SYNGRISI_AUTH=false` flag disables authentication for the Syngrisi session.
 
 
