@@ -27,7 +27,9 @@ test.describe('Localization ', async () => {
                 // await acceptCookies(page);
                 await expect(page.locator('body')).toMatchAriaSnapshot({ name: `Body - ${locale}` });
 
-                await context.close();
+                await context.close().catch(() => {
+                    // ignore
+                });
             });
     }
 });

@@ -13,7 +13,7 @@ const testDir = defineBddConfig({
         './support/step_definitions/**/*',
     ],
     importTestFrom: './support/fixtures/base',
-    examplesTitleFormat: 'Example !!!! #<_index_> - <_name_>'
+    // examplesTitleFormat: 'Example !!!! #<_index_> - <_name_>'
 });
 
 export default defineConfig<FixtureApiOptions>({
@@ -36,7 +36,7 @@ export default defineConfig<FixtureApiOptions>({
     // more info: https://playwright.dev/docs/api/class-testconfig#test-config-snapshot-path-template
     expect: {
         toMatchAriaSnapshot: {
-            pathTemplate: `${projectRootPath}/snapshots/{testFilePath}/{arg}{ext}`,
+            pathTemplate: `${projectRootPath}/snapshots/{projectName}/{testFilePath}/{arg}{ext}`,
         },
     },
 });

@@ -2,6 +2,8 @@ import { FixtureApiOptions } from '@fixtures/api.fixture';
 import { defineConfig, devices } from '@playwright/test';
 import { config } from './config';
 
+const projectRootPath = __dirname
+
 export const projects = [
     {
         name: 'share-login-info',
@@ -65,5 +67,10 @@ export default defineConfig<FixtureApiOptions>({
         trace: "on",
         screenshot: "only-on-failure",
     },
-    projects
+    projects,
+    expect: {
+        toMatchAriaSnapshot: {
+            pathTemplate: `${projectRootPath}/snapshots/{projectName}/{testFilePath}/{arg}{ext}`,
+        },
+    },
 });
