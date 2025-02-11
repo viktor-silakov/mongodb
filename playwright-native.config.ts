@@ -2,35 +2,68 @@ import { FixtureApiOptions } from '@fixtures/api.fixture';
 import { defineConfig, devices } from '@playwright/test';
 import { config } from './config';
 
+export const projects = [
+    {
+        name: 'share-login-info',
+        testDir: './support/global-setup',
+        testMatch: 'share-login-info.test.ts',
+    },
+    {
+        name: 'chrome',
+        use: {
+            ...devices['Desktop Chrome'],
+            storageState: 'playwright/.auth/user.json',
+            viewport: { width: 1440, height: 900 },
+        },
+        dependencies: ['share-login-info'],
+    },
+    {
+        name: 'firefox',
+        use: {
+            ...devices['Desktop Firefox'],
+            storageState: 'playwright/.auth/user.json',
+        },
+        dependencies: ['share-login-info'],
+    },
+    {
+        name: 'galaxy',
+        use: {
+            ...devices['Galaxy S24 Ultra'],
+            storageState: 'playwright/.auth/user.json',
+        },
+        dependencies: ['share-login-info'],
+    },
+    {
+        name: 'ipad',
+        use: {
+            ...devices['iPad (gen 9)'],
+            storageState: 'playwright/.auth/user.json',
+        },
+        dependencies: ['share-login-info'],
+    },
+    {
+        name: 'iphone',
+        use: {
+            ...devices['iPhone 16'],
+            storageState: 'playwright/.auth/user.json',
+        },
+        dependencies: ['share-login-info'],
+    },
+]
 
 export default defineConfig<FixtureApiOptions>({
-    
+
     reporter: [
         ['html', { open: "on-failure" }],
         ['list', { printSteps: true }]
-            ],
+    ],
     globalSetup: "./support/fixtures/base/global-setup",
     timeout: 60000,
+    testDir: './tests',
     use: {
         baseURL: config.baseUrl,
         trace: "on",
+        screenshot: "only-on-failure",
     },
-    projects: [
-        {
-            name: 'share-login-info',
-            testDir: './tests/setup',
-            testMatch: 'share-login-info.test.ts',
-            
-        },
-        {
-            name: 'chromium',
-            use: {
-              ...devices['Desktop Chrome'],
-              storageState: 'playwright/.auth/user.json',
-              viewport: { width: 1440, height: 900 },
-            },
-            dependencies: ['share-login-info'],
-            testDir: './tests',
-          },
-    ]
+    projects
 });

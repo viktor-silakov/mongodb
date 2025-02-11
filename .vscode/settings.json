@@ -44,4 +44,5 @@
         "editor.formatOnSave": true
     },
     "workbench.colorTheme": "Default Dark+",
+    "playwright-bdd-helper.command-args": "--headed --project=chrome",
 }

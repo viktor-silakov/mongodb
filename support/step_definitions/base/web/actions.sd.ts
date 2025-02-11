@@ -1,9 +1,8 @@
-import { Locator, Page, BrowserContext } from '@playwright/test';
+import { Locator, Page, BrowserContext, expect } from '@playwright/test';
 import { When } from '@fixtures';
 import { ElementAttribute, ElementRole, Ordinal, StepActions } from '@parameter-types';
 import { getLocator } from '@utils';
 import path from 'node:path';
-import { log } from 'node:console';
 
 type ActionsParams = {
     element: Locator,

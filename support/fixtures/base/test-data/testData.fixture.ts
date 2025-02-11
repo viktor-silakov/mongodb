@@ -3,7 +3,6 @@
 import { test as baseTest } from "playwright-bdd";
 import { TestInfo } from "@playwright/test";
 import { constants } from "./constants";
-import test from "node:test";
 
 
 type GetValueFunc = (item: string) => any;
@@ -27,6 +26,9 @@ function createDataGenerator({ testInfo }: { testInfo: TestInfo }) {
             return Math.floor(Math.random() * (max - min + 1)) + min;
         },
         repeat(text: string, count: number): string { return text.repeat(count) },
+        locale(): string {
+            return process.env.MONGO_TEST_LOCALE || 'en-US';
+        },
         baseUrl(): string {
             return String(testInfo.project.use.baseURL)
         },

@@ -7,23 +7,23 @@
     "@percy/cli": "^1.30.5",
     "@percy/playwright": "^1.0.7",
     "@percy/sdk-utils": "^1.30.5",
-    "@playwright/test": "1.49.1",
+    "@playwright/test": "1.50.1",
     "@syngrisi/playwright-sdk": "^2.2.4",
     "@types/node": "^20.14.10",
     "browserstack-node-sdk": "^1.34.29",
     "chromatic": "^11.20.1",
     "cross-env": "^7.0.3",
+    "dotenv": "16.4.7",
     "eslint": "^9.7.0",
     "eslint-plugin-react": "^7.34.4",
     "globals": "^15.8.0",
     "husky": "^9.0.11",
     "json-schema-to-zod": "^2.4.0",
-    "playwright-bdd": "8.0.1",
+    "playwright-bdd": "7.5.0",
     "typescript": "^5.5.3",
     "typescript-eslint": "^7.16.1",
     "yaml": "^2.5.0",
-    "zod": "^3.23.8",
-    "dotenv": "16.4.7"
+    "zod": "^3.23.8"
   },
   "dependencies": {
     "@syngrisi/syngrisi": "2.2.26-alpha.0"
@@ -55,7 +55,8 @@
     "test:native": "npx playwright test playwright-native.config.ts",
     "clear:auth": "rm -rf playwright/.auth/*",
     "sy": "cross-env SYNGRISI_AUTH=false npx sy",
-    "smoke": "npx bddgen && npx playwright test smoke.feature"
+    "smoke": "cross-env-shell TEST_ENV=qa 'npx bddgen && npx playwright test features/smoke.feature --project=chrome --headed'",
+    "smoke2": "cross-env TEST_ENV=qa npx bddgen && npx playwright test features/smoke.feature --project=chrome"
   },
   "keywords": [],
   "author": "",

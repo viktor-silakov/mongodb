@@ -71,4 +71,23 @@ The framework implements a login state sharing mechanism between tests to optimi
 
 - `npm run sy` - Launches Syngrisi visual testing tool without authentication requirement. The `SYNGRISI_AUTH=false` flag disables authentication for the Syngrisi session.
 
+## Localization Tests
 
+The framework includes tests for verifying application localization functionality. These tests check how the application behaves with different browser languages and localization settings.
+
+### Running Localization Tests
+
+To run localization tests in Chrome with UI:
+```shell
+npx cross-env TEST_ENV=stage npx playwright test -c playwright-native.config.ts tests/regression/localization/localization-browser-language.test.ts --headed --project=chrome
+```
+
+To update visual snapshots for localization tests:
+```shell
+npx cross-env TEST_ENV=stage npx playwright test -c playwright-native.config.ts tests/regression/localization/localization-browser-language.test.ts --headed --update-snapshots
+```
+
+You can use `--workers` parameter to run tests in parallel:
+```shell
+npx cross-env TEST_ENV=stage npx playwright test -c playwright-native.config.ts tests/regression/localization/localization-browser-language.test.ts --headed --update-snapshots --workers=5
+```
