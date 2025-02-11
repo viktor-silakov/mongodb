@@ -10,7 +10,7 @@ export const test = base.extend<{ testManager: null }>({
             throw new Error(testInfo.error?.message || 'Test failed with empty error message');
         }
         if (tags.includes('@no-linux') && os.platform() === 'linux') {
-            testInfo.skip(true, 'Тест пропущен: не поддерживается на Linux');
+            testInfo.skip(true, 'Test skipped: not supported on Linux');
             return;
         }
 

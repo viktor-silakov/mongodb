@@ -1,9 +1,8 @@
-import { Locator, Page, BrowserContext } from '@playwright/test';
+import { Locator, Page, BrowserContext, expect } from '@playwright/test';
 import { When } from '@fixtures';
-import { ElementAttribute, ElementRole, StepActions } from '@parameter-types';
+import { ElementAttribute, ElementRole, Ordinal, StepActions } from '@parameter-types';
 import { getLocator } from '@utils';
 import path from 'node:path';
-import { log } from 'node:console';
 
 type ActionsParams = {
     element: Locator,
@@ -188,16 +187,29 @@ When('I refresh the page', async ({ page }) => {
 
 // 👉 Actions with 4 params
 /**
- * Click by element
+ * Action on element
  * @example:
  * - find element by role: When I click on the heading with name "Heading role"
  * - find element by attribute: And the element with role "alertdialog" should not be visible 
  */
-When('I {action} on the {role} with {attribute} {spec-string}', async ({ page, testData }, action, role, attribute, value) => {
+When('I {action} on the {role} with {attribute} {spec-str}', async ({ page, testData }, action, role, attribute, value) => {
     const element = getLocator({ page, role, attribute, value: testData.renderTemplate(value) });
     const performAction = getAction(action);
     await performAction({ element, options: { timeout: 5000 } });
 });
+
+/**
+ * Action on nth element
+ * @example:
+ * - find element by role: When I click on the 2nd heading with name "Heading role"
+ * - find element by attribute: And the 3rd element with role "alertdialog" should not be visible 
+ */
+When('I {action} on the {int}{ordinal} {role} with {attribute} {spec-str}', async ({ page, testData }, action, number, ordinal, role, attribute, value) => {
+    const element = getLocator({ page, role, attribute, value: testData.renderTemplate(value) }).nth(number - 1);
+    const performAction = getAction(action);
+    await performAction({ element, options: { timeout: 5000 } });
+});
+
 
 // 👉 Actions with 5 params
 /**
@@ -244,7 +256,35 @@ When(
         await performAction({ element, text, options: { timeout: 5000 } });
     });
 
+/**
+ * Action on nth element
+ * 
+ * @example:
+ * - find element by role: When I click on the 2nd heading with name "Heading role"
+ */
+When(
+    'I {action} the {int}{ordinal} {role} with {attribute} {string} with {string}',
+    async (
+        { page, testData },
+        action: StepActions,
+        number: number,
+        ordinal: Ordinal,
+        role: ElementRole,
+        attribute: ElementAttribute,
+        value: string,
+        text: string,
+    ) => {
+        const element = getLocator({ page, role, attribute, value: testData.renderTemplate(value) }).nth(number - 1);
+        const performAction = getAction(action);
+        await performAction({ element, text, options: { timeout: 5000 } });
+    });
 
+
+/**
+ * Upload file
+ * @example:
+ * - upload file: When I upload the "hello.txt" file for the "button" with name "Upload"
+ */
 When(
     'I upload the {string} file for the {role} with {attribute} {string}',
     async (
@@ -298,7 +338,7 @@ When('I switch to the iframe with selector {string}', async ({ page, testData },
     await page.switchToFrame(selector);
 });
 
-When('I switch back to the main content', async ({ page }) => {
+When(/I switch back to the main (content|frame)/, async ({ page }) => {
     page.switchToMainFrame();
 });
 

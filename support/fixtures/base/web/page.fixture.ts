@@ -1,17 +1,14 @@
 import { test as base, Page, Locator } from '@playwright/test';
 
-// Extend the Page interface with our new method
 interface CustomPage extends Page {
   switchToFrame(selector: string): Promise<void>;
   switchToMainFrame(): void;
 }
 
-// Create custom fixtures type
 type CustomFixtures = {
   page: CustomPage;
 };
 
-// Extend base test with custom fixtures
 export const test = base.extend<CustomFixtures>({
   page: async ({ page }: { page: Page }, use: (r: CustomPage) => Promise<void>) => {
     let currentContext: Page | Locator = page;

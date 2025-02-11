@@ -1,0 +1,201 @@
+- main:
+  - link "Nuevo Realm ahora es Atlas Device SDK - Más información >":
+    - mark: Más información >
+  - navigation:
+    - link "MongoDB logo":
+      - img "MongoDB logo"
+    - list:
+      - listitem:
+        - button "Productos":
+          - img
+      - listitem:
+        - button "Recursos":
+          - img
+      - listitem:
+        - button "Soluciones":
+          - img
+      - listitem:
+        - button "Empresa":
+          - img
+      - listitem:
+        - link "Precios"
+    - button "Open Search":
+      - img "Search"
+    - button "menu-vertical":
+      - img "menu-vertical"
+  - paragraph:
+    - mark: Atlas
+  - heading "Servicios de aplicaciones. Desarrolle aplicaciones basadas en datos" [level=1]:
+    - mark: Servicios de aplicaciones.
+  - paragraph: Cree aplicaciones, integre servicios y conéctese a sus datos sin sobrecarga operativa.
+  - link "Prueba gratuita"
+  - link "Leer la documentación"
+  - img "Una imagen de tres niveles que se centra en el nivel superior denominado \"Nivel de aplicación sin servidor\". Admite funciones, activadores, API de datos, API GraphQL y sincronización de dispositivos. Se asienta sobre el nivel intermedio, \"Unified Query API\" y el nivel inferior de fundamentos de bases de datos."
+  - paragraph: Cree y ejecute aplicaciones listas para la producción sobre Atlas en una fracción del tiempo con servicios en la nube totalmente gestionados como funciones, desencadenadores y API. Deje de centrarse en el mantenimiento de la infraestructura y céntrese en la innovación mientras se beneficia de un generoso nivel gratuito.
+  - heading "Ejecutar código sin la sobrecarga operativa" [level=2]
+  - paragraph: Defina y ejecute la lógica de la base de datos del lado del servidor para su aplicación con funciones sin servidor. Llámelos en respuesta a eventos de base de datos, ejecútelos según una programación o invóquelos a través de API seguras o un SDK, al tiempo que aprovecha la autenticación incorporada y las reglas de acceso a datos basadas en roles.
+  - link "Más información sobre las funciones"
+  - img "Una ilustración de las funciones en una ventana de terminal."
+  - img "Una ilustración del péndulo de Newton."
+  - heading "Crear aplicaciones basadas en eventos" [level=2]
+  - paragraph: Ejecute la lógica de bases de datos y aplicaciones sin servidor en respuesta a eventos o según un cronograma predefinido con Triggers. Utilice Trigger with Functions o envíe los eventos Trigger directamente a AWS EventBridge
+  - text: .
+  - link "Más información sobre Triggers"
+  - heading "Integre aplicaciones y servicios en la nube" [level=2]
+  - paragraph: Apóyese en las API listas para producción para integrar fácilmente los datos de Atlas en sus aplicaciones y servicios a través de HTTPS. La variedad de opciones, desde la API de datos flexible hasta la API de GraphQL basada en esquemas, le permite elegir en función de las necesidades únicas de su carga de trabajo.
+  - link "Más información sobre las API"
+  - img "Una nube en el fondo, enmarcada por un documento de color morado en primer plano, en el que hay una llave inglesa de color verde lima que sostiene un cubo, con un engranaje morado en la esquina inferior derecha."
+  - img "Un smartphone rosa y morado en el fondo, rodeado por un engranaje hueco y acompañado por una gran nube blanca. En primer plano hay un candado de color verde lima, líneas de código, un gráfico y una flecha bidireccional."
+  - heading "Sincronice los datos entre dispositivos en tiempo real." [level=2]
+  - paragraph: Cree aplicaciones que se mantengan actualizadas para todos los usuarios y dispositivos en tiempo real con Device Sync, el servicio integrado de sincronización de dispositivo a nube de Atlas.
+  - link "Obtenga información sobre la sincronización de dispositivos"
+  - separator
+  - heading "Resumen general de características" [level=2]
+  - img "atlas_functions"
+  - heading "Funciones" [level=3]
+  - paragraph: Defina y ejecute funciones de JavaScript para crear API, integrarse con servicios en la cloud y mucho más.
+  - img "atlas_triggers"
+  - heading "Activadores" [level=3]
+  - paragraph: Ejecute código automáticamente en respuesta a cambios en la base de datos o a eventos del usuario, o en intervalos preestablecidos.
+  - img "atlas_data_api"
+  - heading "API de datos" [level=3]
+  - paragraph: Integre fácilmente los datos de Atlas en sus aplicaciones y servicios en la nube a través de HTTPS con una API flexible.
+  - img "atlas_graphql"
+  - heading "API de GraphQL" [level=3]
+  - paragraph: Acceda a los datos de Atlas desde cualquier cliente de GraphQL estándar con una API que se genera en función del esquema de sus datos.
+  - img "realm_sync"
+  - heading "Sincronización de dispositivos" [level=3]
+  - paragraph: Recopile, sincronice y analice datos de sus aplicaciones y dispositivos móviles en tiempo real con la sincronización integrada.
+  - img "realm_sdk"
+  - heading "SDK web" [level=3]
+  - paragraph: Conecte de forma segura las aplicaciones basadas en navegador a los datos de Atlas e interactúe con servicios como Functions.
+  - img "realm_user_authorization"
+  - heading "Autenticación" [level=3]
+  - paragraph: Configure uno o más proveedores de autenticación para su aplicación, incluidos AppleID, Google y Facebook a través de OAuth 2.0.
+  - img "general_security"
+  - heading "Reglas de acceso a los datos" [level=3]
+  - paragraph: Defina tipos de datos, controle lo que los usuarios pueden leer y escribir, y valide los cambios en los datos.
+  - heading "Cree aplicaciones, no infraestructura" [level=2]
+  - text: Déjenos la complejidad de la infraestructura de back-end, para que pueda concentrarse en crear las aplicaciones que llevarán a su organización al siguiente nivel.
+  - link "Ver documentación"
+  - heading "Reaccione a los cambios en tiempo real" [level=6]
+  - text: Responda a los cambios en sus datos en tiempo real o según un cronograma predefinido con Triggers.
+  - link "Empieza a usar Triggers"
+  - heading "Integre aplicaciones y servicios" [level=6]
+  - text: Elija entre una variedad de API para integrar los datos de Atlas en sus aplicaciones y servicios en la nube.
+  - heading "Sincronizar datos entre dispositivos" [level=6]
+  - text: Habilite el acceso en tiempo real a los datos entre usuarios y dispositivos con Device Sync.
+  - link "Leer la documentación"
+  - tablist "tabs": Database Trigger Auth Trigger Scheduled Triggers
+  - text: Code Snippet
+  - textbox
+  - text: "/1 # Ensure collection last updated time is accurate 2 3 exports = function\\(changeEvent\\) \\{ 4 \\/\\/ Get the notifications collection 5 const coll = context\\.services\\.get\\(\"<ATLAS-SERVICE>\"\\)\\.db\\(\"<DATABASE>\"\\)\\.collection\\(\"<COLLECTION>\"\\); 6 \\/\\/ Calculate the \"updatedTime\" and populate the trigger collection and duplicate the _id 7 const updatedAtDate = new Date\\(\\); 8 const query = \\{ \"_id\": changeEvent\\.documentKey\\._id \\}; 9 const update = \\{ \"updatedAt\": updatedAtDate\\}; \\d+ const options = \\{ \"upsert\": true \\}; \\d+ \\d+ return coll\\.updateOne\\(query, update, options\\); \\d+ \\}; \\d+/"
+  - button "Authored by Publisher Text":
+    - img "copy"
+  - heading "Cree aplicaciones en semanas, no en meses" [level=2]
+  - text: Descubra cómo aprovechar al máximo los servicios de aplicaciones de Atlas.
+  - heading "Keller Williams se transforma en un innovador tecnológico con MongoDB" [level=3]
+  - paragraph: El innovador global Keller Williams está aprovechando el poder de MongoDB para desarrollar relaciones más sólidas entre los agentes inmobiliarios y los clientes.
+  - link "Más información"
+  - img "Logotipo de Keller Williams"
+  - button "card-header Conectar la cloud con el perímetro text-content Más información":
+    - img "Logotipo de Cox Automotive"
+    - heading "Conectar la cloud con el perímetro" [level=3]
+    - paragraph: Cox Automotive utiliza Device Sync para agilizar las comunicaciones entre los equipos de técnicos de campo y de operaciones.
+    - link "Más información"
+  - button "card-header Vea novedades y noticias sobre productos text-content Más información":
+    - img "Ilustración de un libro con un marcapáginas y un teléfono móvil."
+    - heading "Vea novedades y noticias sobre productos" [level=3]
+    - paragraph: Consulte nuestro sitio de la comunidad para ver cómo otros usuarios aprovechan App Services.
+    - link "Más información"
+  - heading "Aproveche Atlas al máximo" [level=2]
+  - text: Impulse más experiencias y perspectivas basadas en datos con el resto de nuestra plataforma de datos para desarrolladores.
+  - button "card-header Sincronización de dispositivos text-content Más información":
+    - img "realm_sync"
+    - heading "Sincronización de dispositivos" [level=3]
+    - paragraph: Sincronice datos entre dispositivos, usuarios y el backend en tiempo real, a la vez que optimiza el desarrollo y garantiza una experiencia siempre activa.
+    - link "Más información"
+  - button "card-header Base de datos text-content Más información":
+    - img "atlas_database"
+    - heading "Base de datos" [level=3]
+    - paragraph: Comience con el servicio de base de datos multicloud hecho pensando en la resiliencia, la escalabilidad y los niveles más altos de privacidad y seguridad de los datos.
+    - link "Más información"
+  - button "card-header Búsqueda text-content Más información":
+    - img "atlas_search"
+    - heading "Búsqueda" [level=3]
+    - paragraph: Desarrolle búsquedas de texto completo rápidas y basadas en la relevancia en cuestión de minutos. Elimine la necesidad de ejecutar un motor de búsqueda independiente junto a su base de datos.
+    - link "Más información"
+  - img
+  - heading "Empiece a usar Atlas App Services" [level=2]
+  - text: Ejecute código, integre aplicaciones y administre datos sin pensar en los servidores.
+  - link "Prueba gratuita"
+  - link "Más información"
+  - text: "PRIMEROS PASOS CON:"
+  - list:
+    - listitem: Arquitectura sin servidor
+    - listitem: Servicios listos para la producción
+    - listitem: Registro detallado
+    - listitem: Generoso nivel gratuito
+  - link "MongoDB logo":
+    - img "MongoDB logo"
+  - img "Language Selector Icon"
+  - button "Language Selector":
+    - img
+  - text: /© \d+ MongoDB, Inc\./
+  - paragraph: Acerca de
+  - list:
+    - listitem:
+      - link "Empleo"
+    - listitem:
+      - link "Inversores"
+    - listitem:
+      - link "Legal"
+    - listitem:
+      - link "GitHub"
+    - listitem:
+      - link "Información sobre seguridad"
+    - listitem:
+      - link "Centro de confianza"
+    - listitem:
+      - link "Conéctate con nosotros"
+    - listitem:
+      - link "Mapa del sitio"
+  - paragraph: Soporte
+  - list:
+    - listitem:
+      - link "Contacto"
+    - listitem:
+      - link "Portal de clientes"
+    - listitem:
+      - link "Atlas Status"
+    - listitem:
+      - link "Customer Support"
+    - listitem:
+      - link "Gestionar Cookies"
+  - paragraph: Opciones de implementación
+  - list:
+    - listitem:
+      - link "MongoDB Atlas"
+    - listitem:
+      - link "Enterprise Advanced"
+    - listitem:
+      - link "Community Edition"
+  - paragraph: Data Basics
+  - list:
+    - listitem:
+      - link "Vector Databases"
+    - listitem:
+      - link "NoSQL Databases"
+    - listitem:
+      - link "Document Databases"
+    - listitem:
+      - link "RAG Database"
+    - listitem:
+      - link "ACID Transactions"
+    - listitem:
+      - link "MERN Stack"
+    - listitem:
+      - link "MEAN Stack"
+- alert
+- button "Open Intercom Messenger":
+  - img
