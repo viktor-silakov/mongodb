@@ -25,6 +25,8 @@ setup('Shared authentication', async ({ page }) => {
   
   await page.getByLabel('Select Password.').click();
 
+  await page.waitForTimeout(3000);
+
   await page.getByLabel('Password').fill(config.password!);
 
   await page.getByRole('button', { name: 'Verify' }).click();
