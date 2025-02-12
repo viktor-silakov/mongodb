@@ -21,8 +21,12 @@
         - link "Preise"
     - button "Open Search":
       - img "Search"
-    - button "menu-vertical":
-      - img "menu-vertical"
+    - button "Language Selector Icon Deu":
+      - img "Language Selector Icon"
+      - img
+    - link "Support"
+    - link "Anmelden"
+    - link "Kostenlos testen"
   - paragraph:
     - mark: Atlas
   - heading "App-Dienste. Erstellen Sie datengesteuerte Apps" [level=1]:
@@ -198,3 +202,5 @@
     - listitem:
       - link "MEAN Stack"
 - alert
+- button "Open Intercom Messenger":
+  - img

@@ -22,7 +22,7 @@ export default defineConfig<FixtureApiOptions>({
         ['html', { open: "on-failure" }],
         ['list', { printSteps: true }]
     ],
-
+    fullyParallel: true,
     globalSetup: "./support/fixtures/base/global-setup",
     timeout: 60000,
     testDir,

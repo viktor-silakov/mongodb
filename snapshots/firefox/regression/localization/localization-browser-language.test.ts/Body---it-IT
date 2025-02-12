@@ -21,8 +21,12 @@
         - link "Prezzi"
     - button "Open Search":
       - img "Search"
-    - button "menu-vertical":
-      - img "menu-vertical"
+    - button "Language Selector Icon Ita":
+      - img "Language Selector Icon"
+      - img
+    - link "Support"
+    - link "Accedi"
+    - link "Prova gratuita"
   - paragraph:
     - mark: Atlas
   - heading "Servizi dell'app. Crea applicazioni basate sui dati" [level=1]:

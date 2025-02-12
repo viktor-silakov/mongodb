@@ -21,8 +21,12 @@
         - link "Precios"
     - button "Open Search":
       - img "Search"
-    - button "menu-vertical":
-      - img "menu-vertical"
+    - button "Language Selector Icon Esp":
+      - img "Language Selector Icon"
+      - img
+    - link "Support"
+    - link "Iniciar sesión"
+    - link "Prueba gratuita"
   - paragraph:
     - mark: Atlas
   - heading "Servicios de aplicaciones. Desarrolle aplicaciones basadas en datos" [level=1]:
@@ -197,3 +201,5 @@
     - listitem:
       - link "MEAN Stack"
 - alert
+- button "Open Intercom Messenger":
+  - img

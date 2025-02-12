@@ -1,0 +1,154 @@
+- main:
+  - link "공지 사항 역대 가장 빠른 MongoDB, MongoDB 8.0을 소개합니다! 더 보기 >>":
+    - mark: 더 보기 >>
+  - navigation:
+    - link "MongoDB logo":
+      - img "MongoDB logo"
+    - list:
+      - listitem:
+        - button "제품":
+          - img
+      - listitem:
+        - button "리소스":
+          - img
+      - listitem:
+        - button "솔루션":
+          - img
+      - listitem:
+        - button "회사":
+          - img
+      - listitem:
+        - link "가격"
+    - button "Open Search":
+      - img "Search"
+    - button "Language Selector Icon 한국어":
+      - img "Language Selector Icon"
+      - img
+    - link "Support"
+    - link "등록"
+    - link "무료 체험판 다운로드"
+  - paragraph:
+    - mark: MongoDB Atlas
+  - heading "개발자들이 사랑하는 데이터베이스" [level=1]
+  - paragraph: 별도의 데이터베이스 없이도 트랜잭션, 고급 검색, 생성형 AI를 지원할 수 있습니다. 세계에서 가장 인기 있는 도큐먼트 데이터베이스가 이제 가장 다재다능한 개발자 데이터 플랫폼으로 거듭났습니다.
+  - link "Atlas 무료 체험하기"
+  - link "원하는 방식으로 배포"
+  - img "앱 데이터와 함께 벡터 검색 데이터를 보여주는 코드 패널"
+  - heading "MongoDB 자격증 시험에 응시하고, 선물도 받아보세요!" [level=4]
+  - text: MongoDB에서 제공하는 교육 및 자격증 시험 프로그램에 참여하여 여러분의 커리어를 레벨업 하세요.
+  - link "지금 시작하기"
+  - img "배너 이미지"
+  - img
+  - heading "개발자에 의해, 개발자를 위해 만들어진 솔루션" [level=2]
+  - paragraph: 문서 데이터 모델은 여러분의 사고방식과 코드 작성 방식을 매핑합니다. 경직된 표 형식의 데이터 구조에서 벗어나 코드의 객체와 직접적으로 매핑되는 유연한 문서를 사용해 보세요. 관련 데이터를 하나의 문서에 통합하여 성능을 극대화하고 계산 비용을 절감하세요.
+  - link "MongoDB 기본 사항 알아보기"
+  - heading "개발자가 사랑하고 기업이 신뢰하는 서비스" [level=2]
+  - link "모든 고객 사례 보기"
+  - tablist:
+    - tab "Novo Nordisk logo" [selected]:
+      - img "Novo Nordisk logo"
+    - tab "Delivery Hero logo":
+      - img "Delivery Hero logo"
+    - tab "Okta logo":
+      - img "Okta logo"
+    - tab "Volvo logo":
+      - img "Volvo logo"
+    - tab "Bendigo and Adelaide Bank logo":
+      - img "Bendigo and Adelaide Bank logo"
+  - tabpanel "Novo Nordisk logo":
+    - img "Novo Nordisk 로고"
+    - text: /\d+ 리포트 생성 시간, \d+주에서 \d+분으로 단축 전 세계 \d+%의 인슐린 생산/
+    - img
+    - text: /의료 "임상 연구 보고서를 작성 시간을 \d+주에서 \d+분으로 단축했습니다\. 결과물의 품질은 더 높아졌고 소수의 팀원으로도 가능해졌습니다\. 가치 측면에서 볼 때, 의약품이 하루라도 빨리 시장에 출시되면 회사는 약 \d+,\d+만 달러의 추가 수익을 얻을 수 있습니다\."/
+    - link "고객 사례 읽기"
+    - link "의료 분야를 위한 MongoDB"
+  - separator
+  - heading "기술 스택과 원활하게 연동" [level=2]
+  - text: /\d+개 이상의 인기 기술과 통합되는 MongoDB/
+  - link "MongoDB 에코시스템 살펴보기"
+  - marquee "partner logos carousel":
+    - link "Confluent 로고":
+      - img "Confluent 로고"
+    - link "Databricks 로고":
+      - img "Databricks 로고"
+    - link "AWS 로고":
+      - img "AWS 로고"
+    - link "Google Cloud 로고":
+      - img "Google Cloud 로고"
+    - link "Microsoft Azure 로고":
+      - img "Microsoft Azure 로고"
+    - link "Accenture 로고":
+      - img "Accenture 로고"
+    - link "Hashicorp 로고":
+      - img "Hashicorp 로고"
+  - marquee "partner logos carousel":
+    - link "TCS 로고":
+      - img "TCS 로고"
+    - link "Tech Mahindra 로고":
+      - img "Tech Mahindra 로고"
+    - link "Datadog 로고":
+      - img "Datadog 로고"
+    - link "Cohere 로고":
+      - img "Cohere 로고"
+    - link "LangChain 로고":
+      - img "LangChain 로고"
+    - link "Capgemini 로고":
+      - img "Capgemini 로고"
+    - link "Fireworks.ai 로고":
+      - img "Fireworks.ai 로고"
+  - link "MongoDB logo":
+    - img "MongoDB logo"
+  - img "Language Selector Icon"
+  - button "Language Selector":
+    - img
+  - text: /© \d+ MongoDB, Inc\./
+  - paragraph: 회사정보
+  - list:
+    - listitem:
+      - link "인재채용"
+    - listitem:
+      - link "투자자"
+    - listitem:
+      - link "합법적인"
+    - listitem:
+      - link "GitHub"
+    - listitem:
+      - link "보안 정보"
+    - listitem:
+      - link "트러스트 센터"
+    - listitem:
+      - link "문의처"
+  - paragraph: 지원
+  - list:
+    - listitem:
+      - link "문의처"
+    - listitem:
+      - link "고객 포털"
+    - listitem:
+      - link "Atlas 상태"
+    - listitem:
+      - link "Customer Support"
+  - paragraph: 배포 옵션
+  - list:
+    - listitem:
+      - link "MongoDB Atlas"
+    - listitem:
+      - link "Enterprise Advanced"
+    - listitem:
+      - link "커뮤니티 에디션"
+  - paragraph: Data Basics
+  - list:
+    - listitem:
+      - link "Vector Databases"
+    - listitem:
+      - link "NoSQL Databases"
+    - listitem:
+      - link "Document Databases"
+    - listitem:
+      - link "RAG Database"
+    - listitem:
+      - link "ACID Transactions"
+    - listitem:
+      - link "MERN Stack"
+    - listitem:
+      - link "MEAN Stack"

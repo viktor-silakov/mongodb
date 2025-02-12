@@ -1,0 +1,172 @@
+- main:
+  - link "公告 MongoDB 8.0 隆重推出，这是有史以来最快的MongoDB！了解详情 >>":
+    - mark: 了解详情 >>
+  - navigation:
+    - link "MongoDB logo":
+      - img "MongoDB logo"
+    - list:
+      - listitem:
+        - button "产品":
+          - img
+      - listitem:
+        - button "资源":
+          - img
+      - listitem:
+        - button "解决方案":
+          - img
+      - listitem:
+        - button "公司":
+          - img
+      - listitem:
+        - link "定价"
+    - button "Open Search":
+      - img "Search"
+    - button "Language Selector Icon 简体中文":
+      - img "Language Selector Icon"
+      - img
+    - link "Support"
+    - link "登录"
+    - link "免费试用"
+  - paragraph:
+    - mark: MONGODB ATLAS
+  - heading "深受开发者喜爱。 专为...打造" [level=1]
+  - paragraph: 不需要单独的数据库来支持事务处理、多样化搜索或生成式 AI。世界上最流行的文档数据库现在也是世界上功能最全面的开发者数据平台。
+  - link "免费试用 Atlas"
+  - link "按自己的方式部署"
+  - img "显示向量搜索数据和应用程序数据的代码面板。"
+  - heading "再次荣膺最受欢迎的向量数据库！" [level=4]
+  - text: 在最新的 Retool AI 现状全球调查中，MongoDB Atlas Vector Search 连续第二年再登榜首。
+  - link "了解详情"
+  - img "横幅图片"
+  - img
+  - heading "由开发者构建，供开发者使用" [level=2]
+  - paragraph: 文档数据模型与您的思维方式和编码方式相匹配。使用可直接映射到代码对象的灵活文档，打破固定的表格数据结构。将相关数据嵌入单个文档，以提高性能并最大限度地降低费用。
+  - link "了解 MongoDB 基础知识"
+  - button "card-header 文档 text-content 文档":
+    - img "mdb_document_model"
+    - heading "文档" [level=3]
+    - paragraph: 参考手册、文章和代码示例 — 部署、配置和运行 MongoDB 所需的所有技术文档。
+    - link "文档"
+  - button "card-header 开发者中心 text-content 开始构建":
+    - img "general_action_develop"
+    - heading "开发者中心" [level=3]
+    - paragraph: 最新的 MongoDB 教程、视频和代码示例，多种语言供您选择。
+    - link "开始构建"
+  - button "card-header 社区论坛 text-content 加入社区":
+    - img "general_content_community"
+    - heading "社区论坛" [level=3]
+    - paragraph: /加入我们拥有超过 \d+\.\d+ 万开发者的社区论坛，获取建议，学习诀窍和技巧，并分享您的项目和经验。/
+    - link "加入社区"
+  - heading "备受开发者喜爱，深受企业信赖" [level=2]
+  - link "查看所有客户案例"
+  - tablist:
+    - tab "Novo Nordisk logo" [selected]:
+      - img "Novo Nordisk logo"
+    - tab "Delivery Hero logo":
+      - img "Delivery Hero logo"
+    - tab "Okta logo":
+      - img "Okta logo"
+    - tab "Volvo logo":
+      - img "Volvo logo"
+    - tab "Bendigo and Adelaide Bank logo":
+      - img "Bendigo and Adelaide Bank logo"
+  - tabpanel "Novo Nordisk logo":
+    - img "Novo Nordisk 徽标"
+    - text: /\d+ 分钟即可生成报告，而不是 \d+ 周 \d+% 全球胰岛素产量/
+    - img
+    - text: /医疗保健 “我们将创建临床研究报告所需的时间从 \d+ 周缩短到了 \d+ 分钟，同时产出质量更高，所需团队人员也大幅减少。在价值方面，药物每早一天上市，就可以为公司增加约 \d+ 万美元的收入。/
+    - link "阅读案例分析"
+    - link "适用于医疗保健的 MongoDB"
+  - separator
+  - heading "与您的技术栈无缝对接" [level=2]
+  - text: /MongoDB 与开发者喜爱的 \d+ 多种技术无缝集成/
+  - link "探索我们的生态系统"
+  - marquee "partner logos carousel":
+    - link "confluent 徽标":
+      - img "confluent 徽标"
+    - link "databricks 徽标":
+      - img "databricks 徽标"
+    - link "AWS 徽标":
+      - img "AWS 徽标"
+    - link "Google Cloud 徽标":
+      - img "Google Cloud 徽标"
+    - link "Microsoft Azure 徽标":
+      - img "Microsoft Azure 徽标"
+    - link "Accenture 徽标":
+      - img "Accenture 徽标"
+    - link "Hashicorp 徽标":
+      - img "Hashicorp 徽标"
+  - marquee "partner logos carousel":
+    - link "Datadog 徽标":
+      - img "Datadog 徽标"
+    - link "LangChain 徽标":
+      - img "LangChain 徽标"
+    - link "Capgemini 徽标":
+      - img "Capgemini 徽标"
+    - link "Fireworks.ai 徽标":
+      - img "Fireworks.ai 徽标"
+    - link "Alibaba 徽标":
+      - img "Alibaba 徽标"
+    - link "Tencent Cloud 徽标":
+      - img "Tencent Cloud 徽标"
+    - link "Volcano Engine 徽标":
+      - img "Volcano Engine 徽标"
+  - link "MongoDB logo":
+    - img "MongoDB logo"
+  - img "Language Selector Icon"
+  - button "Language Selector":
+    - img
+  - text: /© \d+ MongoDB, Inc\./
+  - paragraph: 关于MongoDB
+  - list:
+    - listitem:
+      - link "招贤纳士"
+    - listitem:
+      - link "投资者关系"
+    - listitem:
+      - link "合法的"
+    - listitem:
+      - link "GitHub"
+    - listitem:
+      - link "安全信息"
+    - listitem:
+      - link "信任中心"
+    - listitem:
+      - link "联系我们"
+  - paragraph: 支持
+  - list:
+    - listitem:
+      - link "联系我们"
+    - listitem:
+      - link "客户门户"
+    - listitem:
+      - link "Atlas 状态"
+    - listitem:
+      - link "Customer Support"
+    - listitem:
+      - link "管理 Cookie"
+  - paragraph: 部署选项
+  - list:
+    - listitem:
+      - link "MongoDB Atlas"
+    - listitem:
+      - link "Enterprise Advanced"
+    - listitem:
+      - link "社区版"
+  - paragraph: Data Basics
+  - list:
+    - listitem:
+      - link "Vector Databases"
+    - listitem:
+      - link "NoSQL Databases"
+    - listitem:
+      - link "Document Databases"
+    - listitem:
+      - link "RAG Database"
+    - listitem:
+      - link "ACID Transactions"
+    - listitem:
+      - link "MERN Stack"
+    - listitem:
+      - link "MEAN Stack"
+- alert

@@ -13,13 +13,12 @@ const locales = [
     'zh-CN',  // Chinese (Simplified)
 ];
 
-test.describe('Localization ', async () => {
+test.describe('Localization - browser language', async () => {
     for (const locale of locales) {
-        test(`open page in browser's current language - ${locale} @localization @TC-714`,
+        test(`Check browser language - ${locale} @localization @TC-714 @all-browsers`,
             async ({ browser }) => {
                 const context = await browser.newContext({
                     locale: locale,
-                    userAgent: `Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Locale/${locale}`
                 });
                 const page = await context.newPage();
 

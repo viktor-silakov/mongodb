@@ -1,0 +1,414 @@
+{
+  "cookies": [
+    {
+      "name": "cg_uuid",
+      "value": "c45f5d28cf4057016ba0098979bdb179",
+      "domain": "obseu.michiganrobotflower.com",
+      "path": "/",
+      "expires": 1768382907,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "DT",
+      "value": "DI1T_C4T3vNT9KxbTZlHD_ZEQ",
+      "domain": "corp.mongodb.com",
+      "path": "/",
+      "expires": 1773899804,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "JSESSIONID",
+      "value": "028CA33FF43F9CD49F3C593136FF531C",
+      "domain": "corp.mongodb.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "idx",
+      "value": "eyJ6aXAiOiJERUYiLCJ2ZXIiOiIxIiwiYWxpYXMiOiJlbmNyeXB0aW9ua2V5Iiwib2lkIjoiMDBvMWJrcmg2eTdXU0hkQnkyOTciLCJlbmMiOiJBMjU2R0NNIiwiYWxnIjoiZGlyIiwieHNpZCI6ImlkeGVaTVFxNmVJUmNtbXBmU3Z4eDZIdGcifQ..kybjSOWLoZm-n21W.gDtZaLT7fvNqFAvyWv91zeOWJzCq4IV11MLpldbI4SM2pswGoQA8zxCuYQiIenanGtpSkCxSxquIKCUueyccjQopwB1lhJ7XMDkLwc4rcoyYX8QHWjIN4ihxV-A6V2EK2ghU5OLL3Eo50uUK7XDjjOulhb-LeGNwCA-Vwf0bemCOWGOmBe3t4exZ9mBVzw3UhaWpIsAwO87OGBxTcdF23gGxjkdHF3in9FzPsRNmVeI9HS1dA2y152QORYza1bjez4U-dcMRAWcBneEwtcvnJA0JCBE0KvMzqApswloAYJ3LGVRfeUq2i87LqCgogLOtJxvz8uoi2b4s_1zYSe11B2VEWGphosveDi1tG1mYoxL1Cusa7JxTx3HcvJ5KWr8MaiPavUHuX76vXLb52OPNU7wOE0PcZYm4l90Qo8ekW9BLy06l0iVYE9rdRDW8aRRY3hbZPQz2R6D11xqeDAj9zzY0k5FKikJ7zXDD2znzOgP6cCgcK8ad8h-xf7REgzq17dEiWs6gnE2pPXzjdxo8Gg0Z7joM4y2sfjq4UzGD-gTC8mhZuuirs-TmYKYz5NsBO6cZUnqElCMsXridRnPvnQXNa9lkDlfTNeopuiubRfzYkh1idxuco34-nH3zzOuGPhfn2zs-vX5mZ3GPP_dckesHfnmi8MudPWxlRZpyljoiw88CPPKG2p_sL2CCqM06jzbQroi4j18cbi9unMB8QUJX4LCDMBbjKQ1oHF6uVmDSVVkCAwN38Ayp22L8wnobFt7PtC-0V-MN3hY-R9vv2ZdMDCrFEmrVJ_RqmjM_eCj48Otq9rFR6CD5nMN5JyqFLvDlwX__zps9Qfd4PW6Yro5L1td_HOnLUu2CJ7wcdZHBg7j7uzVg6GNYYYC0m9HTVuBlpboDFMpo5LbHy0vQ9ZuYcNlxPYbuwJaTveJFVzW7to5K2nrRh6TtmMx3ASVp3FenDxl41nBLahpP9XlAHbinIU8v0y1VoHzjnppv-RewxcTaWQM7Ml6FY_-2RP_jtXEwgyeAAKg3dyufkY-1crDx1ozI1H1f_VB-oepG8kvm-Z5bGzDi8lo0SXs.xqZUpKYMhbNF2x-7HLd1bA",
+      "domain": "corp.mongodb.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "luf_-1204223856",
+      "value": "eyJ6aXAiOiJERUYiLCJ2ZXIiOiIxIiwiYWxpYXMiOiJlbmNyeXB0aW9ua2V5Iiwib2lkIjoiMDBvMWJrcmg2eTdXU0hkQnkyOTciLCJlbmMiOiJBMjU2R0NNIiwiYWxnIjoiZGlyIiwidGltZXN0YW1wIjoxNzM5MzM5ODEwNTk0fQ..CJGWs2H51yqFGMU8.c0joJSDMCoa62782aJxsKEQkaA7fhThwDoaQCXjz6doxAiehMGH0SmwAzDIsaWBX7g1vPvXk7lp3euI4FyDOCPV_cO12OJSQP_1gqI9atiVdapo_QNUo9HW1UJ-gMkZ9Rr1oRZxfUewVIxQ8oIw4kCySQBYrBuBaczGavfvIoRxXA2f76sz8Nf59hzUfYc5dEHc4asiR.Cn64XEpujpK1td89YWneSQ",
+      "domain": "corp.mongodb.com",
+      "path": "/",
+      "expires": 1741931810,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "auth_user",
+      "value": "viktar.silakau",
+      "domain": ".corp.mongodb.com",
+      "path": "/",
+      "expires": 1739383011,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "auth_claim_0",
+      "value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InZpa3Rhci5zaWxha2F1QG1vbmdvZGIuY29tIiwiZ3JvdXBzIjpbIjEwZ2VuLXpvb20td2ViaW5hcnMtbWFya2V0aW5nIiwiMTBnZW4tMXBhc3N3b3JkLWFwcHN0b3JlLXZpc2libGUiLCIxMGdlbi13aWtpLW1hcmtldGluZy1hbGwiLCIxMGdlbi1qaXJhLWNvbnRyYWN0b3JzIiwiMTBnZW4tbXktemVuZGVzay10aWNrZXRzIiwiMTBnZW4ta2Fub3B5LXNlcnZpY2UtcG9ydGFsIiwiMTBnZW4taGlnaHNwb3QiLCIxMGdlbi1rYW5vcHktc2VydmljZS1zcGx1bmsiLCIxMGdlbi1DYWxlbmRseS1hcHBzdG9yZS12aXNpYmxlIiwiMTBnZW4tbWluZHRpY2tsZSIsIjEwZ2VuLXdpa2ktY29udHJhY3RvcnMiLCIxMGdlbi10cmlwYWN0aW9ucy10ZXN0IiwiMTBnZW4tem9vbSIsIjEwZ2VuLWthbm9weS1zZXJ2aWNlLWdyYWZhbmEiLCIxMGdlbi1BaXJ0YWJsZS1hcHBzdG9yZS12aXNpYmxlIiwiMTBnZW4ta2Fub3B5LXNlcnZpY2UtZGV4IiwiMTBnZW4tZ3N1aXRlLWFsbCIsIjEwZ2VuLXNsYWNrLWNvbnRyYWN0b3JzLW11bHRpIiwiMTBnZW4tbWZhLW1hcmtldGluZyJdLCJjbGllbnRfaXAiOiIxMDAuMTIwLjMyLjE0OjU5Mzk0IiwiZXhwIjoxNzM5MzgzMDExLCJqdGkiOiIxNGY2YWM3OC0xMDkwLTQ5MTUtOTQ2Yy1kMTUyN2E5MWRmNjUiLCJpYXQiOjE3MzkzMzk4MTEsImlzcyI6ImxvZ2luLmNvcnAubW9uZ29kYi5jb20iLCJuYmYiOjE3MzkzMzk4MTAsInN1YiI6InZpa3Rhci5zaWxha2F1In0.Wlu",
+      "domain": ".corp.mongodb.com",
+      "path": "/",
+      "expires": 1739383011,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "auth_claim_1",
+      "value": "ik9_I1_vK3QtWVwmCQh2QXq8l2gXf_OkvOCgf9ZyvbTykDeBb268o_kEygD461-gJRRdwUZv6nN2NCR92n_Odp3PmaHhm-yHRQawwtg88QkggEzEj67ss_6whzfeK8Cf_O8aOzdxL3Oisyt-2DD-3cnzNCWHJyF6hZjeQcWkhChgrwxnuVBTC0GLGKYMw7dI1Ef1xUyjxo2wvfLuBcDHil6Hh9qq2VviZoD3owJX_Z4c5bmM_-8BmpzOcl_52nq4EgAY_BC9-A0mLs9kRt0pe8boyT1F3kfAUI1KWLxJfJlLb651lWW6FqJvgaOESnp6OVZ2reu2tbQ5kNykE4Q",
+      "domain": ".corp.mongodb.com",
+      "path": "/",
+      "expires": 1739383011,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "auth_token",
+      "value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InZpa3Rhci5zaWxha2F1QG1vbmdvZGIuY29tIiwiZ3JvdXBzIjpbXSwiY2xpZW50X2lwIjoiMTAwLjEyMC4zMi4xNDo1OTM5NCIsImV4cCI6MTczOTM4MzAxMSwianRpIjoiNTNhMzFlNmYtNDA1ZS00ZjA0LTlkZTUtZGQ1MDU2ODBkZTkzIiwiaWF0IjoxNzM5MzM5ODExLCJpc3MiOiJsb2dpbi5jb3JwLm1vbmdvZGIuY29tIiwibmJmIjoxNzM5MzM5ODEwLCJzdWIiOiJ2aWt0YXIuc2lsYWthdSJ9.veCCgoLQoD9uRkkWwITWwXJU_H4meJnfQ20WAQWCcJjOf29bnoTAvEayJkeI5e2gCYW0XeEk0Yx5HORBmaDEa-hKyc90iSt_kkVmy3oI54q2_PLPULNLCdl2UNswewJToPUEQRKuTXGVVJl7YQ0GNvcv-Mij_VIZ1wsKLaBjGRNUlurKa7MRQBwhmvUh0f5LomrAb9eIKHXC8omZhnLI3Pg08wJOW4K9vE5oiqZ4ZMU2vU5txHN2mDWlciNDSsAExVpdh_Qa-Ui2m7yA9vxMhH_Zp-u9jMccEMRtOxFfyRLqi9yx1oWIWAz9dZ8hw2kR_e_pdoyWiSOCyFi1JI277w",
+      "domain": ".corp.mongodb.com",
+      "path": "/",
+      "expires": 1739383011,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "session",
+      "value": "MTczOTMzOTgxMXxEdi1CQkFFQ180SUFBUkFCRUFBQVBmLUNBQUlHYzNSeWFXNW5EQW9BQ0hKbFpHbHlaV04wQm5OMGNtbHVad3dDQUFBR2MzUnlhVzVuREFjQUJYTjBZWFJsQm5OMGNtbHVad3dDQUFBPXzSEOPAwn61-_4gY9Bc5qmhoU5kRbO_5UldgTuuO3wQ7Q==",
+      "domain": "login.corp.mongodb.com",
+      "path": "/",
+      "expires": 1741931811,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "cxl_returning_visitor",
+      "value": "1",
+      "domain": "mycelium-staging.website.staging.corp.mongodb.com",
+      "path": "/",
+      "expires": 1747115827,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "OptanonConsent",
+      "value": "isGpcEnabled%3D0%26browserGpcFlag%3D0%26isIABGlobal%3Dfalse%26hosts%3D%26landingPath%3DNotLandingPage%26groups%3DC0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1%2CC0005%3A1%26geolocation%3DDE%3BHE%26AwaitingReconsent%3Dfalse",
+      "domain": "mycelium-staging.website.staging.corp.mongodb.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "OptanonAlertBoxClosed",
+      "value": "2025-01-15T13:37:31.350Z",
+      "domain": "mycelium-staging.website.staging.corp.mongodb.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "cxl_returning_session_value",
+      "value": "returning",
+      "domain": "mycelium-staging.website.staging.corp.mongodb.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "None"
+    },
+    {
+      "name": "optimizelySession",
+      "value": "0",
+      "domain": ".mongodb.com",
+      "path": "/",
+      "expires": 1754904503,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "None"
+    },
+    {
+      "name": "__session.data",
+      "value": "%7B%22landing_page%22%3A%22https%3A%2F%2Fmycelium-staging.website.staging.corp.mongodb.com%2F%22%2C%22sessionId%22%3A%22seid-1739352507285-e1452aad1a9db862d64e5f2825f8%22%2C%22optimizelyEndUserId%22%3A%22oeu1739339827905r0.10646682559681309%22%2C%22referrer%22%3Anull%7D",
+      "domain": ".mongodb.com",
+      "path": "/",
+      "expires": 1739438907,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_cq_duid",
+      "value": "1.1739352507.VvOJgcHuLob1DiNY",
+      "domain": ".mongodb.com",
+      "path": "/",
+      "expires": 1747236507,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_cq_suid",
+      "value": "1.1739352507.Sh8MmWELepu4ZQbt",
+      "domain": ".mongodb.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_cq_pxg",
+      "value": "3|43902967|875946829|event=conversion",
+      "domain": ".mongodb.com",
+      "path": "/",
+      "expires": 1739438907,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_an_uid",
+      "value": "0",
+      "domain": "mycelium-staging.website.staging.corp.mongodb.com",
+      "path": "/",
+      "expires": 1739957307,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_gd_visitor",
+      "value": "71ecb446-c7db-4d40-8b37-f739aff1b603",
+      "domain": "mycelium-staging.website.staging.corp.mongodb.com",
+      "path": "/",
+      "expires": 1773912507,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_gd_session",
+      "value": "961bcb57-9b0c-4c48-8b3a-02011f63227b",
+      "domain": "mycelium-staging.website.staging.corp.mongodb.com",
+      "path": "/",
+      "expires": 1739366907,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "__selectedPageLocale",
+      "value": "fr-fr",
+      "domain": "mycelium-staging.website.staging.corp.mongodb.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "None"
+    },
+    {
+      "name": "ajs_anonymous_id",
+      "value": "762ec36e-9a06-4069-83fa-d1239448d2cf",
+      "domain": ".mongodb.com",
+      "path": "/",
+      "expires": 1770888508,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_gcl_au",
+      "value": "1.1.1451854208.1739352509",
+      "domain": ".mongodb.com",
+      "path": "/",
+      "expires": 1747128508,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "None"
+    },
+    {
+      "name": "_rdt_uuid",
+      "value": "1739352508889.ad751d86-2225-41f7-a1ff-c59c101ce8a0",
+      "domain": ".mongodb.com",
+      "path": "/",
+      "expires": 1747128508,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Strict"
+    },
+    {
+      "name": "optimizelyEndUserId",
+      "value": "oeu1739339827905r0.10646682559681309",
+      "domain": ".mongodb.com",
+      "path": "/",
+      "expires": 1754904509,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "None"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://mycelium-staging.website.staging.corp.mongodb.com",
+      "localStorage": [
+        {
+          "name": "cheq_result_threatGroup",
+          "value": "bots"
+        },
+        {
+          "name": "persisted-queue:v1:zdL7lyiQr3JOncGgduhw4sdFvv68N3q6:dest-Google Tag Manager:seen",
+          "value": "{\"2ec36e9a-0630-4983-bad1-239448d2cf0b\":1,\"6e9a0630-6983-4ad1-a394-48d2cf0b15da\":1}"
+        },
+        {
+          "name": "optimizely_data$$oeu1739339827905r0.10646682559681309$$15508090763$$variation_map",
+          "value": "{\"4681727700893696\":{\"6716571905687552\":\"5585339134246912\"},\"6689293872136192\":{\"6443102320197632\":\"5571274961846272\"},\"4961086676402176\":{\"6055365104631808\":\"5492415151210496\"}}"
+        },
+        {
+          "name": "cheq_result_threatType",
+          "value": "Automation tool"
+        },
+        {
+          "name": "timestamp",
+          "value": "Wed Feb 12 2025 09:57:07 GMT+0400 (Georgia Standard Time)"
+        },
+        {
+          "name": "optimizely_data$$oeu1739339827905r0.10646682559681309$$15508090763$$layer_states",
+          "value": "[{\"layerId\":\"4681727700893696\",\"revision\":\"26546\",\"decisionTicket\":{\"bucketingId\":\"oeu1739339827905r0.10646682559681309\",\"globalHoldback\":0,\"preferredVariationMap\":{\"6716571905687552\":\"5585339134246912\"},\"audienceIds\":[\"15840300216\"],\"activationId\":\"1739352503351\"},\"decision\":{\"layerId\":\"4681727700893696\",\"experimentId\":\"6716571905687552\",\"variationId\":\"5585339134246912\",\"isLayerHoldback\":false},\"decisionActivationId\":\"1739352503351\",\"decisionTimestamp\":1739352503438,\"decisionEventId\":\"d2991cae-d5d1-474a-be47-6e39b4a9c3c6\"},{\"layerId\":\"4961086676402176\",\"revision\":\"26546\",\"decisionTicket\":{\"bucketingId\":\"oeu1739339827905r0.10646682559681309\",\"globalHoldback\":0,\"audienceIds\":[\"22203481616\"],\"activationId\":\"1739352503351\"},\"decision\":{\"layerId\":\"4961086676402176\",\"experimentId\":\"6055365104631808\",\"variationId\":\"5492415151210496\",\"isLayerHoldback\":false},\"decisionActivationId\":\"1739352503351\",\"decisionTimestamp\":1739352503439,\"decisionEventId\":\"7d2a3414-d864-4697-911c-da0d4e52b3b4\"},{\"layerId\":\"6532092129968128\",\"revision\":\"26546\",\"decisionTicket\":{\"bucketingId\":\"oeu1739339827905r0.10646682559681309\",\"globalHoldback\":0,\"audienceIds\":[],\"activationId\":\"1739352503351\"},\"decision\":{\"layerId\":\"6532092129968128\",\"experimentId\":null,\"variationId\":null,\"isLayerHoldback\":false,\"reason\":\"Audience conditions failed for experiment: \\\"6729749075066880\\\".\"},\"decisionActivationId\":\"1739352503351\",\"decisionTimestamp\":1739352503458,\"decisionEventId\":\"30218e6a-b0b0-4b97-8d2c-160ab84db0a2\"},{\"layerId\":\"6689293872136192\",\"revision\":\"26546\",\"decisionTicket\":{\"bucketingId\":\"oeu1739339827905r0.10646682559681309\",\"globalHoldback\":0,\"preferredVariationMap\":{\"6443102320197632\":\"5571274961846272\"},\"audienceIds\":[],\"activationId\":\"1739352503351\"},\"decision\":{\"layerId\":\"6689293872136192\",\"experimentId\":null,\"variationId\":null,\"isLayerHoldback\":false,\"reason\":\"Audience conditions failed for experiment: \\\"6443102320197632\\\".\"},\"decisionActivationId\":\"1739352503351\",\"decisionTimestamp\":1739352503459,\"decisionEventId\":\"2021a669-6419-4013-a920-630419d94a85\"}]"
+        },
+        {
+          "name": "LCP",
+          "value": "{\"webvitals_LCP_value\":5344,\"webvitals_LCP_rating\":\"poor\",\"webvitals_LCP_description\":\"Largest Contentful Paint\"}"
+        },
+        {
+          "name": "ajs_anonymous_id",
+          "value": "\"762ec36e-9a06-4069-83fa-d1239448d2cf\""
+        },
+        {
+          "name": "optimizely_data$$oeu1739339827905r0.10646682559681309$$15508090763$$event_queue",
+          "value": "[]"
+        },
+        {
+          "name": "_cq_p_tt",
+          "value": "Automation tool"
+        },
+        {
+          "name": "visitorType",
+          "value": "returning"
+        },
+        {
+          "name": "_cq_p_tg",
+          "value": "bots"
+        },
+        {
+          "name": "TTFB",
+          "value": "{\"webvitals_TTFB_value\":735,\"webvitals_TTFB_rating\":\"good\",\"webvitals_TTFB_description\":\"Time to First Byte\"}"
+        },
+        {
+          "name": "optimizely_data$$oeu1739339827905r0.10646682559681309$$15508090763$$tracker_optimizely",
+          "value": "{\"data\":{\"account_id\":\"15508090763\",\"anonymize_ip\":true,\"client_name\":\"js\",\"client_version\":\"0.218.0\",\"project_id\":\"15508090763\",\"visitors\":[{\"session_id\":\"AUTO\",\"visitor_id\":\"oeu1739339827905r0.10646682559681309\",\"attributes\":[{\"entity_id\":null,\"key\":\"\",\"type\":\"browserId\",\"value\":\"unknown\"},{\"entity_id\":\"17758030872\",\"key\":\"cxl_new_vs_returning\",\"type\":\"custom\",\"value\":\"returning\"},{\"entity_id\":\"20872960689\",\"key\":\"user_country\",\"type\":\"custom\",\"value\":\"DE\"},{\"entity_id\":null,\"key\":\"\",\"type\":\"device\",\"value\":\"desktop\"},{\"entity_id\":null,\"key\":\"\",\"type\":\"device_type\",\"value\":\"desktop_laptop\"},{\"entity_id\":null,\"key\":\"\",\"type\":\"source_type\",\"value\":\"direct\"}],\"snapshots\":[{\"decisions\":[{\"campaign_id\":\"4681727700893696\",\"experiment_id\":\"6716571905687552\",\"variation_id\":\"5585339134246912\",\"is_campaign_holdback\":false,\"metadata\":{}},{\"campaign_id\":\"4961086676402176\",\"experiment_id\":\"6055365104631808\",\"variation_id\":\"5492415151210496\",\"is_campaign_holdback\":false,\"metadata\":{}},{\"campaign_id\":\"6532092129968128\",\"experiment_id\":null,\"variation_id\":null,\"is_campaign_holdback\":false,\"metadata\":{}},{\"campaign_id\":\"6689293872136192\",\"experiment_id\":null,\"variation_id\":null,\"is_campaign_holdback\":false,\"metadata\":{}}],\"events\":[{\"entity_id\":null,\"type\":\"client_activation\",\"uuid\":\"ebd5789f-cf97-4c84-8beb-1d3faaa599ee\",\"timestamp\":1739352509656}]}]}],\"revision\":\"26546\",\"enrich_decisions\":true},\"decisions\":[{\"campaign_id\":\"4681727700893696\",\"experiment_id\":\"6716571905687552\",\"variation_id\":\"5585339134246912\",\"is_campaign_holdback\":false,\"metadata\":{}},{\"campaign_id\":\"4961086676402176\",\"experiment_id\":\"6055365104631808\",\"variation_id\":\"5492415151210496\",\"is_campaign_holdback\":false,\"metadata\":{}},{\"campaign_id\":\"6532092129968128\",\"experiment_id\":null,\"variation_id\":null,\"is_campaign_holdback\":false,\"metadata\":{}},{\"campaign_id\":\"6689293872136192\",\"experiment_id\":null,\"variation_id\":null,\"is_campaign_holdback\":false,\"metadata\":{}}],\"decisionEvents\":[],\"previousBatches\":[]}"
+        },
+        {
+          "name": "persisted-queue:v1:zdL7lyiQr3JOncGgduhw4sdFvv68N3q6:dest-Google Tag Manager:items",
+          "value": "[{\"id\":\"2ec36e9a-0630-4983-bad1-239448d2cf0b\",\"event\":{\"timestamp\":\"2025-02-12T09:28:28.588Z\",\"integrations\":{\"Google Analytics 4\":{},\"Google Analytics 4 Web\":{\"clientId\":null},\"Gtag\":true,\"Segment.io\":true,\"Marketo V2\":true,\"Pathfactory\":true,\"SixSense\":true,\"Madkudu\":true,\"Clearbit\":true,\"InsideView\":true,\"ZoomInfo\":true,\"Kickbox\":true,\"Crunchbase\":true,\"Intricately\":true,\"Scalestack\":true,\"Amplitude\":true,\"Actions Amplitude\":true,\"Facebook Pixel Server Side\":true,\"Facebook Pixel\":true,\"Google Ads\":true,\"Google AdWords New\":true,\"LinkedIn Insight Tag\":true,\"Twitter Ads\":true,\"Bing Ads\":true},\"event\":\"Internal Click\",\"type\":\"track\",\"properties\":{\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0\",\"url\":\"https://mycelium-staging.website.staging.corp.mongodb.com/\",\"adblock_enabled\":\"false\",\"optanonConsent\":{\"0\":\"Strictly Necessary Cookies\",\"1\":\"Performance Cookies\",\"2\":\"Functional Cookies\",\"3\":\"Targeting Cookies\",\"4\":\"Social Media Cookies\"},\"optimizelyVisitorId\":\"oeu1739339827905r0.10646682559681309\",\"landing_page\":\"https://mycelium-staging.website.staging.corp.mongodb.com/\",\"sessionId\":\"seid-1739352507285-e1452aad1a9db862d64e5f2825f8\",\"optimizelyEndUserId\":\"oeu1739339827905r0.10646682559681309\",\"webdriver\":\"true\",\"platform\":\"Win32\",\"deviceMemory\":\"The deviceMemory API is not supported on this browser.\",\"doNotTrack\":\"unspecified\",\"visibilityState\":\"visible\",\"innerHeight\":\"900\",\"innerWidth\":\"1440\",\"screenResolution\":\"1440 x 900\",\"outerWidth\":\"1440\",\"outerHeight\":\"900\",\"cheqID\":\"1.1739352507.VvOJgcHuLob1DiNY\",\"cheqTG\":\"bots\",\"cheqTT\":\"Automation tool\",\"category\":\"navigation footer\",\"title\":\"Locale Selector Open\",\"action\":\"internal_click\",\"label\":\"internal_click\"},\"context\":{\"integrations\":{\"Google Analytics 4\":{},\"Google Analytics 4 Web\":{\"clientId\":null},\"Gtag\":true,\"Segment.io\":true,\"Marketo V2\":true,\"Pathfactory\":true,\"SixSense\":true,\"Madkudu\":true,\"Clearbit\":true,\"InsideView\":true,\"ZoomInfo\":true,\"Kickbox\":true,\"Crunchbase\":true,\"Intricately\":true,\"Scalestack\":true,\"Amplitude\":true,\"Actions Amplitude\":true,\"Facebook Pixel Server Side\":true,\"Facebook Pixel\":true,\"Google Ads\":true,\"Google AdWords New\":true,\"LinkedIn Insight Tag\":true,\"Twitter Ads\":true,\"Bing Ads\":true},\"traits\":{\"userId\":null,\"anonymousId\":null,\"optanonConsent\":[\"Strictly Necessary Cookies\",\"Performance Cookies\",\"Functional Cookies\",\"Targeting Cookies\",\"Social Media Cookies\"],\"optimizelyVisitorId\":\"oeu1739339827905r0.10646682559681309\",\"clientId\":null,\"marketoId\":null},\"framework\":\"pathway-debug\",\"page\":{\"path\":\"/\",\"referrer\":\"\",\"search\":\"\",\"title\":\"MongoDB: The Developer Data Platform | MongoDB\",\"url\":\"https://www.mongodb.com\"},\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0\",\"locale\":\"Français\",\"library\":{\"name\":\"analytics.js\",\"version\":\"next-1.77.0\"},\"timezone\":\"Asia/Tbilisi\"},\"messageId\":\"ajs-next-1739352508588-87762ec3-6e9a-4630-a983-fad1239448d2\",\"anonymousId\":\"762ec36e-9a06-4069-83fa-d1239448d2cf\"},\"logs\":[{\"level\":\"debug\",\"message\":\"Dispatching\",\"time\":\"2025-02-12T09:28:28.591Z\"},{\"level\":\"debug\",\"message\":\"plugin\",\"time\":\"2025-02-12T09:28:28.591Z\",\"extras\":{\"plugin\":\"Page Enrichment\"}},{\"level\":\"debug\",\"message\":\"plugin\",\"time\":\"2025-02-12T09:28:28.606Z\",\"extras\":{\"plugin\":\"Schema Filter\"}},{\"level\":\"debug\",\"message\":\"plugin\",\"time\":\"2025-02-12T09:28:28.616Z\",\"extras\":{\"plugin\":\"Google Tag Manager\"}},{\"level\":\"debug\",\"message\":\"plugin\",\"time\":\"2025-02-12T09:28:28.616Z\",\"extras\":{\"plugin\":\"Segment.io\"}},{\"level\":\"debug\",\"message\":\"Delivered\",\"time\":\"2025-02-12T09:28:29.058Z\",\"extras\":{\"timestamp\":\"2025-02-12T09:28:28.588Z\",\"integrations\":{\"Google Analytics 4\":{},\"Google Analytics 4 Web\":{\"clientId\":null},\"Gtag\":true,\"Segment.io\":true,\"Marketo V2\":true,\"Pathfactory\":true,\"SixSense\":true,\"Madkudu\":true,\"Clearbit\":true,\"InsideView\":true,\"ZoomInfo\":true,\"Kickbox\":true,\"Crunchbase\":true,\"Intricately\":true,\"Scalestack\":true,\"Amplitude\":true,\"Actions Amplitude\":true,\"Facebook Pixel Server Side\":true,\"Facebook Pixel\":true,\"Google Ads\":true,\"Google AdWords New\":true,\"LinkedIn Insight Tag\":true,\"Twitter Ads\":true,\"Bing Ads\":true},\"event\":\"Internal Click\",\"type\":\"track\",\"properties\":{\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0\",\"url\":\"https://mycelium-staging.website.staging.corp.mongodb.com/\",\"adblock_enabled\":\"false\",\"optanonConsent\":{\"0\":\"Strictly Necessary Cookies\",\"1\":\"Performance Cookies\",\"2\":\"Functional Cookies\",\"3\":\"Targeting Cookies\",\"4\":\"Social Media Cookies\"},\"optimizelyVisitorId\":\"oeu1739339827905r0.10646682559681309\",\"landing_page\":\"https://mycelium-staging.website.staging.corp.mongodb.com/\",\"sessionId\":\"seid-1739352507285-e1452aad1a9db862d64e5f2825f8\",\"optimizelyEndUserId\":\"oeu1739339827905r0.10646682559681309\",\"webdriver\":\"true\",\"platform\":\"Win32\",\"deviceMemory\":\"The deviceMemory API is not supported on this browser.\",\"doNotTrack\":\"unspecified\",\"visibilityState\":\"visible\",\"innerHeight\":\"900\",\"innerWidth\":\"1440\",\"screenResolution\":\"1440 x 900\",\"outerWidth\":\"1440\",\"outerHeight\":\"900\",\"cheqID\":\"1.1739352507.VvOJgcHuLob1DiNY\",\"cheqTG\":\"bots\",\"cheqTT\":\"Automation tool\",\"category\":\"navigation footer\",\"title\":\"Locale Selector Open\",\"action\":\"internal_click\",\"label\":\"internal_click\"},\"context\":{\"integrations\":{\"Google Analytics 4\":{},\"Google Analytics 4 Web\":{\"clientId\":null},\"Gtag\":true,\"Segment.io\":true,\"Marketo V2\":true,\"Pathfactory\":true,\"SixSense\":true,\"Madkudu\":true,\"Clearbit\":true,\"InsideView\":true,\"ZoomInfo\":true,\"Kickbox\":true,\"Crunchbase\":true,\"Intricately\":true,\"Scalestack\":true,\"Amplitude\":true,\"Actions Amplitude\":true,\"Facebook Pixel Server Side\":true,\"Facebook Pixel\":true,\"Google Ads\":true,\"Google AdWords New\":true,\"LinkedIn Insight Tag\":true,\"Twitter Ads\":true,\"Bing Ads\":true},\"traits\":{\"userId\":null,\"anonymousId\":null,\"optanonConsent\":[\"Strictly Necessary Cookies\",\"Performance Cookies\",\"Functional Cookies\",\"Targeting Cookies\",\"Social Media Cookies\"],\"optimizelyVisitorId\":\"oeu1739339827905r0.10646682559681309\",\"clientId\":null,\"marketoId\":null},\"framework\":\"pathway-debug\",\"page\":{\"path\":\"/\",\"referrer\":\"\",\"search\":\"\",\"title\":\"MongoDB: The Developer Data Platform | MongoDB\",\"url\":\"https://www.mongodb.com\"},\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0\",\"locale\":\"Français\",\"library\":{\"name\":\"analytics.js\",\"version\":\"next-1.77.0\"},\"timezone\":\"Asia/Tbilisi\"},\"messageId\":\"ajs-next-1739352508588-87762ec3-6e9a-4630-a983-fad1239448d2\",\"anonymousId\":\"762ec36e-9a06-4069-83fa-d1239448d2cf\"}}],\"metrics\":[{\"metric\":\"analytics_js.invoke\",\"value\":1,\"tags\":[\"track\"],\"type\":\"counter\",\"timestamp\":1739352508590},{\"metric\":\"message_dispatched\",\"value\":1,\"tags\":[],\"type\":\"counter\",\"timestamp\":1739352508591},{\"metric\":\"plugin_time\",\"value\":15,\"tags\":[\"plugin:Page Enrichment\"],\"type\":\"gauge\",\"timestamp\":1739352508606},{\"metric\":\"plugin_time\",\"value\":1,\"tags\":[\"plugin:Schema Filter\"],\"type\":\"gauge\",\"timestamp\":1739352508607},{\"metric\":\"plugin_time\",\"value\":2,\"tags\":[\"plugin:Google Tag Manager\"],\"type\":\"gauge\",\"timestamp\":1739352508618},{\"metric\":\"plugin_time\",\"value\":442,\"tags\":[\"plugin:Segment.io\"],\"type\":\"gauge\",\"timestamp\":1739352509058},{\"metric\":\"message_delivered\",\"value\":1,\"tags\":[],\"type\":\"counter\",\"timestamp\":1739352509058},{\"metric\":\"delivered\",\"value\":467,\"tags\":[],\"type\":\"gauge\",\"timestamp\":1739352509058}]},{\"id\":\"6e9a0630-6983-4ad1-a394-48d2cf0b15da\",\"event\":{\"timestamp\":\"2025-02-12T09:28:28.615Z\",\"integrations\":{\"Google Analytics 4\":{},\"Google Analytics 4 Web\":{\"clientId\":null},\"Gtag\":true,\"Segment.io\":true,\"Marketo V2\":true,\"Pathfactory\":true,\"SixSense\":true,\"Madkudu\":true,\"Clearbit\":true,\"InsideView\":true,\"ZoomInfo\":true,\"Kickbox\":true,\"Crunchbase\":true,\"Intricately\":true,\"Scalestack\":true,\"Amplitude\":true,\"Actions Amplitude\":true,\"Facebook Pixel Server Side\":true,\"Facebook Pixel\":true,\"Google Ads\":true,\"Google AdWords New\":true,\"LinkedIn Insight Tag\":true,\"Twitter Ads\":true,\"Bing Ads\":true},\"event\":\"Internal Click\",\"type\":\"track\",\"properties\":{\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0\",\"url\":\"https://mycelium-staging.website.staging.corp.mongodb.com/\",\"adblock_enabled\":\"false\",\"optanonConsent\":{\"0\":\"Strictly Necessary Cookies\",\"1\":\"Performance Cookies\",\"2\":\"Functional Cookies\",\"3\":\"Targeting Cookies\",\"4\":\"Social Media Cookies\"},\"optimizelyVisitorId\":\"oeu1739339827905r0.10646682559681309\",\"landing_page\":\"https://mycelium-staging.website.staging.corp.mongodb.com/\",\"sessionId\":\"seid-1739352507285-e1452aad1a9db862d64e5f2825f8\",\"optimizelyEndUserId\":\"oeu1739339827905r0.10646682559681309\",\"webdriver\":\"true\",\"platform\":\"Win32\",\"deviceMemory\":\"The deviceMemory API is not supported on this browser.\",\"doNotTrack\":\"unspecified\",\"visibilityState\":\"visible\",\"innerHeight\":\"900\",\"innerWidth\":\"1440\",\"screenResolution\":\"1440 x 900\",\"outerWidth\":\"1440\",\"outerHeight\":\"900\",\"cheqID\":\"1.1739352507.VvOJgcHuLob1DiNY\",\"cheqTG\":\"bots\",\"cheqTT\":\"Automation tool\",\"category\":\"navigation footer\",\"title\":\"Locale Selector Selected\",\"locale\":\"Français\",\"action\":\"internal_click\",\"label\":\"internal_click\"},\"context\":{\"integrations\":{\"Google Analytics 4\":{},\"Google Analytics 4 Web\":{\"clientId\":null},\"Gtag\":true,\"Segment.io\":true,\"Marketo V2\":true,\"Pathfactory\":true,\"SixSense\":true,\"Madkudu\":true,\"Clearbit\":true,\"InsideView\":true,\"ZoomInfo\":true,\"Kickbox\":true,\"Crunchbase\":true,\"Intricately\":true,\"Scalestack\":true,\"Amplitude\":true,\"Actions Amplitude\":true,\"Facebook Pixel Server Side\":true,\"Facebook Pixel\":true,\"Google Ads\":true,\"Google AdWords New\":true,\"LinkedIn Insight Tag\":true,\"Twitter Ads\":true,\"Bing Ads\":true},\"traits\":{\"userId\":null,\"anonymousId\":null,\"optanonConsent\":[\"Strictly Necessary Cookies\",\"Performance Cookies\",\"Functional Cookies\",\"Targeting Cookies\",\"Social Media Cookies\"],\"optimizelyVisitorId\":\"oeu1739339827905r0.10646682559681309\",\"clientId\":null,\"marketoId\":null},\"framework\":\"pathway-debug\",\"page\":{\"path\":\"/\",\"referrer\":\"\",\"search\":\"\",\"title\":\"MongoDB: The Developer Data Platform | MongoDB\",\"url\":\"https://www.mongodb.com\"},\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0\",\"locale\":\"Français\",\"library\":{\"name\":\"analytics.js\",\"version\":\"next-1.77.0\"},\"timezone\":\"Asia/Tbilisi\"},\"messageId\":\"ajs-next-1739352508615-c36e9a06-3069-43fa-9123-9448d2cf0b15\",\"anonymousId\":\"762ec36e-9a06-4069-83fa-d1239448d2cf\"},\"logs\":[{\"level\":\"debug\",\"message\":\"Dispatching\",\"time\":\"2025-02-12T09:28:28.615Z\"},{\"level\":\"debug\",\"message\":\"plugin\",\"time\":\"2025-02-12T09:28:28.615Z\",\"extras\":{\"plugin\":\"Page Enrichment\"}},{\"level\":\"debug\",\"message\":\"plugin\",\"time\":\"2025-02-12T09:28:28.616Z\",\"extras\":{\"plugin\":\"Schema Filter\"}},{\"level\":\"debug\",\"message\":\"plugin\",\"time\":\"2025-02-12T09:28:28.618Z\",\"extras\":{\"plugin\":\"Google Tag Manager\"}},{\"level\":\"debug\",\"message\":\"plugin\",\"time\":\"2025-02-12T09:28:28.618Z\",\"extras\":{\"plugin\":\"Segment.io\"}},{\"level\":\"debug\",\"message\":\"Delivered\",\"time\":\"2025-02-12T09:28:29.054Z\",\"extras\":{\"timestamp\":\"2025-02-12T09:28:28.615Z\",\"integrations\":{\"Google Analytics 4\":{},\"Google Analytics 4 Web\":{\"clientId\":null},\"Gtag\":true,\"Segment.io\":true,\"Marketo V2\":true,\"Pathfactory\":true,\"SixSense\":true,\"Madkudu\":true,\"Clearbit\":true,\"InsideView\":true,\"ZoomInfo\":true,\"Kickbox\":true,\"Crunchbase\":true,\"Intricately\":true,\"Scalestack\":true,\"Amplitude\":true,\"Actions Amplitude\":true,\"Facebook Pixel Server Side\":true,\"Facebook Pixel\":true,\"Google Ads\":true,\"Google AdWords New\":true,\"LinkedIn Insight Tag\":true,\"Twitter Ads\":true,\"Bing Ads\":true},\"event\":\"Internal Click\",\"type\":\"track\",\"properties\":{\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0\",\"url\":\"https://mycelium-staging.website.staging.corp.mongodb.com/\",\"adblock_enabled\":\"false\",\"optanonConsent\":{\"0\":\"Strictly Necessary Cookies\",\"1\":\"Performance Cookies\",\"2\":\"Functional Cookies\",\"3\":\"Targeting Cookies\",\"4\":\"Social Media Cookies\"},\"optimizelyVisitorId\":\"oeu1739339827905r0.10646682559681309\",\"landing_page\":\"https://mycelium-staging.website.staging.corp.mongodb.com/\",\"sessionId\":\"seid-1739352507285-e1452aad1a9db862d64e5f2825f8\",\"optimizelyEndUserId\":\"oeu1739339827905r0.10646682559681309\",\"webdriver\":\"true\",\"platform\":\"Win32\",\"deviceMemory\":\"The deviceMemory API is not supported on this browser.\",\"doNotTrack\":\"unspecified\",\"visibilityState\":\"visible\",\"innerHeight\":\"900\",\"innerWidth\":\"1440\",\"screenResolution\":\"1440 x 900\",\"outerWidth\":\"1440\",\"outerHeight\":\"900\",\"cheqID\":\"1.1739352507.VvOJgcHuLob1DiNY\",\"cheqTG\":\"bots\",\"cheqTT\":\"Automation tool\",\"category\":\"navigation footer\",\"title\":\"Locale Selector Selected\",\"locale\":\"Français\",\"action\":\"internal_click\",\"label\":\"internal_click\"},\"context\":{\"integrations\":{\"Google Analytics 4\":{},\"Google Analytics 4 Web\":{\"clientId\":null},\"Gtag\":true,\"Segment.io\":true,\"Marketo V2\":true,\"Pathfactory\":true,\"SixSense\":true,\"Madkudu\":true,\"Clearbit\":true,\"InsideView\":true,\"ZoomInfo\":true,\"Kickbox\":true,\"Crunchbase\":true,\"Intricately\":true,\"Scalestack\":true,\"Amplitude\":true,\"Actions Amplitude\":true,\"Facebook Pixel Server Side\":true,\"Facebook Pixel\":true,\"Google Ads\":true,\"Google AdWords New\":true,\"LinkedIn Insight Tag\":true,\"Twitter Ads\":true,\"Bing Ads\":true},\"traits\":{\"userId\":null,\"anonymousId\":null,\"optanonConsent\":[\"Strictly Necessary Cookies\",\"Performance Cookies\",\"Functional Cookies\",\"Targeting Cookies\",\"Social Media Cookies\"],\"optimizelyVisitorId\":\"oeu1739339827905r0.10646682559681309\",\"clientId\":null,\"marketoId\":null},\"framework\":\"pathway-debug\",\"page\":{\"path\":\"/\",\"referrer\":\"\",\"search\":\"\",\"title\":\"MongoDB: The Developer Data Platform | MongoDB\",\"url\":\"https://www.mongodb.com\"},\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0\",\"locale\":\"Français\",\"library\":{\"name\":\"analytics.js\",\"version\":\"next-1.77.0\"},\"timezone\":\"Asia/Tbilisi\"},\"messageId\":\"ajs-next-1739352508615-c36e9a06-3069-43fa-9123-9448d2cf0b15\",\"anonymousId\":\"762ec36e-9a06-4069-83fa-d1239448d2cf\"}}],\"metrics\":[{\"metric\":\"analytics_js.invoke\",\"value\":1,\"tags\":[\"track\"],\"type\":\"counter\",\"timestamp\":1739352508615},{\"metric\":\"message_dispatched\",\"value\":1,\"tags\":[],\"type\":\"counter\",\"timestamp\":1739352508615},{\"metric\":\"plugin_time\",\"value\":1,\"tags\":[\"plugin:Page Enrichment\"],\"type\":\"gauge\",\"timestamp\":1739352508616},{\"metric\":\"plugin_time\",\"value\":0,\"tags\":[\"plugin:Schema Filter\"],\"type\":\"gauge\",\"timestamp\":1739352508616},{\"metric\":\"plugin_time\",\"value\":2,\"tags\":[\"plugin:Google Tag Manager\"],\"type\":\"gauge\",\"timestamp\":1739352508620},{\"metric\":\"plugin_time\",\"value\":436,\"tags\":[\"plugin:Segment.io\"],\"type\":\"gauge\",\"timestamp\":1739352509054},{\"metric\":\"message_delivered\",\"value\":1,\"tags\":[],\"type\":\"counter\",\"timestamp\":1739352509054},{\"metric\":\"delivered\",\"value\":439,\"tags\":[],\"type\":\"gauge\",\"timestamp\":1739352509054}]}]"
+        },
+        {
+          "name": "FCP",
+          "value": "{\"webvitals_FCP_value\":1491,\"webvitals_FCP_rating\":\"good\",\"webvitals_FCP_description\":\"First Contentful Paint\"}"
+        },
+        {
+          "name": "persisted-queue:v1:zdL7lyiQr3JOncGgduhw4sdFvv68N3q6:dest-Segment.io:seen",
+          "value": "{\"06306983-fad1-4394-88d2-cf0b15da1a81\":1}"
+        },
+        {
+          "name": "persisted-queue:v1:zdL7lyiQr3JOncGgduhw4sdFvv68N3q6:dest-Segment.io:items",
+          "value": "[{\"id\":\"06306983-fad1-4394-88d2-cf0b15da1a81\",\"event\":{\"timestamp\":\"2025-02-12T09:28:28.783Z\",\"integrations\":{\"Google Analytics 4\":{},\"Google Analytics 4 Web\":{\"clientId\":null},\"Gtag\":true,\"Segment.io\":true,\"Marketo V2\":true,\"Pathfactory\":true,\"SixSense\":true,\"Madkudu\":true,\"Clearbit\":true,\"InsideView\":true,\"ZoomInfo\":true,\"Kickbox\":true,\"Crunchbase\":true,\"Intricately\":true,\"Scalestack\":true,\"Amplitude\":true,\"Actions Amplitude\":true,\"Facebook Pixel Server Side\":true,\"Facebook Pixel\":true,\"Google Ads\":true,\"Google AdWords New\":true,\"LinkedIn Insight Tag\":true,\"Twitter Ads\":true,\"Bing Ads\":true},\"type\":\"page\",\"properties\":{\"path\":\"/\",\"referrer\":\"\",\"search\":\"\",\"title\":\"MongoDB: The Developer Data Platform | MongoDB\",\"url\":\"https://mycelium-staging.website.staging.corp.mongodb.com/\",\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0\",\"adblock_enabled\":\"false\",\"optanonConsent\":{\"0\":\"Strictly Necessary Cookies\",\"1\":\"Performance Cookies\",\"2\":\"Functional Cookies\",\"3\":\"Targeting Cookies\",\"4\":\"Social Media Cookies\"},\"optimizelyVisitorId\":\"oeu1739339827905r0.10646682559681309\",\"landing_page\":\"https://mycelium-staging.website.staging.corp.mongodb.com/\",\"sessionId\":\"seid-1739352507285-e1452aad1a9db862d64e5f2825f8\",\"optimizelyEndUserId\":\"oeu1739339827905r0.10646682559681309\",\"webdriver\":\"true\",\"platform\":\"Win32\",\"deviceMemory\":\"The deviceMemory API is not supported on this browser.\",\"doNotTrack\":\"unspecified\",\"visibilityState\":\"visible\",\"innerHeight\":\"900\",\"innerWidth\":\"1440\",\"screenResolution\":\"1440 x 900\",\"outerWidth\":\"1440\",\"outerHeight\":\"900\",\"cheqID\":\"1.1739352507.VvOJgcHuLob1DiNY\",\"cheqTG\":\"bots\",\"cheqTT\":\"Automation tool\",\"flora_page_type\":\"legacy\",\"webvitals_FCP_value\":1659,\"webvitals_FCP_rating\":\"good\",\"webvitals_FCP_description\":\"First Contentful Paint\",\"webvitals_LCP_value\":5344,\"webvitals_LCP_rating\":\"poor\",\"webvitals_LCP_description\":\"Largest Contentful Paint\",\"webvitals_TTFB_value\":735,\"webvitals_TTFB_rating\":\"good\",\"webvitals_TTFB_description\":\"Time to First Byte\",\"name\":\"MongoDB: The Developer Data Platform | MongoDB\"},\"name\":\"MongoDB: The Developer Data Platform | MongoDB\",\"context\":{\"integrations\":{\"Google Analytics 4\":{},\"Google Analytics 4 Web\":{\"clientId\":null},\"Gtag\":true,\"Segment.io\":true,\"Marketo V2\":true,\"Pathfactory\":true,\"SixSense\":true,\"Madkudu\":true,\"Clearbit\":true,\"InsideView\":true,\"ZoomInfo\":true,\"Kickbox\":true,\"Crunchbase\":true,\"Intricately\":true,\"Scalestack\":true,\"Amplitude\":true,\"Actions Amplitude\":true,\"Facebook Pixel Server Side\":true,\"Facebook Pixel\":true,\"Google Ads\":true,\"Google AdWords New\":true,\"LinkedIn Insight Tag\":true,\"Twitter Ads\":true,\"Bing Ads\":true},\"traits\":{\"userId\":null,\"anonymousId\":null,\"optanonConsent\":[\"Strictly Necessary Cookies\",\"Performance Cookies\",\"Functional Cookies\",\"Targeting Cookies\",\"Social Media Cookies\"],\"optimizelyVisitorId\":\"oeu1739339827905r0.10646682559681309\",\"clientId\":null,\"marketoId\":null},\"framework\":\"pathway-debug\",\"page\":{\"path\":\"/\",\"referrer\":\"\",\"search\":\"\",\"title\":\"MongoDB: The Developer Data Platform | MongoDB\",\"url\":\"https://mycelium-staging.website.staging.corp.mongodb.com/\"},\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0\",\"locale\":\"Français\",\"library\":{\"name\":\"analytics.js\",\"version\":\"next-1.77.0\"},\"timezone\":\"Asia/Tbilisi\"},\"messageId\":\"ajs-next-1739352508783-9a063069-83fa-4123-9448-d2cf0b15da1a\",\"anonymousId\":\"762ec36e-9a06-4069-83fa-d1239448d2cf\"},\"logs\":[{\"level\":\"debug\",\"message\":\"Dispatching\",\"time\":\"2025-02-12T09:28:28.784Z\"},{\"level\":\"debug\",\"message\":\"plugin\",\"time\":\"2025-02-12T09:28:28.786Z\",\"extras\":{\"plugin\":\"Page Enrichment\"}},{\"level\":\"debug\",\"message\":\"plugin\",\"time\":\"2025-02-12T09:28:28.787Z\",\"extras\":{\"plugin\":\"Schema Filter\"}},{\"level\":\"debug\",\"message\":\"plugin\",\"time\":\"2025-02-12T09:28:28.812Z\",\"extras\":{\"plugin\":\"Google Tag Manager\"}},{\"level\":\"debug\",\"message\":\"plugin\",\"time\":\"2025-02-12T09:28:28.812Z\",\"extras\":{\"plugin\":\"Segment.io\"}}],\"metrics\":[{\"metric\":\"analytics_js.invoke\",\"value\":1,\"tags\":[\"page\"],\"type\":\"counter\",\"timestamp\":1739352508784},{\"metric\":\"message_dispatched\",\"value\":1,\"tags\":[],\"type\":\"counter\",\"timestamp\":1739352508784},{\"metric\":\"plugin_time\",\"value\":1,\"tags\":[\"plugin:Page Enrichment\"],\"type\":\"gauge\",\"timestamp\":1739352508787},{\"metric\":\"plugin_time\",\"value\":0,\"tags\":[\"plugin:Schema Filter\"],\"type\":\"gauge\",\"timestamp\":1739352508787},{\"metric\":\"analytics_js.integration.invoke\",\"value\":1,\"tags\":[\"method:page\",\"integration_name:Google Tag Manager\",\"type:classic\"],\"type\":\"counter\",\"timestamp\":1739352508815},{\"metric\":\"plugin_time\",\"value\":3,\"tags\":[\"plugin:Google Tag Manager\"],\"type\":\"gauge\",\"timestamp\":1739352508815}]}]"
+        },
+        {
+          "name": "optimizely_data$$pending_events",
+          "value": "{}"
+        },
+        {
+          "name": "optimizely_data$$oeu1739339827905r0.10646682559681309$$15508090763$$events",
+          "value": "[{\"eb\":{\"n\":\"pushEvent\",\"y\":\"custom\",\"c\":\"other\"},\"h\":\"323020f1\",\"tb\":1739339828798,\"ts\":[{\"d\":0,\"i\":0},{\"d\":4,\"i\":1},{\"d\":7,\"i\":2},{\"d\":9,\"i\":3},{\"d\":12674669,\"i\":5},{\"d\":12674671,\"i\":6},{\"d\":12674676,\"i\":7},{\"d\":12674677,\"i\":8}]},{\"eb\":{\"n\":\"15508090763_contentstack_homepage_staging\",\"y\":\"pageview\",\"c\":\"other\"},\"h\":\"9404adb6\",\"tb\":1739339829808,\"ts\":[{\"d\":0,\"i\":4},{\"d\":12674665,\"i\":9}]}]"
+        },
+        {
+          "name": "initialLP",
+          "value": "/"
+        },
+        {
+          "name": "optimizely_data$$oeu1739339827905r0.10646682559681309$$15508090763$$visitor_profile",
+          "value": "{\"profile\":{\"custom\":{\"17758030872\":{\"id\":\"17758030872\",\"value\":\"returning\",\"name\":\"cxl_new_vs_returning\"},\"20872960689\":{\"id\":\"20872960689\",\"value\":\"DE\",\"name\":\"user_country\"}},\"visitorId\":\"oeu1739339827905r0.10646682559681309\",\"customBehavior\":{},\"first_session\":false,\"browserId\":\"unknown\",\"browserVersion\":\"134.0\",\"device\":\"desktop\",\"device_type\":\"desktop_laptop\",\"queryParams\":[],\"referrer\":null,\"source_type\":\"direct\",\"location\":{\"city\":\"FRANKFURT AM MAIN\",\"continent\":\"EU\",\"country\":\"DE\",\"region\":\"HE\",\"dma\":\"\"}},\"metadata\":{\"custom\":{\"17758030872\":{\"lastModified\":1739352509640},\"20872960689\":{\"lastModified\":1739352503474}},\"visitorId\":{},\"events\":{},\"customBehavior\":{},\"first_session\":{},\"browserId\":{},\"browserVersion\":{},\"device\":{},\"device_type\":{},\"queryParams\":{},\"referrer\":{},\"source_type\":{},\"location\":{}}}"
+        },
+        {
+          "name": "optimizely_data$$oeu1739339827905r0.10646682559681309$$15508090763$$session_state",
+          "value": "{\"lastSessionTimestamp\":1739352509647,\"sessionId\":\"b6eb0551-66e1-4c41-acc3-22ae1bfd640e\"}"
+        },
+        {
+          "name": "ajs_user_id",
+          "value": "null"
+        },
+        {
+          "name": "optimizely_data$$oeu1739339827905r0.10646682559681309$$15508090763$$contextual_mab",
+          "value": "{}"
+        }
+      ]
+    },
+    {
+      "origin": "https://a15508090763.cdn.optimizely.com",
+      "localStorage": [
+        {
+          "name": "https://mycelium-staging.website.staging.corp.mongodb.com_oeu1739339827905r0.10646682559681309$$15508090763$$tracker_optimizely",
+          "value": "{}"
+        },
+        {
+          "name": "https://mycelium-staging.website.staging.corp.mongodb.com_pending_events",
+          "value": "{\"5bbec70b-e277-4be8-ab4a-3342c3ff071c\":{\"id\":\"5bbec70b-e277-4be8-ab4a-3342c3ff071c\",\"timeStamp\":1739352512406,\"data\":{\"url\":\"https://logx.optimizely.com/v1/events\",\"method\":\"POST\",\"data\":{\"account_id\":\"15508090763\",\"anonymize_ip\":true,\"client_name\":\"js\",\"client_version\":\"0.218.0\",\"enrich_decisions\":true,\"project_id\":\"15508090763\",\"revision\":\"26546\",\"visitors\":[{\"visitor_id\":\"oeu1739339827905r0.10646682559681309\",\"session_id\":\"AUTO\",\"attributes\":[{\"e\":null,\"k\":\"\",\"t\":\"browserId\",\"v\":\"unknown\"},{\"e\":\"17758030872\",\"k\":\"cxl_new_vs_returning\",\"t\":\"custom\",\"v\":\"returning\"},{\"e\":\"20872960689\",\"k\":\"user_country\",\"t\":\"custom\",\"v\":\"DE\"},{\"e\":null,\"k\":\"\",\"t\":\"device\",\"v\":\"desktop\"},{\"e\":null,\"k\":\"\",\"t\":\"device_type\",\"v\":\"desktop_laptop\"},{\"e\":null,\"k\":\"\",\"t\":\"source_type\",\"v\":\"direct\"}],\"snapshots\":[{\"activationTimestamp\":1739352509642,\"decisions\":[{\"c\":\"4681727700893696\",\"x\":\"6716571905687552\",\"v\":\"5585339134246912\",\"h\":false,\"m\":{}},{\"c\":\"4961086676402176\",\"x\":\"6055365104631808\",\"v\":\"5492415151210496\",\"h\":false,\"m\":{}},{\"c\":\"6532092129968128\",\"x\":null,\"v\":null,\"h\":false,\"m\":{}},{\"c\":\"6689293872136192\",\"x\":null,\"v\":null,\"h\":false,\"m\":{}}],\"events\":[{\"e\":null,\"y\":\"client_activation\",\"u\":\"ebd5789f-cf97-4c84-8beb-1d3faaa599ee\",\"t\":1739352509656}]}]}]}},\"retryCount\":0}}"
+        },
+        {
+          "name": "https://mycelium-staging.website.staging.corp.mongodb.com_oeu1739339827905r0.10646682559681309$$15508090763$$contextual_mab",
+          "value": "{}"
+        },
+        {
+          "name": "https://mycelium-staging.website.staging.corp.mongodb.com_oeu1739339827905r0.10646682559681309$$15508090763$$visitor_profile",
+          "value": "{\"profile\":{\"custom\":{\"17758030872\":{\"id\":\"17758030872\",\"value\":\"returning\",\"name\":\"cxl_new_vs_returning\"},\"20872960689\":{\"id\":\"20872960689\",\"value\":\"DE\",\"name\":\"user_country\"}},\"visitorId\":\"oeu1739339827905r0.10646682559681309\",\"customBehavior\":{},\"first_session\":false,\"browserId\":\"unknown\",\"browserVersion\":\"134.0\",\"device\":\"desktop\",\"device_type\":\"desktop_laptop\",\"queryParams\":[],\"referrer\":null,\"source_type\":\"direct\",\"location\":{\"city\":\"FRANKFURT AM MAIN\",\"continent\":\"EU\",\"country\":\"DE\",\"region\":\"HE\",\"dma\":\"\"}},\"metadata\":{\"custom\":{\"17758030872\":{\"lastModified\":1739352509640},\"20872960689\":{\"lastModified\":1739352503474}},\"visitorId\":{},\"events\":{},\"customBehavior\":{},\"first_session\":{},\"browserId\":{},\"browserVersion\":{},\"device\":{},\"device_type\":{},\"queryParams\":{},\"referrer\":{},\"source_type\":{},\"location\":{}}}"
+        },
+        {
+          "name": "https://mycelium-staging.website.staging.corp.mongodb.com_oeu1739339827905r0.10646682559681309$$15508090763$$variation_map",
+          "value": "{\"4681727700893696\":{\"6716571905687552\":\"5585339134246912\"},\"6689293872136192\":{\"6443102320197632\":\"5571274961846272\"},\"4961086676402176\":{\"6055365104631808\":\"5492415151210496\"}}"
+        },
+        {
+          "name": "https://mycelium-staging.website.staging.corp.mongodb.com_oeu1739339827905r0.10646682559681309$$15508090763$$layer_states",
+          "value": "[{\"layerId\":\"4681727700893696\",\"revision\":\"26546\",\"decisionTicket\":{\"bucketingId\":\"oeu1739339827905r0.10646682559681309\",\"globalHoldback\":0,\"preferredVariationMap\":{\"6716571905687552\":\"5585339134246912\"},\"audienceIds\":[\"15840300216\"],\"activationId\":\"1739352503351\"},\"decision\":{\"layerId\":\"4681727700893696\",\"experimentId\":\"6716571905687552\",\"variationId\":\"5585339134246912\",\"isLayerHoldback\":false},\"decisionActivationId\":\"1739352503351\",\"decisionTimestamp\":1739352503438,\"decisionEventId\":\"d2991cae-d5d1-474a-be47-6e39b4a9c3c6\"},{\"layerId\":\"4961086676402176\",\"revision\":\"26546\",\"decisionTicket\":{\"bucketingId\":\"oeu1739339827905r0.10646682559681309\",\"globalHoldback\":0,\"audienceIds\":[\"22203481616\"],\"activationId\":\"1739352503351\"},\"decision\":{\"layerId\":\"4961086676402176\",\"experimentId\":\"6055365104631808\",\"variationId\":\"5492415151210496\",\"isLayerHoldback\":false},\"decisionActivationId\":\"1739352503351\",\"decisionTimestamp\":1739352503439,\"decisionEventId\":\"7d2a3414-d864-4697-911c-da0d4e52b3b4\"},{\"layerId\":\"6532092129968128\",\"revision\":\"26546\",\"decisionTicket\":{\"bucketingId\":\"oeu1739339827905r0.10646682559681309\",\"globalHoldback\":0,\"audienceIds\":[],\"activationId\":\"1739352503351\"},\"decision\":{\"layerId\":\"6532092129968128\",\"experimentId\":null,\"variationId\":null,\"isLayerHoldback\":false,\"reason\":\"Audience conditions failed for experiment: \\\"6729749075066880\\\".\"},\"decisionActivationId\":\"1739352503351\",\"decisionTimestamp\":1739352503458,\"decisionEventId\":\"30218e6a-b0b0-4b97-8d2c-160ab84db0a2\"},{\"layerId\":\"6689293872136192\",\"revision\":\"26546\",\"decisionTicket\":{\"bucketingId\":\"oeu1739339827905r0.10646682559681309\",\"globalHoldback\":0,\"preferredVariationMap\":{\"6443102320197632\":\"5571274961846272\"},\"audienceIds\":[],\"activationId\":\"1739352503351\"},\"decision\":{\"layerId\":\"6689293872136192\",\"experimentId\":null,\"variationId\":null,\"isLayerHoldback\":false,\"reason\":\"Audience conditions failed for experiment: \\\"6443102320197632\\\".\"},\"decisionActivationId\":\"1739352503351\",\"decisionTimestamp\":1739352503459,\"decisionEventId\":\"2021a669-6419-4013-a920-630419d94a85\"}]"
+        },
+        {
+          "name": "https://mycelium-staging.website.staging.corp.mongodb.com_oeu1739339827905r0.10646682559681309$$15508090763$$session_state",
+          "value": "{\"lastSessionTimestamp\":1739352509647,\"sessionId\":\"b6eb0551-66e1-4c41-acc3-22ae1bfd640e\"}"
+        }
+      ]
+    }
+  ]
+}

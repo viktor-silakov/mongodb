@@ -21,8 +21,12 @@
         - link "가격"
     - button "Open Search":
       - img "Search"
-    - button "menu-vertical":
-      - img "menu-vertical"
+    - button "Language Selector Icon 한국어":
+      - img "Language Selector Icon"
+      - img
+    - link "Support"
+    - link "등록"
+    - link "무료 체험판 다운로드"
   - paragraph:
     - mark: Atlas
   - heading "앱 서비스. 데이터 기반 애플리케이션 구축" [level=1]:

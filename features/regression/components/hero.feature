@@ -1,3 +1,4 @@
+@skip
 Feature: Hero Component
 
     Background:

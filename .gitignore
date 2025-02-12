@@ -16,3 +16,4 @@ playwright/.auth
 tests/playwright/.auth
 features/debug.feature
 .env
+blob-report

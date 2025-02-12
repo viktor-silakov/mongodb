@@ -21,8 +21,12 @@
         - link "定价"
     - button "Open Search":
       - img "Search"
-    - button "menu-vertical":
-      - img "menu-vertical"
+    - button "Language Selector Icon 简体中文":
+      - img "Language Selector Icon"
+      - img
+    - link "Support"
+    - link "登录"
+    - link "免费试用"
   - paragraph:
     - mark: Atlas
   - heading "应用程序服务。建构数据驱动型应用程序" [level=1]:
@@ -194,3 +198,5 @@
     - listitem:
       - link "MEAN Stack"
 - alert
+- button "Open Intercom Messenger":
+  - img

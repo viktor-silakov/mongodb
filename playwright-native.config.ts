@@ -1,7 +1,8 @@
 import { FixtureApiOptions } from '@fixtures/api.fixture';
 import { defineConfig, devices } from '@playwright/test';
 import { config } from './config';
-
+import os from 'os';
+import { channel } from 'diagnostics_channel';
 const projectRootPath = __dirname
 
 export const projects = [
@@ -18,14 +19,16 @@ export const projects = [
             viewport: { width: 1440, height: 900 },
         },
         dependencies: ['share-login-info'],
+        channel: 'chrome',
     },
     {
         name: 'firefox',
         use: {
             ...devices['Desktop Firefox'],
             storageState: 'playwright/.auth/user.json',
+            viewport: { width: 1440, height: 900 },
         },
-        dependencies: ['share-login-info'],
+        dependencies: ['share-login-info']
     },
     {
         name: 'galaxy',
@@ -57,8 +60,16 @@ export default defineConfig<FixtureApiOptions>({
 
     reporter: [
         ['html', { open: "on-failure" }],
-        ['list', { printSteps: true }]
+        ['list', { printSteps: true }],
+        [
+            'blob',
+            {
+              open: 'never',
+              outputFile: `./${process.env.BLOB_REPORT_PATH || 'blob-report'}/${process.env.BLOB_REPORT_NAME || 'report'}-${os.platform()}.zip`,
+            },
+          ],
     ],
+    fullyParallel: true,
     globalSetup: "./support/fixtures/base/global-setup",
     timeout: 60000,
     testDir: './tests',
