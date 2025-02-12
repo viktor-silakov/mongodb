@@ -42,8 +42,19 @@ npx bddgen && npx playwright test "./features/demo/demo.feature" --grep "Demo Mo
 
 ## Report
 
+To view Allure reports, you need to install Java 17:
+```shell
+winget install --id Microsoft.OpenJDK.17 -e
+```
+
+To generate and open HTML report:
 ```shell
 npm run report
+```
+
+To generate and open Allure report:
+```shell
+npm run report:allure
 ```
 
 ## Extension

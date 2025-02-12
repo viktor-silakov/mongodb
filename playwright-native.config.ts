@@ -1,9 +1,7 @@
 import { FixtureApiOptions } from '@fixtures/api.fixture';
 import { defineConfig, devices } from '@playwright/test';
-import { config } from './config';
+import { config, projectRootPath } from '@config';
 import os from 'os';
-import { channel } from 'diagnostics_channel';
-const projectRootPath = __dirname
 
 export const projects = [
     {
@@ -56,32 +54,34 @@ export const projects = [
     },
 ]
 
-export default defineConfig<FixtureApiOptions>({
-
+export const baseConfig = {
     reporter: [
         ['html', { open: "on-failure" }],
         ['list', { printSteps: true }],
         [
             'blob',
             {
-              open: 'never',
-              outputFile: `./${process.env.BLOB_REPORT_PATH || 'blob-report'}/${process.env.BLOB_REPORT_NAME || 'report'}-${os.platform()}.zip`,
+                open: 'never',
+                outputFile: `./${process.env.BLOB_REPORT_PATH || 'blob-report'}/${process.env.BLOB_REPORT_NAME || 'report'}-${os.platform()}.zip`,
             },
-          ],
+        ],
+        ["allure-playwright"]
     ],
     fullyParallel: true,
+    testDir: './tests',
     globalSetup: "./support/fixtures/base/global-setup",
     timeout: 60000,
-    testDir: './tests',
+    projects,
     use: {
         baseURL: config.baseUrl,
         trace: "on",
         screenshot: "only-on-failure",
     },
-    projects,
     expect: {
         toMatchAriaSnapshot: {
             pathTemplate: `${projectRootPath}/snapshots/{projectName}/{testFilePath}/{arg}{ext}`,
         },
     },
-});
+};
+
+export default defineConfig<FixtureApiOptions>(baseConfig);

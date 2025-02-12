@@ -1,6 +1,9 @@
 {
   "compilerOptions": {
     "experimentalDecorators": true,
+    // "paths": {
+    //   "@config": ["./config.ts"]
+    // },
     // "emitDecoratorMetadata": true,
     /* Visit https://aka.ms/tsco
     nfig to read more about this file */
@@ -34,8 +37,11 @@
     // "moduleResolution": "node10",                     /* Specify how TypeScript looks up a file from a given module specifier. */
     "baseUrl": "./", /* Specify the base directory to resolve non-relative module names. */
     "paths": {
+      "@pw-config": [
+        "./playwright.config.ts"
+      ],
       "@config": [
-        "playwright.config"
+        "./config.ts"
       ],
       "@types": [
         "./support/src/types"

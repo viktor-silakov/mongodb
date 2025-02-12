@@ -1,5 +1,6 @@
 import 'dotenv/config'
 
+export const projectRootPath = __dirname
 
 const environments = {
     qa: {

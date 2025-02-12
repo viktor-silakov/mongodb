@@ -1,8 +1,7 @@
 
 import { expect, Page } from '@playwright/test';
 import { test } from '@fixtures';
-
-const projectRootPath = __dirname;
+import { projectRootPath } from '@config';
 
 const locales = [
     'English',
