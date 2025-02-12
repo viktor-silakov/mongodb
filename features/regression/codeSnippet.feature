@@ -12,7 +12,7 @@ Feature: Code Snippet Component
             """
 
     @TC-351 @regression
-    Scenario: [Sanity] Verify Code Snippet
+    Scenario: Verify Code Snippet
         Given I open site "/products/tools/mongodb-query-api"
         When I scroll on the element with selector "<Code Pannel Component>"
         Then the "<Code Pannel Component>" visual snapshot matches "Code Snippet"

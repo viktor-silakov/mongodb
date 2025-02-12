@@ -1,10 +1,10 @@
-Feature: Forms
+Feature: Apply Now Form
 
     Background:
         When I map page locators
             """
             Apply Now: "(//a[@href='#startups'])[1]"
-            Form Panel: ".css-1bdhu2g"
+            Apply Now Form Panel: ".css-1bdhu2g"
             Email: "(//input[@id='email'])[1]"
             First Name: "(//input[@id='first_name'])[1]"
             Last Name: "(//input[@id='last_name'])[1]"
@@ -26,10 +26,10 @@ Feature: Forms
             Submit Button: "(//button[@type='submit'])[2]"
             """
     @TC-217 @regression
-    Scenario: Submit form with valid information
+    Scenario: Submit Apply Now form with valid information
         Given I open site "/solutions/startups"
         When I click on the element with selector "<Apply Now>"
-        Then the "<Form Panel>" visual snapshot matches "Form Panel"
+        Then the "<Apply Now Form Panel>" visual snapshot matches "Form Panel"
         When I type the element with selector "<Email>" with "test@example.com"
         And I type the element with selector "<First Name>" with "John"
         And I type the element with selector "<Last Name>" with "Simpson"
@@ -49,4 +49,4 @@ Feature: Forms
         And I click on the element with selector "<Compony AI options>"
         And I click on the element with selector "<Terms Checkbox>"
         And I click on the element with selector "<Submit Button>"
-        Then the "<Form Panel>" visual snapshot matches "Submited Form Panel"
+        Then the "<Apply Now Form Panel>" visual snapshot matches "Submited Form Panel"
