@@ -31,6 +31,10 @@
         {
             "parameter":"{string}",
             "value":"\".*\""
+        },
+        {
+            "parameter": "{ordinal}",
+            "value": ".*"
         }
     ],
     // "editor.tabSize": 4,
@@ -40,4 +44,11 @@
         "editor.formatOnSave": true
     },
     "workbench.colorTheme": "Default Dark+",
+    "playwright-bdd-helper.command-args": "--headed --project=chrome",
+    "search.exclude": {
+        "**/.git": true,
+        "**/node_modules": true,
+        "**/snapshots": true,
+        "**/.tmp": true
+    },
 }

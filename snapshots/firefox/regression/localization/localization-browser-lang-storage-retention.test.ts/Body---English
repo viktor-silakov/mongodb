@@ -1,0 +1,248 @@
+- main:
+  - link /Announcement Introducing MongoDB 8\.0, the fastest MongoDB ever! Read more > NEWS Learn why MongoDB was named a leader in the \d+ Gartner® Magic Quadrant™ Read the blog >/:
+    - mark: Read more >
+    - mark: Read the blog >
+    - img
+    - img
+  - navigation:
+    - link "MongoDB logo":
+      - img "MongoDB logo"
+    - list:
+      - listitem:
+        - button "Products":
+          - img
+      - listitem:
+        - button "Resources":
+          - img
+      - listitem:
+        - button "Solutions":
+          - img
+      - listitem:
+        - button "Company":
+          - img
+      - listitem:
+        - link "Pricing"
+    - button "Open Search":
+      - img "Search"
+    - button "Language Selector Icon Eng":
+      - img "Language Selector Icon"
+      - img
+    - link "Support"
+    - link "Sign In"
+    - link "Try Free"
+  - link "Take a free test drive of MongoDB Atlas and experience the power and versatility for yourself! Try Free Demo"
+  - heading "MONGODB ATLAS" [level=1]
+  - text: Loved by developers. Built for
+  - paragraph: Transactions
+  - paragraph: You don't need a separate database to support transactions, rich search, or gen AI. The world's most popular document database is now the world's most versatile developer data platform.
+  - link "Try Atlas Free"
+  - link "Learn more"
+  - link /[\d,.]+[bkmBKM]+\+ Customers →/
+  - link /\d+\+ Regions across AWS, Azure, and Google Cloud →/
+  - link /[\d,.]+[bkmBKM]+\+ Developers join every month →/
+  - link "#1 Most used modern database →"
+  - img
+  - img
+  - img
+  - img
+  - img
+  - img
+  - img
+  - img
+  - img
+  - img
+  - img
+  - img
+  - img
+  - heading "Unlock the power of AI" [level=2]
+  - heading "with MongoDB" [level=3]
+  - paragraph: Discover how to leverage MongoDB to streamline development for the next generation of AI-powered applications.
+  - link "Visit the AI Learning Hub"
+  - img
+  - img
+  - img
+  - heading "MongoDB AI Applications Program" [level=2]
+  - paragraph: Rapidly build and deploy applications enriched with generative AI technology.
+  - link "Learn more"
+  - img
+  - heading "Better Digital Banking Experiences through AI-Driven Interactions Powered by MongoDB" [level=2]
+  - paragraph: Register for our webinar to learn how MongoDB can empower you to build next-gen AI solutions.
+  - link "Register now"
+  - img
+  - heading /MongoDB Named a Leader in the \d+ Gartner® Magic Quadrant™/ [level=2]
+  - paragraph: Learn why MongoDB was named a cloud database management systems Leader.
+  - link "Read the blog"
+  - img
+  - heading "Building a Unified Data Platform for Gen AI" [level=2]
+  - paragraph: Discover how unified data platforms with gen AI and operational data layers can transform and modernize your business.
+  - link "Read the blog"
+  - img
+  - heading "Building AI Apps on AWS Learning Badge Path" [level=2]
+  - paragraph: Learn how to build AI apps by leveraging Amazon Bedrock and Atlas Vector Search in this MongoDB learning path.
+  - link "Start learning today"
+  - img
+  - heading "Built by developers, for developers" [level=2]
+  - paragraph: The document data model maps to how you think and code. Break out of rigid, tabular data structures with flexible documents that map directly to objects in your code. Embed related data into a single document to increase performance and minimize computational cost.
+  - link "Learn the MongoDB basics"
+  - button "card-header Docs text-content Documentation":
+    - img "mdb_document_model"
+    - heading "Docs" [level=3]
+    - paragraph: Reference manuals, articles, and code samples — all the technical documentation you need to deploy, configure, and run MongoDB.
+    - link "Documentation"
+  - button "card-header MongoDB University text-content Start learning today":
+    - img "general_content_learn"
+    - heading "MongoDB University" [level=3]
+    - paragraph: Level up your MongoDB skills with free courses, labs, badges, and MongoDB certification.
+    - link "Start learning today"
+  - button "card-header Community Forum text-content Join the community":
+    - img "general_content_community"
+    - heading "Community Forum" [level=3]
+    - paragraph: /Join [\d,.]+[bkmBKM]+\+ developers on our Community Forums to get advice, learn tips and tricks, and share your projects and experience\./
+    - link "Join the community"
+  - paragraph: MongoDB Atlas
+  - link "Learn about the platform"
+  - paragraph: The developer data platform for any use case.
+  - button "Vector Search"
+  - button "Stream Processing"
+  - button "Operational"
+  - button "Transactional"
+  - button "Text Search"
+  - button "Analytical"
+  - button "Graph"
+  - button "Geospatial"
+  - paragraph: Vector Search Use Cases
+  - paragraph: MongoDB Atlas integrates operational and vector data in a single, unified platform. Use vector representations of your data to perform semantic search, build recommendation engines, design Q&A systems, detect anomalies, or provide context for gen AI Apps.
+  - link "Learn More"
+  - link "Documentation"
+  - img
+  - heading "Loved by developers, trusted by enterprises" [level=2]
+  - link "View all customer stories"
+  - tablist:
+    - tab "Toyota-connected-logo.png logo" [selected]:
+      - img "Toyota-connected-logo.png logo"
+    - tab "Cisco_logo_blue.svg logo":
+      - img "Cisco_logo_blue.svg logo"
+    - tab "Coinbase.svg logo":
+      - img "Coinbase.svg logo"
+    - tab "Novo Nordisk logo":
+      - img "Novo Nordisk logo"
+    - tab "Okta logo":
+      - img "Okta logo"
+  - tabpanel "Toyota-connected-logo.png logo":
+    - img "Toyota Connected logo"
+    - text: /\d+\.\d+% availability for customers [\d,.]+[bkmBKM]+\+ vehicles serviced/
+    - img
+    - text: AUTOMOTIVE “We use MongoDB as the core database for our services, so any new innovative idea or new service we build, we automatically say, ‘We’re going to use MongoDB as the core platform,’ knowing that it’s going to give us the reliability and the scalability that we’re going to need.”
+    - link "Read Case Study"
+    - link "MongoDB for Automotive"
+  - separator
+  - heading "Works seamlessly with your tech stack" [level=2]
+  - text: /MongoDB integrates with \d+\+ of your favorite technologies/
+  - link "Explore our ecosystem"
+  - marquee "partner logos carousel":
+    - link "confluent logo":
+      - img "confluent logo"
+    - link "databricks logo":
+      - img "databricks logo"
+    - link "AWS logo":
+      - img "AWS logo"
+    - link "Google Cloud logo":
+      - img "Google Cloud logo"
+    - link "Microsoft azure logo":
+      - img "Microsoft azure logo"
+    - link "Accenture logo":
+      - img "Accenture logo"
+    - link "Hashicorp logo":
+      - img "Hashicorp logo"
+  - marquee "partner logos carousel":
+    - link "TCS logo":
+      - img "TCS logo"
+    - link "Tech Mahindra logo":
+      - img "Tech Mahindra logo"
+    - link "Datadog logo":
+      - img "Datadog logo"
+    - link "Cohere logo":
+      - img "Cohere logo"
+    - link "LangChain logo":
+      - img "LangChain logo"
+    - link "Capgemini logo":
+      - img "Capgemini logo"
+    - link "Fireworks.ai logo":
+      - img "Fireworks.ai logo"
+  - paragraph: Choose your path
+  - paragraph: START HERE
+  - paragraph: Build the next big thing
+  - paragraph: Create the applications of tomorrow with less complexity than ever before.
+  - link "Start Free"
+  - img
+  - paragraph: MORE INFORMATION
+  - link "Our developer data platform":
+    - img
+  - link "Documentation":
+    - img
+  - link "Pricing":
+    - img
+  - link "Contact us":
+    - img
+  - link "MongoDB logo":
+    - img "MongoDB logo"
+  - img "Language Selector Icon"
+  - button "Language Selector":
+    - img
+  - text: /© \d+ MongoDB, Inc\./
+  - paragraph: About
+  - list:
+    - listitem:
+      - link "Careers"
+    - listitem:
+      - link "Investor Relations"
+    - listitem:
+      - link "Legal"
+    - listitem:
+      - link "GitHub"
+    - listitem:
+      - link "Security Information"
+    - listitem:
+      - link "Trust Center"
+    - listitem:
+      - link "Connect with Us"
+  - paragraph: Support
+  - list:
+    - listitem:
+      - link "Contact Us"
+    - listitem:
+      - link "Customer Portal"
+    - listitem:
+      - link "Atlas Status"
+    - listitem:
+      - link "Customer Support"
+    - listitem:
+      - link "Manage Cookies"
+  - paragraph: Deployment Options
+  - list:
+    - listitem:
+      - link "MongoDB Atlas"
+    - listitem:
+      - link "Enterprise Advanced"
+    - listitem:
+      - link "Community Edition"
+  - paragraph: Data Basics
+  - list:
+    - listitem:
+      - link "Vector Databases"
+    - listitem:
+      - link "NoSQL Databases"
+    - listitem:
+      - link "Document Databases"
+    - listitem:
+      - link "RAG Database"
+    - listitem:
+      - link "ACID Transactions"
+    - listitem:
+      - link "MERN Stack"
+    - listitem:
+      - link "MEAN Stack"
+- alert
+- button "SCROLL FOR MORE":
+  - img
+  - paragraph: SCROLL FOR MORE

@@ -1,9 +1,8 @@
-import { Locator, Page, BrowserContext } from '@playwright/test';
+import { Locator, Page, BrowserContext, expect } from '@playwright/test';
 import { When } from '@fixtures';
-import { ElementAttribute, ElementRole, StepActions } from '@parameter-types';
+import { ElementAttribute, ElementRole, Ordinal, StepActions } from '@parameter-types';
 import { getLocator } from '@utils';
 import path from 'node:path';
-import { log } from 'node:console';
 
 type ActionsParams = {
     element: Locator,
@@ -48,10 +47,129 @@ function getAction(action: StepActions): ActionCallback {
 
 
 // Navigation 
-When('I open url {string}', async ({ page }, url) => {
-    await page.goto(url);
+When(/I open (?:url|site) "(.*)"/, async ({ page }, url) => {
+    const context = page.context();
+    await context.setExtraHTTPHeaders({
+        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36'
+    });
 
+    // const initScript = () => {
+    //     // Override the navigator.webdriver property
+    //     Object.defineProperty(navigator, 'webdriver', {
+    //         get: () => undefined
+    //     });
+
+    //     // Mock languages
+    //     Object.defineProperty(navigator, 'languages', {
+    //         get: () => ['zh-CN', 'zh', 'en', 'zh-TW', 'ja']
+    //     });
+
+    //     // Mock plugins
+    //     Object.defineProperty(navigator, 'plugins', {
+    //         get: () => [0, 1, 2, 3, 4]
+    //     });
+
+    //     // Mock mime types
+    //     Object.defineProperty(navigator, 'mimeTypes', {
+    //         get: () => [0, 1, 2, 3, 4]
+    //     });
+
+    //     // Mock WebGL
+    //     const getParameter = WebGLRenderingContext.getParameter;
+    //     WebGLRenderingContext.prototype.getParameter = (parameter) => {
+    //         if (parameter === 37445) {
+    //             return 'Intel Open Source Technology Center';
+    //         }
+    //         if (parameter === 37446) {
+    //             return 'Mesa DRI Intel(R) Ivybridge Mobile ';
+    //         }
+    //         return getParameter(parameter);
+    //     };
+
+    //     // Mock Chrome info
+    //     // Object.defineProperty(window, 'chrome', {
+    //     //     get: () => ({
+    //     //         "app": {
+    //     //             "isInstalled": false,
+    //     //             "InstallState": { "DISABLED": "disabled", "INSTALLED": "installed", "NOT_INSTALLED": "not_installed" },
+    //     //             "RunningState": { "CANNOT_RUN": "cannot_run", "READY_TO_RUN": "ready_to_run", "RUNNING": "running" }
+    //     //         },
+    //     //         "runtime": {
+    //     //             "OnInstalledReason": {
+    //     //                 "CHROME_UPDATE": "chrome_update",
+    //     //                 "INSTALL": "install",
+    //     //                 "SHARED_MODULE_UPDATE": "shared_module_update",
+    //     //                 "UPDATE": "update"
+    //     //             },
+    //     //             "OnRestartRequiredReason": {
+    //     //                 "APP_UPDATE": "app_update",
+    //     //                 "OS_UPDATE": "os_update",
+    //     //                 "PERIODIC": "periodic"
+    //     //             },
+    //     //             "PlatformArch": {
+    //     //                 "ARM": "arm",
+    //     //                 "ARM64": "arm64",
+    //     //                 "MIPS": "mips",
+    //     //                 "MIPS64": "mips64",
+    //     //                 "X86_32": "x86-32",
+    //     //                 "X86_64": "x86-64"
+    //     //             },
+    //     //             "PlatformNaclArch": {
+    //     //                 "ARM": "arm",
+    //     //                 "MIPS": "mips",
+    //     //                 "MIPS64": "mips64",
+    //     //                 "X86_32": "x86-32",
+    //     //                 "X86_64": "x86-64"
+    //     //             },
+    //     //             "PlatformOs": {
+    //     //                 "ANDROID": "android",
+    //     //                 "CROS": "cros",
+    //     //                 "LINUX": "linux",
+    //     //                 "MAC": "mac",
+    //     //                 "OPENBSD": "openbsd",
+    //     //                 "WIN": "win"
+    //     //             },
+    //     //             "RequestUpdateCheckStatus": {
+    //     //                 "NO_UPDATE": "no_update",
+    //     //                 "THROTTLED": "throttled",
+    //     //                 "UPDATE_AVAILABLE": "update_available"
+    //     //             }
+    //     //         }
+    //     //     })
+    //     // });
+
+    //     // Override permissions API
+    //     const originalQuery = window.navigator.permissions.query;
+    //     window.navigator.permissions.query = (parameters) =>
+    //         parameters.name === 'notifications'
+    //             ? Promise.resolve({ state: Notification.permission })
+    //             : originalQuery(parameters);
+
+    //     // Remove Playwright-specific properties
+    //     delete (window as any).__playwright;
+    //     delete (window as any).__pw_manual;
+    //     delete (window as any).__PW_inspect;
+
+    //     // Override app version
+    //     Object.defineProperty(navigator, 'appVersion', {
+    //         get: () => '5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36'
+    //     });
+    // }
+
+    // await context.addInitScript(initScript);
+
+    // page.on('frameattached', async (frame) => {
+    //     try {
+    //         console.log('frameattached', frame);
+    //         await frame.evaluate(initScript);
+    //     } catch (e) {
+    //         console.error('Error injecting script into iframe:', e);
+    //     }
+    // });
+
+    await page.goto(url);
 });
+
 When('I go back', async ({ page }) => {
     await page.goBack();
 });
@@ -69,16 +187,29 @@ When('I refresh the page', async ({ page }) => {
 
 // 👉 Actions with 4 params
 /**
- * Click by element
+ * Action on element
  * @example:
  * - find element by role: When I click on the heading with name "Heading role"
  * - find element by attribute: And the element with role "alertdialog" should not be visible 
  */
-When('I {action} on the {role} with {attribute} {string}', async ({ page, testData }, action, role, attribute, value) => {
+When('I {action} on the {role} with {attribute} {spec-str}', async ({ page, testData }, action, role, attribute, value) => {
     const element = getLocator({ page, role, attribute, value: testData.renderTemplate(value) });
     const performAction = getAction(action);
     await performAction({ element, options: { timeout: 5000 } });
 });
+
+/**
+ * Action on nth element
+ * @example:
+ * - find element by role: When I click on the 2nd heading with name "Heading role"
+ * - find element by attribute: And the 3rd element with role "alertdialog" should not be visible 
+ */
+When('I {action} on the {int}{ordinal} {role} with {attribute} {spec-str}', async ({ page, testData }, action, number, ordinal, role, attribute, value) => {
+    const element = getLocator({ page, role, attribute, value: testData.renderTemplate(value) }).nth(number - 1);
+    const performAction = getAction(action);
+    await performAction({ element, options: { timeout: 5000 } });
+});
+
 
 // 👉 Actions with 5 params
 /**
@@ -125,7 +256,35 @@ When(
         await performAction({ element, text, options: { timeout: 5000 } });
     });
 
+/**
+ * Action on nth element
+ * 
+ * @example:
+ * - find element by role: When I click on the 2nd heading with name "Heading role"
+ */
+When(
+    'I {action} the {int}{ordinal} {role} with {attribute} {string} with {string}',
+    async (
+        { page, testData },
+        action: StepActions,
+        number: number,
+        ordinal: Ordinal,
+        role: ElementRole,
+        attribute: ElementAttribute,
+        value: string,
+        text: string,
+    ) => {
+        const element = getLocator({ page, role, attribute, value: testData.renderTemplate(value) }).nth(number - 1);
+        const performAction = getAction(action);
+        await performAction({ element, text, options: { timeout: 5000 } });
+    });
 
+
+/**
+ * Upload file
+ * @example:
+ * - upload file: When I upload the "hello.txt" file for the "button" with name "Upload"
+ */
 When(
     'I upload the {string} file for the {role} with {attribute} {string}',
     async (
@@ -173,12 +332,15 @@ When('I pause the test execution', async ({ page }) => {
     await page.pause();
 });
 
-// // TODO: Iframe
-// When('I switch to the iframe with {string}', async ({ page }, locator) => {
-// })
+// 👉 Iframe interactions
+When('I switch to the iframe with selector {string}', async ({ page, testData }, templateStr: string) => {
+    const selector = testData.renderTemplate(templateStr);
+    await page.switchToFrame(selector);
+});
 
-// When('I switch back to the main content', async ({ page }) => {
-// });
+When(/I switch back to the main (content|frame)/, async ({ page }) => {
+    page.switchToMainFrame();
+});
 
 // dialogs
 When('I setup accept the dialog event', async ({ page }) => {

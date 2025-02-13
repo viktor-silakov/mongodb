@@ -27,10 +27,10 @@ Feature: Demo - MongoDB
     And I hide the element with selector "<Global Header Mobile>"
 
     And I scroll on the element with selector "<Develop in your language Section>"
-    Then the "<Develop in your language Section>" visual snapshot to match "Language Section"
+    Then the "<Develop in your language Section>" visual snapshot matches "Language Section"
 
     When I hover on the element with selector "<Section card>"
-    Then the "<Develop in your language Section>" visual snapshot to match "Language Section on Card hover"
+    Then the "<Develop in your language Section>" visual snapshot matches "Language Section on Card hover"
 
     Examples:
       | Breakpoint | width |
@@ -71,12 +71,9 @@ Feature: Demo - MongoDB
 
 
   Scenario: Login debug
-    Given I open url "https://mycelium-qa12.website.staging.corp.mongodb.com/vf-hero-video-vimeo"
-    When I set cookie storage with key "OptanonConsent" and value "isGpcEnabled%3D0%26browserGpcFlag%3D0%26isIABGlobal%3Dfalse%26hosts%3D%26landingPath%3DNotLandingPage%26groups%3DC0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1%2CC0005%3A1%26geolocation%3DDE%3BHE%26AwaitingReconsent%3Dfalse"
-    When I set cookie storage with key "OptanonAlertBoxClosed" and value "2025-01-15T13:37:31.350Z"
-    When I refresh the page
+    Given I open site "/vf-hero-video-vimeo"
     Then I click on the element with label "Select Password."
-    When I type the element with selector "#input72" with "Cakeisalie-1488"
+    When I type the element with selector "#input72" with "123"
     # When I type the element with selector "" with ""
     # When I pause the test execution
     When I click on the button with name "Verify"
@@ -87,3 +84,9 @@ Feature: Demo - MongoDB
     When I set cookie storage with key "OptanonAlertBoxClosed" and value "2025-01-15T13:37:31.350Z"
     When I refresh the page
     When I pause the test execution
+
+  @demo-mongodb @smoke @UI
+  Scenario: Login debug-2
+    Given I open site "/vf-hero-video-vimeo"
+    When I pause the test execution
+

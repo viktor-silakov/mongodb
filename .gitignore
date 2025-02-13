@@ -12,3 +12,10 @@ support/test-app/node_modules/
 chromatic-diagnostics.json
 .snapshots-images
 chrome
+playwright/.auth
+tests/playwright/.auth
+features/debug.feature
+.env
+blob-report
+allure-report
+allure-results

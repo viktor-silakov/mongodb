@@ -1,0 +1,171 @@
+- main:
+  - link "Anuncio ¡Presentamos MongoDB 8.0, el MongoDB más rápido de la historia! Leer más >>":
+    - mark: Leer más >>
+  - navigation:
+    - link "MongoDB logo":
+      - img "MongoDB logo"
+    - list:
+      - listitem:
+        - button "Productos":
+          - img
+      - listitem:
+        - button "Recursos":
+          - img
+      - listitem:
+        - button "Soluciones":
+          - img
+      - listitem:
+        - button "Empresa":
+          - img
+      - listitem:
+        - link "Precios"
+    - button "Open Search":
+      - img "Search"
+    - button "Language Selector Icon Esp":
+      - img "Language Selector Icon"
+      - img
+    - link "Support"
+    - link "Iniciar sesión"
+    - link "Prueba gratuita"
+  - paragraph:
+    - mark: MONGODB ATLAS
+  - heading "A los desarrolladores les encanta. Diseñado para" [level=1]
+  - paragraph: No necesita una base de datos separada para admitir transacciones, búsquedas enriquecidas o IA generativa. La base de datos documental más popular del mundo es ahora la plataforma de datos para desarrolladores más versátil.
+  - link "Pruebe Atlas gratis"
+  - link "Despliegue a su manera"
+  - img "Un panel de código que muestra los datos de búsqueda vectorial junto con los datos de la aplicación."
+  - heading "La base de datos de vectores más querida, ¡una vez más!" [level=4]
+  - text: Por segundo año consecutivo, MongoDB Atlas Vector Search ha sido elegido número 1 en la última encuesta mundial sobre el estado de la IA realizada por Retool.
+  - link "Más información"
+  - img "Imagen de banner"
+  - img
+  - heading "Hecha por desarrolladores para desarrolladores" [level=2]
+  - paragraph: El modelo de datos del documento se basa en su forma de pensar y codificar. Elimine las estructuras de datos rígidas y tabulares con documentos flexibles que mapeen directamente a los objetos de su código. Incluya los datos relacionados en un solo documento para aumentar el rendimiento y minimizar los costos de cálculo.
+  - link "Aprenda los conceptos básicos de MongoDB"
+  - button "card-header Documentos text-content Documentación":
+    - img "mdb_document_model"
+    - heading "Documentos" [level=3]
+    - paragraph: "Manuales de referencia, artículos y ejemplos de código: toda la documentación técnica que necesita para implementar, configurar y ejecutar MongoDB."
+    - link "Documentación"
+  - button "card-header Centro de desarrolladores text-content Empiece a desarrollar":
+    - img "general_action_develop"
+    - heading "Centro de desarrolladores" [level=3]
+    - paragraph: Los tutoriales, videos y ejemplos de código más recientes de MongoDB que se muestran en el idioma que elija.
+    - link "Empiece a desarrollar"
+  - button "card-header Foro de la comunidad text-content Únase a la comunidad":
+    - img "general_content_community"
+    - heading "Foro de la comunidad" [level=3]
+    - paragraph: /Únase a más de \d+,\d+ desarrolladores en los foros de nuestra comunidad para recibir consejos, aprender trucos, y compartir sus proyectos y experiencias\./
+    - link "Únase a la comunidad"
+  - heading "A los desarrolladores les encanta, y las empresas confían" [level=2]
+  - link "Ver todas las historias de clientes"
+  - tablist:
+    - tab "Novo Nordisk logo" [selected]:
+      - img "Novo Nordisk logo"
+    - tab "Delivery Hero logo":
+      - img "Delivery Hero logo"
+    - tab "Okta logo":
+      - img "Okta logo"
+    - tab "Volvo logo":
+      - img "Volvo logo"
+    - tab "Bendigo and Adelaide Bank logo":
+      - img "Bendigo and Adelaide Bank logo"
+  - tabpanel "Novo Nordisk logo":
+    - img "logotipo de Novo Nordisk"
+    - text: /\d+ minutos para generar informes en lugar de \d+ semanas \d+% de la producción mundial de insulina/
+    - img
+    - text: /ATENCIÓN MÉDICA “Hemos reducido el tiempo necesario para crear los informes de los estudios clínicos de \d+ semanas a \d+ minutos, con resultados de mayor calidad y una fracción del equipo\. En términos de valor, cada día antes de que un medicamento llegue al mercado puede añadir unos \d+ millones de dólares en ingresos a la empresa”\./
+    - link "Leer el estudio de caso"
+    - link "MongoDB para la atención médica"
+  - separator
+  - heading "Funciona a la perfección con su stack tecnológico" [level=2]
+  - text: /MongoDB se integra con más de \d+ de sus tecnologías favoritas/
+  - link "Explore nuestro ecosistema"
+  - marquee "partner logos carousel":
+    - link "logotipo de confluent":
+      - img "logotipo de confluent"
+    - link "logotipo de databricks":
+      - img "logotipo de databricks"
+    - link "logotipo de AWS":
+      - img "logotipo de AWS"
+    - link "logotipo de Google Cloud":
+      - img "logotipo de Google Cloud"
+    - link "logotipo de Microsoft azure":
+      - img "logotipo de Microsoft azure"
+    - link "logotipo de Accenture":
+      - img "logotipo de Accenture"
+    - link "logotipo de Hashicorp":
+      - img "logotipo de Hashicorp"
+  - marquee "partner logos carousel":
+    - link "logotipo de TCS":
+      - img "logotipo de TCS"
+    - link "logotipo de Tech Mahindra":
+      - img "logotipo de Tech Mahindra"
+    - link "logotipo de Datadog":
+      - img "logotipo de Datadog"
+    - link "logotipo de Cohere":
+      - img "logotipo de Cohere"
+    - link "logotipo de LangChain":
+      - img "logotipo de LangChain"
+    - link "logotipo de Capgemini":
+      - img "logotipo de Capgemini"
+    - link "logotipo de Fireworks.ai":
+      - img "logotipo de Fireworks.ai"
+  - link "MongoDB logo":
+    - img "MongoDB logo"
+  - img "Language Selector Icon"
+  - button "Language Selector":
+    - img
+  - text: /© \d+ MongoDB, Inc\./
+  - paragraph: Acerca de
+  - list:
+    - listitem:
+      - link "Empleo"
+    - listitem:
+      - link "Inversores"
+    - listitem:
+      - link "Legal"
+    - listitem:
+      - link "GitHub"
+    - listitem:
+      - link "Información sobre seguridad"
+    - listitem:
+      - link "Centro de confianza"
+    - listitem:
+      - link "Conéctate con nosotros"
+    - listitem:
+      - link "Mapa del sitio"
+  - paragraph: Soporte
+  - list:
+    - listitem:
+      - link "Contacto"
+    - listitem:
+      - link "Portal de clientes"
+    - listitem:
+      - link "Atlas Status"
+    - listitem:
+      - link "Customer Support"
+  - paragraph: Opciones de implementación
+  - list:
+    - listitem:
+      - link "MongoDB Atlas"
+    - listitem:
+      - link "Enterprise Advanced"
+    - listitem:
+      - link "Community Edition"
+  - paragraph: Data Basics
+  - list:
+    - listitem:
+      - link "Vector Databases"
+    - listitem:
+      - link "NoSQL Databases"
+    - listitem:
+      - link "Document Databases"
+    - listitem:
+      - link "RAG Database"
+    - listitem:
+      - link "ACID Transactions"
+    - listitem:
+      - link "MERN Stack"
+    - listitem:
+      - link "MEAN Stack"

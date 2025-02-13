@@ -1,0 +1,172 @@
+- main:
+  - link "Annuncio Ti presentiamo MongoDB 8.0, il MongoDB più veloce di sempre! Leggi >>":
+    - mark: Leggi >>
+  - navigation:
+    - link "MongoDB logo":
+      - img "MongoDB logo"
+    - list:
+      - listitem:
+        - button "Prodotti":
+          - img
+      - listitem:
+        - button "Risorse":
+          - img
+      - listitem:
+        - button "Soluzioni":
+          - img
+      - listitem:
+        - button "Azienda":
+          - img
+      - listitem:
+        - link "Prezzi"
+    - button "Open Search":
+      - img "Search"
+    - button "Language Selector Icon Ita":
+      - img "Language Selector Icon"
+      - img
+    - link "Support"
+    - link "Accedi"
+    - link "Prova gratuita"
+  - paragraph:
+    - mark: MONGODB ATLAS
+  - heading "Amato dagli sviluppatori. Costruito per" [level=1]
+  - paragraph: Non hai più bisogno di un database separato per supportare transazioni, ricerca avanzata o IA generativa. Il database di documenti più famoso al mondo è ora la piattaforma dati per sviluppatori più versatile che esista.
+  - link "Prova Atlas gratis"
+  - link "Esegui il deploy a modo tuo"
+  - img "Un pannello di codice che mostra i dati di ricerca vettoriale accanto ai dati dell'app."
+  - heading "Il database vettoriale più amato, ancora una volta!" [level=4]
+  - text: Per il secondo anno, MongoDB Atlas Vector Search è stato votato al primo posto nell'ultimo sondaggio globale Retool State of AI.
+  - link "Ulteriori Informazioni"
+  - img "Immagine del banner"
+  - img
+  - heading "Creato dagli sviluppatori, per gli sviluppatori" [level=2]
+  - paragraph: Il document data model corrisponde al tuo modo di pensare e di codificare. Abbandona le strutture di dati rigide e tabellari per passare a documenti flessibili che corrispondono direttamente agli oggetti del tuo codice. Incorpora dati correlati in un unico documento per aumentare le prestazioni e minimizzare i costi di calcolo.
+  - link "Impara le basi di MongoDB"
+  - button "card-header Docs text-content Documentazione":
+    - img "mdb_document_model"
+    - heading "Docs" [level=3]
+    - paragraph: "Manuali di riferimento, articoli ed esempi di codice: tutta la documentazione tecnica necessaria per distribuire, configurare ed eseguire MongoDB."
+    - link "Documentazione"
+  - button "card-header Developer Center text-content Inizia a creare":
+    - img "general_action_develop"
+    - heading "Developer Center" [level=3]
+    - paragraph: I tutorial, video ed esempi più recenti di codice MongoDB nel linguaggio di tua scelta.
+    - link "Inizia a creare"
+  - button "card-header Community Forum text-content Unisciti alla community":
+    - img "general_content_community"
+    - heading "Community Forum" [level=3]
+    - paragraph: /Unisciti agli oltre \d+\.\d+ sviluppatori nei nostri community forum per ricevere consigli e condividere i tuoi progetti e le tue esperienze\./
+    - link "Unisciti alla community"
+  - heading "Amato dagli sviluppatori, scelto dalle aziende" [level=2]
+  - link "Vedi tutte le customer stories"
+  - tablist:
+    - tab "Novo Nordisk logo" [selected]:
+      - img "Novo Nordisk logo"
+    - tab "Delivery Hero logo":
+      - img "Delivery Hero logo"
+    - tab "Okta logo":
+      - img "Okta logo"
+    - tab "Volvo logo":
+      - img "Volvo logo"
+    - tab "Bendigo and Adelaide Bank logo":
+      - img "Bendigo and Adelaide Bank logo"
+  - tabpanel "Novo Nordisk logo":
+    - img "Logo Novo Nordisk"
+    - text: /\d+ minuti per generare report invece di \d+ settimane \d+% della produzione mondiale di insulina/
+    - img
+    - text: /SANITÀ "Abbiamo ridotto il tempo di creazione dei report sugli studi clinici da \d+ settimane a \d+ minuti, con risultati di qualità superiore e una riduzione del team\. In termini di valore, ogni giorno in cui un farmaco arriva sul mercato può aggiungere circa \d+ milioni di dollari di entrate all'azienda\."/
+    - link "Leggi il case study"
+    - link "MongoDB per la sanità"
+  - separator
+  - heading "Funziona perfettamente con il tuo stack tecnologico" [level=2]
+  - text: /MongoDB si integra con oltre \d+ delle tue tecnologie preferite/
+  - link "Esplora il nostro ecosistema"
+  - marquee "partner logos carousel":
+    - link "Logo Confluent":
+      - img "Logo Confluent"
+    - link "Logo Databricks":
+      - img "Logo Databricks"
+    - link "Logo AWS":
+      - img "Logo AWS"
+    - link "Logo Google Cloud":
+      - img "Logo Google Cloud"
+    - link "Logo Microsoft Azure":
+      - img "Logo Microsoft Azure"
+    - link "Logo Accenture":
+      - img "Logo Accenture"
+    - link "Logo Hashicorp":
+      - img "Logo Hashicorp"
+  - marquee "partner logos carousel":
+    - link "Logo TCS":
+      - img "Logo TCS"
+    - link "Logo Tech Mahindra":
+      - img "Logo Tech Mahindra"
+    - link "Logo Datadog":
+      - img "Logo Datadog"
+    - link "Logo Cohere":
+      - img "Logo Cohere"
+    - link "Logo LangChain":
+      - img "Logo LangChain"
+    - link "Logo Capgemini":
+      - img "Logo Capgemini"
+    - link "Logo Fireworks.ai":
+      - img "Logo Fireworks.ai"
+  - link "MongoDB logo":
+    - img "MongoDB logo"
+  - img "Language Selector Icon"
+  - button "Language Selector":
+    - img
+  - text: /© \d+ MongoDB, Inc\./
+  - paragraph: Informazioni
+  - list:
+    - listitem:
+      - link "Posizioni"
+    - listitem:
+      - link "Investitori"
+    - listitem:
+      - link "Legale"
+    - listitem:
+      - link "GitHub"
+    - listitem:
+      - link "Informazioni sulla sicurezza"
+    - listitem:
+      - link "Centro protezione"
+    - listitem:
+      - link "Contattaci"
+  - paragraph: Supporto
+  - list:
+    - listitem:
+      - link "Contattaci"
+    - listitem:
+      - link "Portale dei clienti"
+    - listitem:
+      - link "Atlas Status"
+    - listitem:
+      - link "Customer Support"
+    - listitem:
+      - link "Gestisci Cookie"
+  - paragraph: Opzioni di implementazione
+  - list:
+    - listitem:
+      - link "MongoDB Atlas"
+    - listitem:
+      - link "Enterprise Advanced"
+    - listitem:
+      - link "Community Edition"
+  - paragraph: Data Basics
+  - list:
+    - listitem:
+      - link "Vector Databases"
+    - listitem:
+      - link "NoSQL Databases"
+    - listitem:
+      - link "Document Databases"
+    - listitem:
+      - link "RAG Database"
+    - listitem:
+      - link "ACID Transactions"
+    - listitem:
+      - link "MERN Stack"
+    - listitem:
+      - link "MEAN Stack"
+- alert

@@ -1,0 +1,156 @@
+- main:
+  - link "Announcement Introducing MongoDB 8.0, the fastest MongoDB ever! Read more >":
+    - mark: Read more >
+    - img
+    - img
+  - navigation:
+    - link "MongoDB logo":
+      - img "MongoDB logo"
+    - list:
+      - listitem:
+        - button "Products":
+          - img
+      - listitem:
+        - button "Resources":
+          - img
+      - listitem:
+        - button "Solutions":
+          - img
+      - listitem:
+        - button "Company":
+          - img
+      - listitem:
+        - link "Pricing"
+    - button "Open Search":
+      - img "Search"
+    - button "Language Selector Icon Eng":
+      - img "Language Selector Icon"
+      - img
+    - link "Support"
+    - link "Sign In"
+    - link "Try Free"
+  - paragraph:
+    - mark: MONGODB ATLAS
+  - heading "Loved by developers. Built for modern applications." [level=1]
+  - paragraph: You don't need a separate database to support transactions, rich search, or gen AI. The world's most popular document database is now the world's most versatile developer data platform.
+  - link "Try Atlas Free"
+  - link "Deploy your way"
+  - img "A code panel showing vector search data alongside app data."
+  - heading "Gartner names MongoDB a Leader again" [level=4]
+  - text: /For the third year in a row, MongoDB has been named a Leader in the \d+ Gartner® Magic Quadrant™ for Cloud Database Management Systems\./
+  - link "Read the Report"
+  - img "Banner Image"
+  - img
+  - heading "Built by developers, for developers" [level=2]
+  - paragraph: The document data model maps to how you think and code. Break out of rigid, tabular data structures with flexible documents that map directly to objects in your code. Embed related data into a single document to increase performance and minimize computational cost.
+  - link "Learn the MongoDB basics"
+  - heading "Loved by developers, trusted by enterprises" [level=2]
+  - link "View all customer stories"
+  - tablist:
+    - tab "Toyota-connected-logo.png logo" [selected]:
+      - img "Toyota-connected-logo.png logo"
+    - tab "Cisco_logo_blue.svg logo":
+      - img "Cisco_logo_blue.svg logo"
+    - tab "Coinbase.svg logo":
+      - img "Coinbase.svg logo"
+    - tab "Novo Nordisk logo":
+      - img "Novo Nordisk logo"
+    - tab "Okta logo":
+      - img "Okta logo"
+  - tabpanel "Toyota-connected-logo.png logo":
+    - img "Toyota Connected logo"
+    - text: /\d+\.\d+% availability for customers [\d,.]+[bkmBKM]+\+ vehicles serviced/
+    - img
+    - text: AUTOMOTIVE “We use MongoDB as the core database for our services, so any new innovative idea or new service we build, we automatically say, ‘We’re going to use MongoDB as the core platform,’ knowing that it’s going to give us the reliability and the scalability that we’re going to need.”
+    - link "Read Case Study"
+    - link "MongoDB for Automotive"
+  - separator
+  - heading "Works seamlessly with your tech stack" [level=2]
+  - text: /MongoDB integrates with \d+\+ of your favorite technologies/
+  - link "Explore our ecosystem"
+  - marquee "partner logos carousel":
+    - link "confluent logo":
+      - img "confluent logo"
+    - link "databricks logo":
+      - img "databricks logo"
+    - link "AWS logo":
+      - img "AWS logo"
+    - link "Google Cloud logo":
+      - img "Google Cloud logo"
+    - link "Microsoft azure logo":
+      - img "Microsoft azure logo"
+    - link "Accenture logo":
+      - img "Accenture logo"
+    - link "Hashicorp logo":
+      - img "Hashicorp logo"
+  - marquee "partner logos carousel":
+    - link "TCS logo":
+      - img "TCS logo"
+    - link "Tech Mahindra logo":
+      - img "Tech Mahindra logo"
+    - link "Datadog logo":
+      - img "Datadog logo"
+    - link "Cohere logo":
+      - img "Cohere logo"
+    - link "LangChain logo":
+      - img "LangChain logo"
+    - link "Capgemini logo":
+      - img "Capgemini logo"
+    - link "Fireworks.ai logo":
+      - img "Fireworks.ai logo"
+  - link "MongoDB logo":
+    - img "MongoDB logo"
+  - img "Language Selector Icon"
+  - button "Language Selector":
+    - img
+  - text: /© \d+ MongoDB, Inc\./
+  - paragraph: About
+  - list:
+    - listitem:
+      - link "Careers"
+    - listitem:
+      - link "Investor Relations"
+    - listitem:
+      - link "Legal"
+    - listitem:
+      - link "GitHub"
+    - listitem:
+      - link "Security Information"
+    - listitem:
+      - link "Trust Center"
+    - listitem:
+      - link "Connect with Us"
+  - paragraph: Support
+  - list:
+    - listitem:
+      - link "Contact Us"
+    - listitem:
+      - link "Customer Portal"
+    - listitem:
+      - link "Atlas Status"
+    - listitem:
+      - link "Customer Support"
+  - paragraph: Deployment Options
+  - list:
+    - listitem:
+      - link "MongoDB Atlas"
+    - listitem:
+      - link "Enterprise Advanced"
+    - listitem:
+      - link "Community Edition"
+  - paragraph: Data Basics
+  - list:
+    - listitem:
+      - link "Vector Databases"
+    - listitem:
+      - link "NoSQL Databases"
+    - listitem:
+      - link "Document Databases"
+    - listitem:
+      - link "RAG Database"
+    - listitem:
+      - link "ACID Transactions"
+    - listitem:
+      - link "MERN Stack"
+    - listitem:
+      - link "MEAN Stack"

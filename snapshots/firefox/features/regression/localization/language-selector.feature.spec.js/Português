@@ -1,0 +1,156 @@
+- main:
+  - link "Anúncio Apresentando MongoDB 8.0, o MongoDB mais rápido de todos os tempos! Leia mais >>":
+    - mark: Leia mais >>
+  - navigation:
+    - link "MongoDB logo":
+      - img "MongoDB logo"
+    - list:
+      - listitem:
+        - button "Produtos":
+          - img
+      - listitem:
+        - button "Recursos":
+          - img
+      - listitem:
+        - button "Soluções":
+          - img
+      - listitem:
+        - button "Empresa":
+          - img
+      - listitem:
+        - link "Preços"
+    - button "Open Search":
+      - img "Search"
+    - button "Language Selector Icon Por":
+      - img "Language Selector Icon"
+      - img
+    - link "Support"
+    - link "Logar"
+    - link "Teste Grátis"
+  - paragraph:
+    - mark: MONGODB ATLAS
+  - heading "Adorado pelos desenvolvedores. Construído para" [level=1]
+  - paragraph: Você não precisa de um banco de dados separado para oferecer suporte a transações, pesquisa avançada ou IA generativa. O banco de dados de documentos mais popular do mundo agora é a plataforma de dados para desenvolvedores mais versátil do mundo.
+  - link "Experimente o Atlas grátis"
+  - link "Implemente do seu jeito"
+  - img "Um painel de código mostrando dados de pesquisa vetorial ao lado de dados de aplicativo."
+  - heading "O banco de dados vetorial mais amado - novamente!" [level=4]
+  - text: Pelo segundo ano, o MongoDB Atlas Vector Search foi eleito o número 1 na última pesquisa global do relatório State of AI da Retool.
+  - link "Saiba mais"
+  - img "Imagem do banner"
+  - img
+  - heading "Criado por desenvolvedores, para desenvolvedores" [level=2]
+  - paragraph: O modelo de dados de documentos mapeia a forma como você pensa e codifica. Abandone as estruturas de dados rígidas e tabulares com documentos flexíveis que mapeiam diretamente para objetos em seu código. Incorpore dados relacionados em um único documento para aumentar o desempenho e minimizar o custo computacional.
+  - link "Aprenda os fundamentos do MongoDB"
+  - heading "Amado pelos desenvolvedores, símbolo de confiança para as empresas" [level=2]
+  - link "Visualizar todas as histórias de clientes"
+  - tablist:
+    - tab "Novo Nordisk logo" [selected]:
+      - img "Novo Nordisk logo"
+    - tab "Delivery Hero logo":
+      - img "Delivery Hero logo"
+    - tab "Okta logo":
+      - img "Okta logo"
+    - tab "Volvo logo":
+      - img "Volvo logo"
+    - tab "Bendigo and Adelaide Bank logo":
+      - img "Bendigo and Adelaide Bank logo"
+  - tabpanel "Novo Nordisk logo":
+    - img "Logotipo da Novo Nordisk"
+    - text: /\d+ minutos para gerar relatórios em vez de \d+ semanas \d+% da produção mundial de insulina/
+    - img
+    - text: /SAÚDE "Reduzimos o tempo necessário para criar relatórios de estudos clínicos de \d+ semanas para \d+ minutos, com resultados de maior qualidade e uma fração da equipe\. Em termos de valor, cada dia ganho para um medicamento chegar ao mercado pode adicionar cerca de US\$ \d+ milhões à receita da empresa\."/
+    - link "Leia o estudo de caso"
+    - link "MongoDB para saúde"
+  - separator
+  - heading "Funciona perfeitamente com sua tech stack" [level=2]
+  - text: /O MongoDB se integra a mais de \d+ de suas tecnologias favoritas/
+  - link "Explore nosso ecossistema"
+  - marquee "partner logos carousel":
+    - link "Logotipo da Confluent":
+      - img "Logotipo da Confluent"
+    - link "Logotipo da Databricks":
+      - img "Logotipo da Databricks"
+    - link "Logotipo do AWS":
+      - img "Logotipo do AWS"
+    - link "Logotipo do Google Cloud":
+      - img "Logotipo do Google Cloud"
+    - link "Logotipo do Microsoft Azure":
+      - img "Logotipo do Microsoft Azure"
+    - link "Logotipo da Accenture":
+      - img "Logotipo da Accenture"
+    - link "Logotipo da Hashicorp":
+      - img "Logotipo da Hashicorp"
+  - marquee "partner logos carousel":
+    - link "Logotipo da TCS":
+      - img "Logotipo da TCS"
+    - link "Logotipo da Tech Mahindra":
+      - img "Logotipo da Tech Mahindra"
+    - link "Logotipo da Datadog":
+      - img "Logotipo da Datadog"
+    - link "Logotipo da Cohere":
+      - img "Logotipo da Cohere"
+    - link "Logotipo da LangChain":
+      - img "Logotipo da LangChain"
+    - link "Logotipo da Capgemini":
+      - img "Logotipo da Capgemini"
+    - link "Logotipo da Fireworks.ai":
+      - img "Logotipo da Fireworks.ai"
+  - link "MongoDB logo":
+    - img "MongoDB logo"
+  - img "Language Selector Icon"
+  - button "Language Selector":
+    - img
+  - text: /© \d+ MongoDB, Inc\./
+  - paragraph: Sobre
+  - list:
+    - listitem:
+      - link "Carreiras"
+    - listitem:
+      - link "Investidores"
+    - listitem:
+      - link "Legal"
+    - listitem:
+      - link "GitHub"
+    - listitem:
+      - link "Informações de segurança"
+    - listitem:
+      - link "Central de confiança"
+    - listitem:
+      - link "Entre em contato conosco"
+    - listitem:
+      - link "Mapa do site"
+  - paragraph: Suporte
+  - list:
+    - listitem:
+      - link "Contate-nos"
+    - listitem:
+      - link "Portal do cliente"
+    - listitem:
+      - link "Status do Atlas"
+    - listitem:
+      - link "Customer Support"
+  - paragraph: Opções de implantação
+  - list:
+    - listitem:
+      - link "MongoDB Atlas"
+    - listitem:
+      - link "Enterprise Advanced"
+    - listitem:
+      - link "Community Edition"
+  - paragraph: Data Basics
+  - list:
+    - listitem:
+      - link "Vector Databases"
+    - listitem:
+      - link "NoSQL Databases"
+    - listitem:
+      - link "Document Databases"
+    - listitem:
+      - link "RAG Database"
+    - listitem:
+      - link "ACID Transactions"
+    - listitem:
+      - link "MERN Stack"
+    - listitem:
+      - link "MEAN Stack"

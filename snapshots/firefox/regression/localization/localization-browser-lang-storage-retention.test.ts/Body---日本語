@@ -1,0 +1,156 @@
+- main:
+  - link "新着情報 史上最速の MongoDB、MongoDB 8.0 のご紹介！詳しく見る":
+    - mark: 詳しく見る
+  - navigation:
+    - link "MongoDB logo":
+      - img "MongoDB logo"
+    - list:
+      - listitem:
+        - button "製品":
+          - img
+      - listitem:
+        - button "リソース":
+          - img
+      - listitem:
+        - button "ソリューション":
+          - img
+      - listitem:
+        - button "企業情報":
+          - img
+      - listitem:
+        - link "価格情報"
+    - button "Open Search":
+      - img "Search"
+    - button "Language Selector Icon 日本語":
+      - img "Language Selector Icon"
+      - img
+    - link "サポート"
+    - link "サインイン"
+    - link "無料トライアル"
+  - paragraph:
+    - mark: MongoDB Atlas
+  - heading "開発者が支持する MongoDB モダンアプリケーションに最適なプラットフォーム" [level=1]
+  - paragraph: 用途別にデータベースを使用する必要はありません。MongoDB が、トランザクション処理、高度な検索、生成 AI など、モダンなアプリケーションのニーズに対応します。世界で最も普及しているドキュメントデータベースである MongoDB は、最も多用途な開発者向けデータプラットフォームへと進化しています。
+  - link "Atlas の無料トライアル"
+  - link "セルフサービスでデプロイする"
+  - img "ベクトル検索データとアプリデータを並べたコードパネル。"
+  - heading "MongoDB Atlas Vector Search が 2 年連続で最も利用されているベクトルデータベースに！" [level=4]
+  - text: /MongoDB Atlas Vector Search は、Retool 社の \d+ 年版「The State of AI 」で 2 年連続で 1 位に選ばれました。/
+  - link "詳しく見る"
+  - img "バナー画像"
+  - img
+  - heading "開発者が開発者のために構築" [level=2]
+  - paragraph: MongoDB のドキュメントデータモデルは、開発者の思考やコーディングスタイルに柔軟に対応します。柔軟性のない従来の表形式のデータ構造から脱却し、コード内のオブジェクトに直接マッピングされた柔軟なドキュメントを利用できます。関連するデータを 1 つのドキュメントに統合することで、パフォーマンスの向上と計算コストの最小化を可能にしています。
+  - link "MongoDB の基礎を詳しく見る"
+  - button "card-header ドキュメント text-content ドキュメントのサイトへ":
+    - img "mdb_document_model"
+    - heading "ドキュメント" [level=3]
+    - paragraph: リファレンスマニュアル、記事、コードサンプルなど、MongoDB の導入、設定、運用に必要な技術文書の一覧。
+    - link "ドキュメントのサイトへ"
+  - button "card-header 開発者センター text-content 詳しく見る":
+    - img "general_action_develop"
+    - heading "開発者センター" [level=3]
+    - paragraph: MongoDB 最新のガイド、チュートリアル、コード例を言語別にご用意しています。
+    - link "詳しく見る"
+  - button "card-header コミュニティフォーラム text-content コミュニティに参加する":
+    - img "general_content_community"
+    - heading "コミュニティフォーラム" [level=3]
+    - paragraph: /開発者\d+万\d+名以上が集うコミュニティフォーラムで、ヒントやコツが学べます。ご自身のプロジェクトや経験の共有も可能です。/
+    - link "コミュニティに参加する"
+  - heading "MongoDB は世界のリーダー企業に信頼されています" [level=2]
+  - link "他の導入事例を見る"
+  - tablist:
+    - tab "Toyota-connected-logo.png logo" [selected]:
+      - img "Toyota-connected-logo.png logo"
+    - tab "Cisco_logo_blue.svg logo":
+      - img "Cisco_logo_blue.svg logo"
+    - tab "Okta logo":
+      - img "Okta logo"
+    - tab "Novo Nordisk logo":
+      - img "Novo Nordisk logo"
+    - tab "Bendigo and Adelaide Bank logo":
+      - img "Bendigo and Adelaide Bank logo"
+  - tabpanel "Toyota-connected-logo.png logo":
+    - img "トヨタコネクテッドのロゴ"
+    - text: /\d+\.\d+% 可用性 \d+\.\d+% \d+万\+ \d+万台以上の車両をサポート/
+    - img
+    - text: 自動車 「MongoDB をサービスの基盤データベースとして採用しています。必要な信頼性とスケーラビリティを提供してくれると確信しているため、革新的なアイデアや新しいサービスを構築する際には、MongoDB をコアプラットフォームとして利用することを決めています。」
+    - link "事例を読む"
+    - link "自動車産業向け MongoDB"
+  - separator
+  - heading "既存の技術スタックとシームレスに連携" [level=2]
+  - text: /MongoDB は \d+ 以上の主要なテクノロジーとの統合をサポートしています。/
+  - link "MongoDB のエコシステム"
+  - marquee "partner logos carousel":
+    - link "Confluent のロゴ":
+      - img "Confluent のロゴ"
+    - link "Databricks のロゴ":
+      - img "Databricks のロゴ"
+    - link "AWS のロゴ":
+      - img "AWS のロゴ"
+    - link "Google Cloud ロゴ":
+      - img "Google Cloud ロゴ"
+    - link "Microsoft azureロゴ":
+      - img "Microsoft azureロゴ"
+    - link "アクセンチュアのロゴ":
+      - img "アクセンチュアのロゴ"
+    - link "Hashicorp のロゴ":
+      - img "Hashicorp のロゴ"
+  - marquee "partner logos carousel":
+    - link "TCS のロゴ":
+      - img "TCS のロゴ"
+    - link "テック・マヒンドラのロゴ":
+      - img "テック・マヒンドラのロゴ"
+    - link "データドッグのロゴ":
+      - img "データドッグのロゴ"
+    - link "Cohere のロゴ":
+      - img "Cohere のロゴ"
+    - link "LangChainのロゴ":
+      - img "LangChainのロゴ"
+    - link "キャップジェミニのロゴ":
+      - img "キャップジェミニのロゴ"
+    - link "Fireworks.ai のロゴ":
+      - img "Fireworks.ai のロゴ"
+  - link "MongoDB logo":
+    - img "MongoDB logo"
+  - img "Language Selector Icon"
+  - button "Language Selector":
+    - img
+  - text: /© \d+ MongoDB, Inc\./
+  - paragraph: About
+  - list:
+    - listitem:
+      - link "Careers"
+    - listitem:
+      - link "Investor Relations"
+    - listitem:
+      - link "Legal"
+    - listitem:
+      - link "GitHub"
+    - listitem:
+      - link "Security Information"
+    - listitem:
+      - link "Trust Center"
+    - listitem:
+      - link "Connect with Us"
+  - paragraph: Support
+  - list:
+    - listitem:
+      - link "Contact Us"
+    - listitem:
+      - link "Customer Portal"
+    - listitem:
+      - link "Atlas Status"
+    - listitem:
+      - link "Customer Support"
+    - listitem:
+      - link "Manage Cookies"
+  - paragraph: Deployment Options
+  - list:
+    - listitem:
+      - link "MongoDB Atlas"
+    - listitem:
+      - link "Enterprise Advanced"
+    - listitem:
+      - link "Community Edition"
+- alert

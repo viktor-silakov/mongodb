@@ -1,0 +1,202 @@
+- main:
+  - link "全新 Realm 现为 Atlas Device SDK — 了解详情 >":
+    - mark: 了解详情 >
+  - navigation:
+    - link "MongoDB logo":
+      - img "MongoDB logo"
+    - list:
+      - listitem:
+        - button "产品":
+          - img
+      - listitem:
+        - button "资源":
+          - img
+      - listitem:
+        - button "解决方案":
+          - img
+      - listitem:
+        - button "公司":
+          - img
+      - listitem:
+        - link "定价"
+    - button "Open Search":
+      - img "Search"
+    - button "Language Selector Icon 简体中文":
+      - img "Language Selector Icon"
+      - img
+    - link "Support"
+    - link "登录"
+    - link "免费试用"
+  - paragraph:
+    - mark: Atlas
+  - heading "应用程序服务。建构数据驱动型应用程序" [level=1]:
+    - mark: 应用程序服务。
+  - paragraph: 在不产生运营开销的情况下构建应用程序、集成服务并连接到数据。
+  - link "免费试用"
+  - link "阅读文档"
+  - img "三层图像、聚焦于被称为“Serverless 应用程序层”的顶层它支持功能、触发器、数据 API、GraphQL API 和 Device Sync。它位于中间层“统一查询 API”和底层数据库基础之上。"
+  - paragraph: 借助函数、Tigger触发器和 API 等完全托管的云服务，迅速在 Atlas 上构建和运行生产就绪型应用程序。将工作重点从维护基础架构转移到创新上，同时还可受益于免费的Atlas 试用版。
+  - heading "运行代码而无需额外操作开销" [level=2]
+  - paragraph: 使用无服务器功能为应用程序定义并执行服务器端数据库逻辑。调用它们来响应数据库事件，按时间表运行它们，或通过安全 API 或 SDK 调用它们，同时利用内置身份验证和基于角色的数据访问规则。
+  - link "进一步了解功能"
+  - img "An illustration of functions on a terminal window."
+  - img "An illustration of Newton's pendulum"
+  - heading "建构事件驱动型应用程序" [level=2]
+  - paragraph: 使用触发器执行无服务器应用程序和数据库逻辑以响应事件或按预定义进度表响应。将触发器与功能结合使用或将触发器事件直接发送到 AWS EventBridge。
+  - link "了解详情"
+  - heading "云中集成应用程序和服务" [level=2]
+  - paragraph: 借助生产就绪型 API，通过 HTTPS 轻松将 Atlas 数据集成到您的应用程序和服务中。从灵活的数据 API 到基于架构的 GraphQL API，多种选项让您可以根据工作负载的独特需求进行选择。
+  - link "进一步了解 APIs"
+  - img "A cloud in the background, framed by a purple document in the foreground, on which is a lime-green wrench holding a cube, with a purple gear at the lower right-hand corner."
+  - img "A pink and purple smartphone in the background, ringed by a hollow gear and accompanied by a large white cloud. In the foreground is a lime-green padlock, lines of code, a chart graph, and a bidirectional arrow.In the foreground is a lime-green padlock, lines of code, a chart graph, and a bidirectional arrow."
+  - heading "跨设备实时同步数据" [level=2]
+  - paragraph: 使用 Device Sync（Atlas 的内置设备到云同步服务）构建可跨用户和设备实时保持最新状态的应用程序。
+  - link "了解 Device Sync"
+  - separator
+  - heading "功能概览" [level=2]
+  - img "atlas_functions"
+  - heading "功能" [level=3]
+  - paragraph: 定义和执行 JavaScript 函数，以完成 API 构建、云服务集成等操作。
+  - img "atlas_triggers"
+  - heading "触发器" [level=3]
+  - paragraph: 自动运行代码以响应数据库变更、用户事件或预设时间间隔。
+  - img "atlas_data_api"
+  - heading "数据 API" [level=3]
+  - paragraph: 使用灵活的 API，通过 HTTPS 将 Atlas 数据轻松集成到您的云应用程序和服务中。
+  - img "atlas_graphql"
+  - heading "GraphQL API" [level=3]
+  - paragraph: 使用基于数据架构生成的 API，从任何标准 GraphQL 客户端访问 Atlas 数据。
+  - img "realm_sync"
+  - heading "Device Sync" [level=3]
+  - paragraph: 使用内置同步功能实时收集、同步和分析来自移动应用程序和设备的数据。
+  - img "realm_sdk"
+  - heading "Web SDK" [level=3]
+  - paragraph: 将基于浏览器的应用程序安全地连接到 Atlas 数据并与功能等服务进行交互。
+  - img "realm_user_authorization"
+  - heading "身份验证" [level=3]
+  - paragraph: 通过 OAuth 2.0 为您的应用程序配置一个或多个身份验证提供商，包括 AppleID、Google 和 Facebook。
+  - img "general_security"
+  - heading "数据访问规则" [level=3]
+  - paragraph: 定义数据类型，控制用户可以读取和写入的内容，并验证数据更改。
+  - heading "构建应用程序而非基础架构" [level=2]
+  - text: 将复杂的后端基础架构留给我们，您只管打造将组织带入新高度的应用程序。
+  - link "查看文档"
+  - heading "实时响应变化" [level=6]
+  - text: 使用触发器实时或按预定义进度表响应数据变化。
+  - link "开始使用Triggers触发器"
+  - heading "集成应用程序和服务" [level=6]
+  - text: 从多种 API 中选择，将 Atlas 数据集成到您的云应用程序和服务中。
+  - heading "跨设备同步数据" [level=6]
+  - text: 使用 Device Sync，实现跨用户和设备的实时数据访问。
+  - link "阅读文档"
+  - tablist "tabs": Database Trigger Auth Trigger Scheduled Triggers
+  - text: Code Snippet
+  - textbox
+  - text: "/1 # Ensure collection last updated time is accurate 2 3 exports = function\\(changeEvent\\) \\{ 4 \\/\\/ Get the notifications collection 5 const coll = context\\.services\\.get\\(\"<ATLAS-SERVICE>\"\\)\\.db\\(\"<DATABASE>\"\\)\\.collection\\(\"<COLLECTION>\"\\); 6 \\/\\/ Calculate the \"updatedTime\" and populate the trigger collection and duplicate the _id 7 const updatedAtDate = new Date\\(\\); 8 const query = \\{ \"_id\": changeEvent\\.documentKey\\._id \\}; 9 const update = \\{ \"updatedAt\": updatedAtDate\\}; \\d+ const options = \\{ \"upsert\": true \\}; \\d+ \\d+ return coll\\.updateOne\\(query, update, options\\); \\d+ \\}; \\d+/"
+  - button "Authored by Publisher Text":
+    - img "copy"
+  - heading "在数周而不是数月内构建应用程序" [level=2]
+  - text: 了解如何充分利用 Atlas 的应用程序服务
+  - heading "按照用户的方式，与用户交互" [level=3]
+  - paragraph: 了解 HalaPlay 如何使用 Atlas 触发器来加速事件驱动的动态应用的开发，并壮大他们的用户群。
+  - link "了解详情"
+  - img "Halaplay 徽标"
+  - button "card-header 将云连接到边缘 text-content 了解详情":
+    - img "Cox Automotive 徽标"
+    - heading "将云连接到边缘" [level=3]
+    - paragraph: Cox Automotive 使用 Device Sync 来简化现场技术人员和运营团队之间的通信。
+    - link "了解详情"
+  - button "card-header 查看产品更新和新闻 text-content 了解详情":
+    - img "Illustration of a book with a bookmark and a mobile phone."
+    - heading "查看产品更新和新闻" [level=3]
+    - paragraph: 访问 MongoDB 社区网站，了解更多用户如何利用应用程序服务。
+    - link "了解详情"
+  - heading "充分利用 Atlas" [level=2]
+  - text: 利用 MongoDB 开发者数据平台的其他功能，提供更多的数据驱动体验和见解
+  - button "card-header Device Sync text-content 了解详情":
+    - img "realm_sync"
+    - heading "Device Sync" [level=3]
+    - paragraph: 在设备、用户和后端之间实时同步数据，同时还能简化开发并确保始终在线的用户体验。
+    - link "了解详情"
+  - button "card-header 数据库 text-content 了解详情":
+    - img "atlas_database"
+    - heading "数据库" [level=3]
+    - paragraph: 从多云数据库服务入手，满足对弹性、规模以及数据隐私和安全性的高要求。
+    - link "了解详情"
+  - button "card-header 搜索 text-content 了解详情":
+    - img "atlas_search"
+    - heading "搜索" [level=3]
+    - paragraph: 在几分钟内构建快速的、基于相关性的全文检索。无需随数据库运行单独的搜索引擎。
+    - link "了解详情"
+  - img
+  - heading "开始使用 Atlas 应用服务" [level=2]
+  - text: 运行代码、集成应用程序和managed数据，无需考虑服务器。
+  - link "免费试用"
+  - link "了解详情"
+  - text: 开始使用：
+  - list:
+    - listitem: serverless架构
+    - listitem: 生产就绪服务
+    - listitem: 详细记录
+    - listitem: 慷慨的免费层
+  - link "MongoDB logo":
+    - img "MongoDB logo"
+  - img "Language Selector Icon"
+  - button "Language Selector":
+    - img
+  - text: /© \d+ MongoDB, Inc\./
+  - paragraph: 关于MongoDB
+  - list:
+    - listitem:
+      - link "招贤纳士"
+    - listitem:
+      - link "投资者关系"
+    - listitem:
+      - link "合法的"
+    - listitem:
+      - link "GitHub"
+    - listitem:
+      - link "安全信息"
+    - listitem:
+      - link "信任中心"
+    - listitem:
+      - link "联系我们"
+  - paragraph: 支持
+  - list:
+    - listitem:
+      - link "联系我们"
+    - listitem:
+      - link "客户门户"
+    - listitem:
+      - link "Atlas 状态"
+    - listitem:
+      - link "Customer Support"
+    - listitem:
+      - link "管理 Cookie"
+  - paragraph: 部署选项
+  - list:
+    - listitem:
+      - link "MongoDB Atlas"
+    - listitem:
+      - link "Enterprise Advanced"
+    - listitem:
+      - link "社区版"
+  - paragraph: Data Basics
+  - list:
+    - listitem:
+      - link "Vector Databases"
+    - listitem:
+      - link "NoSQL Databases"
+    - listitem:
+      - link "Document Databases"
+    - listitem:
+      - link "RAG Database"
+    - listitem:
+      - link "ACID Transactions"
+    - listitem:
+      - link "MERN Stack"
+    - listitem:
+      - link "MEAN Stack"
+- alert
+- button "Open Intercom Messenger":
+  - img

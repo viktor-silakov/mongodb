@@ -1,0 +1,202 @@
+- main:
+  - link "New Atlas Edge Server is Now in Public Preview! Learn More >":
+    - mark: Learn More >
+  - navigation:
+    - link "MongoDB logo":
+      - img "MongoDB logo"
+    - list:
+      - listitem:
+        - button "Products":
+          - img
+      - listitem:
+        - button "Resources":
+          - img
+      - listitem:
+        - button "Solutions":
+          - img
+      - listitem:
+        - button "Company":
+          - img
+      - listitem:
+        - link "Pricing"
+    - button "Open Search":
+      - img "Search"
+    - button "Language Selector Icon Eng":
+      - img "Language Selector Icon"
+      - img
+    - link "Support"
+    - link "Sign In"
+    - link "Try Free"
+  - paragraph:
+    - mark: Atlas
+  - heading "App Services. Build data driven applications" [level=1]:
+    - mark: App Services.
+  - paragraph: Build apps, integrate services, and connect to your data without operational overhead.
+  - link "Try Free"
+  - link "Read the docs"
+  - img "A three-tiered image focusing on the top tier named \"Serverless App Tier\". It supports Functions, Triggers, Data API, GraphQL API, and Device Sync. It sits on top of the middle tier, \"Unified Query API\" and the bottom tier of database fundamentals."
+  - paragraph: Build and run production-ready apps on top of Atlas in a fraction of the time with fully managed cloud services such as Functions, Triggers, and APIs. Shift your focus away from maintaining infrastructure toward innovation while benefiting from a generous free tier.
+  - heading "Run code without the operational overhead" [level=2]
+  - paragraph: Define and execute server-side database logic for your application with serverless functions. Call them in response to database events, run them on a schedule, or invoke them via secure APIs or a SDK – while leveraging inbuilt authentication and role-based data access rules.
+  - link "Learn about Functions"
+  - img "An illustration of functions on a terminal window."
+  - img "An illustration of Newton's pendulum"
+  - heading "Build event-driven applications" [level=2]
+  - paragraph: Execute serverless application and database logic in response to events or on a predefined schedule with Triggers. Use Triggers with Functions or send Trigger events directly to AWS EventBridge.
+  - link "Learn about Triggers"
+  - heading "Integrate apps and services in the cloud" [level=2]
+  - paragraph: Lean on production-ready APIs to easily integrate Atlas data into your apps and services over HTTPS. The variety of options – from the flexible Data API to the schema-based GraphQL API – lets you choose based on the unique needs of your workload.
+  - link "Learn more about APIs"
+  - img "A cloud in the background, framed by a purple document in the foreground, on which is a lime-green wrench holding a cube, with a purple gear at the lower right-hand corner."
+  - img "A pink and purple smartphone in the background, ringed by a hollow gear and accompanied by a large white cloud. In the foreground is a lime-green padlock, lines of code, a chart graph, and a bidirectional arrow."
+  - heading "Sync data across devices in real-time" [level=2]
+  - paragraph: Build apps that stay up to date across users and devices in real-time with Device Sync – Atlas’s built-in device-to-cloud-synchronization service.
+  - link "Learn about Device Sync"
+  - separator
+  - heading "Feature overview" [level=2]
+  - img "atlas_functions"
+  - heading "Functions" [level=3]
+  - paragraph: Define and execute JavaScript functions to build APIs, integrate with cloud services, and more.
+  - img "atlas_triggers"
+  - heading "Triggers" [level=3]
+  - paragraph: Automatically run code in response to database changes, user events, or on preset intervals.
+  - img "atlas_data_api"
+  - heading "Data API" [level=3]
+  - paragraph: Easily integrate Atlas data into your cloud apps and services over HTTPS with a flexible API.
+  - img "atlas_graphql"
+  - heading "GraphQL API" [level=3]
+  - paragraph: Access Atlas data from any standard GraphQL client with an API that generates based on your data’s schema.
+  - img "realm_sync"
+  - heading "Device Sync" [level=3]
+  - paragraph: Gather, sync, and analyze data from your mobile apps and devices in real-time with built-in sync.
+  - img "realm_sdk"
+  - heading "Web SDK" [level=3]
+  - paragraph: Securely connect browser-based applications to Atlas data and interact with services such as Functions.
+  - img "realm_user_authorization"
+  - heading "Authentication" [level=3]
+  - paragraph: Configure one or more authentication providers for your application including AppleID, Google, and Facebook via OAuth 2.0.
+  - img "general_security"
+  - heading "Data Access Rules" [level=3]
+  - paragraph: Define data types, control what users can read and write, and validate data changes.
+  - heading "Build apps, not infrastructure" [level=2]
+  - text: Leave the complexity of backend infrastructure to us, so you can focus on creating the apps that will take your organization to the next level.
+  - link "View Documentation"
+  - heading "React to changes in real-time" [level=6]
+  - text: Respond to changes in your data in real-time or on a predefined schedule with Triggers.
+  - link "Get started with Triggers"
+  - heading "Integrate apps and services" [level=6]
+  - text: Choose from a range of APIs for integrating Atlas data into your cloud apps and services.
+  - heading "Sync data across devices" [level=6]
+  - text: Enable real-time access to data across users and devices with Device Sync.
+  - link "Read the docs"
+  - tablist "tabs": Database Trigger Auth Trigger Scheduled Triggers
+  - text: Code Snippet
+  - textbox
+  - text: "/1 # Ensure collection last updated time is accurate 2 3 exports = function\\(changeEvent\\) \\{ 4 \\/\\/ Get the notifications collection 5 const coll = context\\.services\\.get\\(\"<ATLAS-SERVICE>\"\\)\\.db\\(\"<DATABASE>\"\\)\\.collection\\(\"<COLLECTION>\"\\); 6 \\/\\/ Calculate the \"updatedTime\" and populate the trigger collection and duplicate the _id 7 const updatedAtDate = new Date\\(\\); 8 const query = \\{ \"_id\": changeEvent\\.documentKey\\._id \\}; 9 const update = \\{ \"updatedAt\": updatedAtDate\\}; \\d+ const options = \\{ \"upsert\": true \\}; \\d+ \\d+ return coll\\.updateOne\\(query, update, options\\); \\d+ \\}; \\d+/"
+  - button "Authored by Publisher Text":
+    - img "copy"
+  - heading "Build apps in weeks not months" [level=2]
+  - text: Discover how to make the most of Atlas’s application services
+  - heading "Keller Williams transforms into a technology innovator with MongoDB" [level=3]
+  - paragraph: Global innovator Keller Williams is harnessing the power of MongoDB to build stronger relationships between real estate agents and customers.
+  - link "Read More"
+  - img "Keller Williams logo"
+  - button "card-header Connecting the cloud to the edge text-content Learn more":
+    - img "Cox Automotive logo"
+    - heading "Connecting the cloud to the edge" [level=3]
+    - paragraph: Cox Automotive uses Device Sync to streamline communications between field technicians and operations teams.
+    - link "Learn more"
+  - button "card-header View product updates and news text-content Learn more":
+    - img "Illustration of a book with a bookmark and a mobile phone."
+    - heading "View product updates and news" [level=3]
+    - paragraph: Check out our community site to learn how other users are taking advantage of App Services.
+    - link "Learn more"
+  - heading "Get the most out of Atlas" [level=2]
+  - text: Power more data-driven experiences and insights with the rest of our developer data platform
+  - button "card-header Device Sync text-content Learn more":
+    - img "realm_sync"
+    - heading "Device Sync" [level=3]
+    - paragraph: Sync data across devices, users, and the backend in real-time while streamlining development and ensuring an always-on experience.
+    - link "Learn more"
+  - button "card-header Database text-content Learn more":
+    - img "atlas_database"
+    - heading "Database" [level=3]
+    - paragraph: Start with the multi-cloud database service built for resilience, scale, and the highest levels of data privacy and security.
+    - link "Learn more"
+  - button "card-header Search text-content Learn more":
+    - img "atlas_search"
+    - heading "Search" [level=3]
+    - paragraph: Build fast, relevance-based full-text search in minutes. Eliminate the need to run a separate search engine alongside your database.
+    - link "Learn more"
+  - img
+  - heading "Get started with Atlas App Services" [level=2]
+  - text: Run code, integrate apps, and manage data without thinking about servers.
+  - link "Try Free"
+  - link "Learn more"
+  - text: "GET STARTED WITH:"
+  - list:
+    - listitem: Serverless architecture
+    - listitem: Production-ready services
+    - listitem: Detailed logging
+    - listitem: Generous free tier
+  - link "MongoDB logo":
+    - img "MongoDB logo"
+  - img "Language Selector Icon"
+  - button "Language Selector":
+    - img
+  - text: /© \d+ MongoDB, Inc\./
+  - paragraph: About
+  - list:
+    - listitem:
+      - link "Careers"
+    - listitem:
+      - link "Investor Relations"
+    - listitem:
+      - link "Legal"
+    - listitem:
+      - link "GitHub"
+    - listitem:
+      - link "Security Information"
+    - listitem:
+      - link "Trust Center"
+    - listitem:
+      - link "Connect with Us"
+  - paragraph: Support
+  - list:
+    - listitem:
+      - link "Contact Us"
+    - listitem:
+      - link "Customer Portal"
+    - listitem:
+      - link "Atlas Status"
+    - listitem:
+      - link "Customer Support"
+    - listitem:
+      - link "Manage Cookies"
+  - paragraph: Deployment Options
+  - list:
+    - listitem:
+      - link "MongoDB Atlas"
+    - listitem:
+      - link "Enterprise Advanced"
+    - listitem:
+      - link "Community Edition"
+  - paragraph: Data Basics
+  - list:
+    - listitem:
+      - link "Vector Databases"
+    - listitem:
+      - link "NoSQL Databases"
+    - listitem:
+      - link "Document Databases"
+    - listitem:
+      - link "RAG Database"
+    - listitem:
+      - link "ACID Transactions"
+    - listitem:
+      - link "MERN Stack"
+    - listitem:
+      - link "MEAN Stack"
+- alert
+- button "Open Intercom Messenger":
+  - img
