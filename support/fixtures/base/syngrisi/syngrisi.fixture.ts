@@ -76,7 +76,7 @@ export const test = baseTest.extend<{ syngrisi: PlaywrightDriver }>({
                     const screenshot = await waitForBaselineWithRightSnapshotExists(checkName, page, pwObj, syngrisi, options);
                     const viewportSize = page.viewportSize();
                     if (!viewportSize) throw new Error('Cannot get viewport size');
-
+            
                     const browserVersion = browser?.version();
                     if (!browserVersion) throw new Error('Cannot get browser version');
 
