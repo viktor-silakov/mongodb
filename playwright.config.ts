@@ -12,6 +12,7 @@ const testDir = defineBddConfig({
     importTestFrom: './support/fixtures/base',
 });
 
+console.log('testDir -->', testDir);
 const config = { ...baseConfig, testDir }
 
 export default defineConfig<FixtureApiOptions>(config);

@@ -207,7 +207,7 @@ When('I {action} on the {role} with {attribute} {spec-str}', async ({ page, test
 When('I {action} on the {int}{ordinal} {role} with {attribute} {spec-str}', async ({ page, testData }, action, number, ordinal, role, attribute, value) => {
     const element = getLocator({ page, role, attribute, value: testData.renderTemplate(value) }).nth(number - 1);
     const performAction = getAction(action);
-    await performAction({ element, options: { timeout: 5000 } });
+    await performAction({ element, options: { timeout: 5000, force: true } });
 });
 
 

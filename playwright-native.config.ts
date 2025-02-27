@@ -65,7 +65,7 @@ export const baseConfig = {
                 outputFile: `./${process.env.BLOB_REPORT_PATH || 'blob-report'}/${process.env.BLOB_REPORT_NAME || 'report'}-${os.platform()}.zip`,
             },
         ],
-        ["allure-playwright"]
+        // ["allure-playwright"]
     ],
     fullyParallel: true,
     testDir: './tests',
