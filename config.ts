@@ -3,7 +3,12 @@ import 'dotenv/config'
 export const projectRootPath = __dirname
 
 const environments = {
-    qa: {
+    qa16: {
+        baseUrl: 'https://mycelium-qa16.website.staging.corp.mongodb.com/',
+        username: process.env.DEV_TAF_USERNAME,
+        password: process.env.DEV_TAF_PASSWORD,
+    },
+    qa12: {
         baseUrl: 'https://mycelium-qa12.website.staging.corp.mongodb.com/',
         username: process.env.DEV_TAF_USERNAME,
         password: process.env.DEV_TAF_PASSWORD,

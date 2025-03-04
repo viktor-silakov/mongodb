@@ -46,29 +46,30 @@ export async function waitForBaselineWithRightSnapshotExists(
     if (!lastBaseline) {
         const newBaselineTimeout = 7000;
         log.warn(`Baseline not found, assume this is a first snapshot, wait for: ${newBaselineTimeout}`)
-        await page.waitForLoadState('load');
+        // await page.waitForLoadState('load');
         await page.waitForTimeout(newBaselineTimeout)
-        return await getScreenshot(pwObj, options)
+        // return await getScreenshot(pwObj, options)
     }
-    const snapshot = await getSnapshotById(page, lastBaseline.snapshotId, syngrisi);
+    // const snapshot = await getSnapshotById(page, lastBaseline.snapshotId, syngrisi);
 
 
-    const resultBuffer = await waitUntil(async (attempt) => {
-        imageBuffer = await getScreenshot(pwObj, options)
-        const baselineSnapshot = await getSnapshotById(page, lastBaseline.snapshotId, syngrisi)
-        const actualHash = hasha(imageBuffer)
-        // console.log('baselineSnapshot :', baselineSnapshot.imghash)
-        // console.log('actualHash       :', actualHash)
-        if (baselineSnapshot.imghash === actualHash) {
-            log.info(`✅ #${attempt} hashes are equal`);
-            return imageBuffer;
-        } else {
-            log.info(`#${attempt} hashes aren't equal`);
-            return false
-        }
-    }, { attempts: 0, timeout: 2000, interval: 10 })
+    // const resultBuffer = await waitUntil(async (attempt) => {
+    //     imageBuffer = await getScreenshot(pwObj, options)
+    //     const baselineSnapshot = await getSnapshotById(page, lastBaseline.snapshotId, syngrisi)
+    //     const actualHash = hasha(imageBuffer)
+    //     // console.log('baselineSnapshot :', baselineSnapshot.imghash)
+    //     // console.log('actualHash       :', actualHash)
+    //     if (baselineSnapshot.imghash === actualHash) {
+    //         log.info(`✅ #${attempt} hashes are equal`);
+    //         return imageBuffer;
+    //     } else {
+    //         log.info(`#${attempt} hashes aren't equal`);
+    //         return false
+    //     }
+    // }, { attempts: 0, timeout: 2000, interval: 10 })
 
-    return resultBuffer || await getScreenshot(pwObj, options)
+    // return resultBuffer || await getScreenshot(pwObj, options)
+    return getScreenshot(pwObj, options)
 }
 
 const getScreenshot = async (

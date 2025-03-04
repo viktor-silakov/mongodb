@@ -1,4 +1,3 @@
-@skip
 Feature: Hero Component
 
     Background:
@@ -9,8 +8,10 @@ Feature: Hero Component
 
     Scenario Outline: Hero Component - <Name>
         Given I open site "/aqa-hero-page"
+        When I accept site cookies
         When I scroll on the <Number>st element with selector "<Hero Component>"
         Then the <Number>st "<Hero Component>" visual snapshot matches "<Name>"
+        
         Examples:
             | Number | Name                |
             | 1      | Main Title Hero     |
