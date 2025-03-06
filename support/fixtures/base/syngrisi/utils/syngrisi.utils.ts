@@ -40,11 +40,10 @@ export async function waitForBaselineWithRightSnapshotExists(
         await page.waitForLoadState('load');
     }
 
-    let imageBuffer: Buffer;
     const lastBaseline = await getLastBaseline(page, name, syngrisi);
 
     if (!lastBaseline) {
-        const newBaselineTimeout = 7000;
+        const newBaselineTimeout = 4000;
         log.warn(`Baseline not found, assume this is a first snapshot, wait for: ${newBaselineTimeout}`)
         // await page.waitForLoadState('load');
         await page.waitForTimeout(newBaselineTimeout)
