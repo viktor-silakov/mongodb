@@ -44,7 +44,7 @@
         "editor.formatOnSave": true
     },
     "workbench.colorTheme": "Default Dark+",
-    "playwright-bdd-helper.command-args": "--headed --project=chrome",
+    "playwright-bdd-helper.command-args": "--headed --project=chrome --workers=1",
     "search.exclude": {
         "**/.git": true,
         "**/node_modules": true,
